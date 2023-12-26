@@ -19,9 +19,9 @@ This repository serves as a collection of code examples and projects developed d
 
 The repository is organized into folders, each focusing on a specific topic or project. Below is a brief overview of the main folders:
 
-- **01_Blink_LED:** Basic example to blink an LED using a microcontroller.
-- **02_UART_Communication:** Example demonstrating UART communication between devices.
-- **03_FreeRTOS_Project:** Implementation of a project using FreeRTOS for task scheduling.
+- **01_Lecture3(C Basics & conditions & loops):** Get to know C Basics / Loops and conditions in c.
+- **02^^^^^^^^^^^^^^:** Example demonstrating UART communication between devices.
+- **03^^^^^^^^^^^^^^^:** Implementation of a project using FreeRTOS for task scheduling.
 - ...
 
 Feel free to explore each folder for detailed explanations and instructions.
