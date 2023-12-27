@@ -1,0 +1,56 @@
+/*
+ * mian.c
+ *
+ *  Created on: 26 Dec 2023
+ *  Author: Ahmed Adel Hekal
+ *  Description: this simple tasks used to demonestrate C Basics
+ */
+
+# include <stdio.h>
+
+//EX1:
+//
+//Write C Program to Print a Sentence
+void Ex1() {
+	printf("C Language");
+}
+
+//EX2:
+//
+//Write C Program to Print a Integer Entered by a User
+void Ex2() {
+	int x = 0;
+	printf("Enter Number : ");
+	scanf("%d", &x);
+	printf("This the number : %d", x);
+}
+
+//EX3:
+//
+//Write C Program to Add Two Integers
+void Ex3() {
+	int x = 0;
+	int y = 0;
+	fflush(stdout);
+	printf("Please Enter 2 Numbers :\n");
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d\n", &x);
+	fflush(stdin);
+	fflush(stdout);
+	scanf("%d\n", &y);
+	fflush(stdin);
+	fflush(stdout);
+	printf("the number is %d", x + y);
+	fflush(stdin);
+	fflush(stdout);
+
+}
+
+int main(void) {
+
+	Ex3();
+
+	return 0;
+}
+
