@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : Lect4_C.c
+ Author      : Ahmed Hekal
+ Version     :
+ Copyright   : This is open source projec tfeel free to contact if needed
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+ * c program for finding average of user input
+ */
+void assignment_1(){
+	float average=0 , sum=0 , num ;
+	for(;;){
+		printf("Please enter your number ");
+		fflush(stdin);fflush(stdout);
+		scanf("%f", &num);
+		if(num<0){break;}
+		else{
+			sum +=num ;
+			average++;
+		}
+	}
+	average = sum / average ;
+	printf(" the average is %f", average);
+}
+
+
+int main(void) {
+
+	assignment_1();
+	return EXIT_SUCCESS;
+}

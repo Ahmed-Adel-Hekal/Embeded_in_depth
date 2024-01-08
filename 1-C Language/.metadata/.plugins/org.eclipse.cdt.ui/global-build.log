@@ -1,178 +1,260 @@
-16:23:55 **** Clean-only build of configuration Debug for project Lect3_Easy_Tasks ****
-rm -rf main.d Lect3_Easy_Tasks.exe main.o 
+23:08:27 **** Clean-only build of configuration Debug for project Lect4_C Array & String ****
+rm -rf "src/Lect4_C Array & String.d" "src/Lect4_C Array & String.o" "Lect4_C Array & String.exe" 
 Cannot run program "rm": Launching failed
 
 Error: Program "rm" not found in PATH
-PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files (x86)/Java/jre-1.8/bin/client;C:/Program Files (x86)/Java/jre-1.8/bin;C:/Program Files (x86)/Java/jre-1.8/lib/i386;C:\msys64\mingw64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\ahmed\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\avr8-gnu-toolchain-win32_x86_64\bin;D:\Project\Keroles\00-Tools\eclipse-cpp-neon-2-win32\eclipse]
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files (x86)/Java/jre-1.8/bin/client;C:/Program Files (x86)/Java/jre-1.8/bin;C:/Program Files (x86)/Java/jre-1.8/lib/i386;C:\Python312\Scripts\;C:\Python312\;C:\msys64\mingw64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\ahmed\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\avr8-gnu-toolchain-win32_x86_64\bin;C:\Users\ahmed\AppData\Roaming\npm;D:\Project\Keroles\00-Tools\eclipse-cpp-neon-2-win32\eclipse]
 
-16:23:55 **** Clean-only build of configuration Debug for project Lect3_Easy_Tasks ****
-16:23:57 **** Rebuild of configuration Debug for project Lect3_Easy_Tasks ****
+23:08:27 **** Clean-only build of configuration Debug for project Lect4_C Array & String ****
+23:08:30 **** Rebuild of configuration Debug for project Lect4_C Array & String ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-16:50:48 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:97:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-  printf("%d",g);
-           ^
-gcc -o Lect3_Easy_Tasks.exe main.o 
-16:51:06 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:97:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-  printf("%d",g);
-           ^
-gcc -o Lect3_Easy_Tasks.exe main.o 
-16:51:22 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-16:51:47 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-16:58:36 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:95:11: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
-  printf("%f",a);
-           ^
-gcc -o Lect3_Easy_Tasks.exe main.o 
-17:02:05 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:94:11: warning: left-hand operand of comma expression has no effect [-Wunused-value]
- int i = (1,2,3);
-           ^
-..\main.c:94:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
- int i = (1,2,3);
-             ^
-gcc -o Lect3_Easy_Tasks.exe main.o 
-17:03:44 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:94:11: warning: left-hand operand of comma expression has no effect [-Wunused-value]
- int i = (1,2,3);
-           ^
-..\main.c:94:13: warning: left-hand operand of comma expression has no effect [-Wunused-value]
- int i = (1,2,3);
-             ^
-..\main.c:95:15: warning: suggest parentheses around '+' inside '<<' [-Wparentheses]
-  printf("%d",1<<3+2<<4);
-               ^~
-..\main.c:94:5: warning: unused variable 'i' [-Wunused-variable]
- int i = (1,2,3);
-     ^
-gcc -o Lect3_Easy_Tasks.exe main.o 
-17:06:01 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:98:1: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
- else
- ^~~~
-..\main.c:101:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
-  return 0;
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+..\src\Lect4_C Array & String.c: In function 'assignment_5':
+..\src\Lect4_C Array & String.c:109:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("enter letter to check");
   ^~~~~~
-gcc -o Lect3_Easy_Tasks.exe main.o 
-Info: Nothing to build for Lect3_Easy_Tasks
-17:06:33 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:94:6: error: two or more data types in declaration specifiers
- char int x = -1 ;
-      ^~~
-..\main.c:98:1: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
- else
- ^~~~
-..\main.c:101:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
-  return 0;
-  ^~~~~~
-17:07:03 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:98:1: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
- else
- ^~~~
-..\main.c:101:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
-  return 0;
-  ^~~~~~
-gcc -o Lect3_Easy_Tasks.exe main.o 
-Info: Nothing to build for Lect3_Easy_Tasks
-Info: Nothing to build for Lect3_Easy_Tasks
-17:07:50 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:98:1: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
- else
- ^~~~
-..\main.c:101:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'else'
-  return 0;
-  ^~~~~~
-gcc -o Lect3_Easy_Tasks.exe main.o 
-17:10:55 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-17:11:16 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-17:13:17 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:94:8: error: 'b' undeclared (first use in this function)
-  int a=b=c=1; return 0;
-        ^
-..\main.c:94:8: note: each undeclared identifier is reported only once for each function it appears in
-..\main.c:94:10: error: 'c' undeclared (first use in this function)
-  int a=b=c=1; return 0;
+..\src\Lect4_C Array & String.c:111:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%s",ch);
           ^
-..\main.c:94:6: warning: unused variable 'a' [-Wunused-variable]
-  int a=b=c=1; return 0;
-      ^
-17:18:15 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
+..\src\Lect4_C Array & String.c:111:2: warning: 'ch' is used uninitialized in this function [-Wuninitialized]
+  scanf("%s",ch);
+  ^~~~~~~~~~~~~~
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+src\Lect4_C Array & String.o: In function `assignment_5':
+D:\Project\Keroles\Code\1-C Language\Lect4_C Array & String\Debug/../src/Lect4_C Array & String.c:109: undefined reference to `pritnf'
+collect2.exe: error: ld returned 1 exit status
+23:08:59 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:95:11: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
-  X=j||i++ && 1 ;
-       ~~~~^~~~
-gcc -o Lect3_Easy_Tasks.exe main.o 
-17:18:26 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+..\src\Lect4_C Array & String.c: In function 'assignment_5':
+..\src\Lect4_C Array & String.c:111:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%s",ch);
+          ^
+..\src\Lect4_C Array & String.c:111:2: warning: 'ch' is used uninitialized in this function [-Wuninitialized]
+  scanf("%s",ch);
+  ^~~~~~~~~~~~~~
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:09:11 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-..\main.c: In function 'main':
-..\main.c:95:11: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
-  X=j||i++ && 1 ;
-       ~~~~^~~~
-..\main.c:94:6: warning: variable 'X' set but not used [-Wunused-but-set-variable]
-  int X, i=4, j=7;
-      ^
-gcc -o Lect3_Easy_Tasks.exe main.o 
-07:37:14 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+..\src\Lect4_C Array & String.c: In function 'assignment_5':
+..\src\Lect4_C Array & String.c:111:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  scanf("%s",ch);
+          ^
+..\src\Lect4_C Array & String.c:111:2: warning: 'ch' is used uninitialized in this function [-Wuninitialized]
+  scanf("%s",ch);
+  ^~~~~~~~~~~~~~
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+Info: Nothing to build for Lect4_C Array & String
+23:10:36 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-07:39:54 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:11:18 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-07:40:21 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:11:46 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
-07:40:53 **** Incremental Build of configuration Debug for project Lect3_Easy_Tasks ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:12:00 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o Lect3_Easy_Tasks.exe main.o 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:13:15 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:13:34 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:14:04 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:14:51 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:15:50 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:16:57 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:17:11 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:21:43 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+23:22:08 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 

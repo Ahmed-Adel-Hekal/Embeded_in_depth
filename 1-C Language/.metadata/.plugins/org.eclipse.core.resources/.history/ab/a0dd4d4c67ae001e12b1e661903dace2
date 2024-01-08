@@ -1,0 +1,86 @@
+/*
+ ============================================================================
+ Name        : Lect4_C.c
+ Author      : Ahmed Hekal
+ Version     :
+ Copyright   : This is open source projec tfeel free to contact if needed
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+ * c program for finding average of user input
+ */
+void assignment_1(){
+	float average=0 , sum=0 , num ;
+	for(;;){
+		printf("Please enter your number ");
+		fflush(stdin);fflush(stdout);
+		scanf("%f", &num);
+		if(num<0){break;}
+		else{
+			sum +=num ;
+			average++;
+		}
+	}
+	average = sum / average ;
+	printf("the average is %f", average);
+}
+/*
+find average of 4 integer numbers entered by user if it is 0 skip it
+the output is integer
+*/
+void assignment_2(){
+	int arr[5]  = {0} ;
+	int counter = 0 ;
+	for(;counter<4;counter++){
+		printf("Please enter number");
+		fflush(stdin);fflush(stdout);
+		scanf("%d", &arr[counter]);
+		if(arr[counter]==0){
+			counter--;
+			continue;
+		}
+		arr[4] += arr[counter];
+	}
+	printf("the average is %d", arr[4]/4);
+}
+
+/*
+ * find the sum of 2 matrix (2x2) entered by user
+ * */
+void assignment_3(){
+	int arr[2][2]={0};
+	int temp = 0 ;
+	// Getting first matrix
+	for(int i=0; i<2; i++){
+		for(int j=0;j<2;j++){
+			printf("Please enter M [%d] [%d}",i,j);
+			fflush(stdin);fflush(stdout);
+			scanf("%d",&arr[i][j]);
+		}
+	}
+	// Getting second matrix
+	for(int i=0; i<2; i++){
+		for(int j=0;j<2;j++){
+			printf("Please enter M [%d] [%d}",i,j);
+			fflush(stdin);fflush(stdout);
+			scanf("%d",&temp);
+			arr[i][j]+=temp ;
+		}
+	}
+	for(int i=0; i<2; i++){
+		for(int j=0;j<2;j++){
+			printf("Please enter M [%d] [%d}",arr[i][j]);
+		}
+		printf("\n");
+	}
+}
+int main(void) {
+
+	assignment_3();
+	return EXIT_SUCCESS;
+}

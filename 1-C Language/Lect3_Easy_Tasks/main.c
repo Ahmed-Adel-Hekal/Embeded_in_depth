@@ -90,7 +90,11 @@ void Ex6(){
 
 
 
-int main(void) {
-	Ex3();
+#include <stdio.h>
+int main()
+{
+
+
 }
+
 

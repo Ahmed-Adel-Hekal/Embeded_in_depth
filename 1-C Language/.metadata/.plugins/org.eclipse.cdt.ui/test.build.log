@@ -1,0 +1,17 @@
+16:13:34 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c:23:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){
+ ^~~~
+..\src\test.c: In function 'main':
+..\src\test.c:26:10: warning: statement with no effect [-Wunused-value]
+  for(i<=5&&i>=-1;++i;i>0)
+      ~~~~^~~~~~~
+..\src\test.c:26:23: warning: statement with no effect [-Wunused-value]
+  for(i<=5&&i>=-1;++i;i>0)
+                      ~^~
+gcc -o test.exe "src\\test.o" 
+
+16:13:35 Build Finished (took 417ms)
+

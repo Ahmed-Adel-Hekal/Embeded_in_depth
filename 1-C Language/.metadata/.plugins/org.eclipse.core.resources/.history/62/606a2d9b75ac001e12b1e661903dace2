@@ -1,0 +1,42 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+#define GET_BIT(number,bit)   ((number>>bit)&1)
+
+void check_ones(unsigned int number, unsigned char *ptr) {
+	for (int i = 0; i <= sizeof(unsigned int) * 8; i++) {
+		if ((GET_BIT(number, i) == 1) && (GET_BIT(number, (i-1)) == 1)) {
+			*ptr += 1;
+		}
+
+	}
+}
+int inspect_bits(unsigned int number) {
+	unsigned char counter = 0;
+	check_ones(number, &counter);
+	return counter;
+}
+
+
+# include <stdio.h>
+# include <string.h>
+void main(){
+
+	int x = 0 ;
+	float y = 0.0 ;
+	void *ptr ;
+	ptr  = &y ;
+	*ptr = (float*)3 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+

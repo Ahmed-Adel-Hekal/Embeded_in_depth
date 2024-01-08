@@ -1,0 +1,41 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+#define GET_BIT(number,bit)   ((number>>bit)&1)
+
+void check_ones(unsigned int number, unsigned char *ptr) {
+	for (int i = 0; i <= sizeof(unsigned int) * 8; i++) {
+		if ((GET_BIT(number, i) == 1) && (GET_BIT(number, (i-1)) == 1)) {
+			*ptr += 1;
+		}
+
+	}
+}
+int inspect_bits(unsigned int number) {
+	unsigned char counter = 0;
+	check_ones(number, &counter);
+	return counter;
+}
+
+
+# include <stdio.h>
+# include <string.h>
+void main(){
+
+int arr [3] = {1,2,3,4,5,6};
+printf("%d",sum(&arr,6));
+}
+
+int sum(int *arr, int array_size){
+	int sum = 0 ;
+	for(int i=0; i<array_size; i++)
+		sum+=arr[i];
+	return sum ;
+}
+
+
+
+
+
+
+

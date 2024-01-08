@@ -1,0 +1,66 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+#define GET_BIT(number,bit)   ((number>>bit)&1)
+
+void check_ones(unsigned int number, unsigned char *ptr){
+  for(int i = 0; i <=sizeof(unsigned int)*8; i++){
+    if((GET_BIT(number, i) == 1) &&(GET_BIT(number, (i-1)) == 1) ){
+        *ptr +=1 ;
+    }
+
+  }
+}
+int inspect_bits(unsigned int number)
+{
+    unsigned char counter = 0 ;
+    check_ones(number, &counter);
+    return counter;
+}
+
+# include <stdio.h>
+# define size 3
+//int main ()
+//{
+//	int id[size] = {0};
+//	float salary[size] = {0};
+//	char eval[size] = {0};
+////
+////	for(int i = 0 ; i < size ; i ++){
+////		printf("Please enter id for E %d",i+1);
+////		fflush(stdin);fflush(stdout);
+////		scanf("%d",&id[i]);
+////		printf("Please enter salary for E %d",i+1);
+////		fflush(stdin);fflush(stdout);
+////		scanf("%f",&salary[i]);
+////		printf("Please enter eval for E %d",i+1);
+////		fflush(stdin);fflush(stdout);
+////		scanf("%c",&eval[i]);
+////	}
+////
+////	printf("***************************************");
+////	for(int i = 0 ; i < size ; i ++){
+////		printf(" id for E %d is  %d",i+1,id[i]);
+////		printf(" salary for E %d is %f",i+1,salary[i]);
+////		printf(" eval for E %d is %c",i+1,eval[i]);
+////	}
+////for (int i =0 ; i<size;i++){
+////			printf("Please enter id for E %d",i+1);
+////			fflush(stdin);fflush(stdout);
+////			scanf("%d",id[i]);
+////			printf("Please enter salary for E %d",i+1);
+////			fflush(stdin);fflush(stdout);
+////			scanf("%f",&salary[i]);
+////			printf("Please enter eval for E %d",i+1);
+////			fflush(stdin);fflush(stdout);
+////			scanf("%c",&eval[i]);
+////}
+
+#include <stdio.h>
+
+int main()
+{
+	char s[]={'a','h','m','e','d','\0'};
+	printf("%s",s);
+}
+
