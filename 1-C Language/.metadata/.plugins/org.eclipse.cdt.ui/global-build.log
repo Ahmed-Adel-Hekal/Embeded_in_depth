@@ -1,0 +1,382 @@
+15:57:12 **** Rebuild of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:24:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+ scanf("%s",&s.name);
+         ^
+..\src\Lect6_Struct_Union_enum.c:26:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+ scanf("%d",s.roll);
+         ^
+..\src\Lect6_Struct_Union_enum.c:28:12: warning: unknown conversion type character '1' in format [-Wformat=]
+ printf("%-*10");
+            ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+15:57:45 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:24:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+ scanf("%s",&s.name);
+         ^
+..\src\Lect6_Struct_Union_enum.c:26:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+ scanf("%f",&s.roll);
+         ^
+..\src\Lect6_Struct_Union_enum.c:28:11: warning: unknown conversion type character '1' in format [-Wformat=]
+ printf("%*10[-]");
+           ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+15:58:04 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:24:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+ scanf("%s",&s.name);
+         ^
+..\src\Lect6_Struct_Union_enum.c:26:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+ scanf("%f",&s.roll);
+         ^
+..\src\Lect6_Struct_Union_enum.c:28:10: warning: unknown conversion type character '[' in format [-Wformat=]
+ printf("%[-]*10");
+          ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:00:11 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:28:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+ scanf("%d",s.roll);
+         ^
+..\src\Lect6_Struct_Union_enum.c:31:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+ scanf("%f",s.marks);
+         ^
+..\src\Lect6_Struct_Union_enum.c:32:10: warning: unknown conversion type character '[' in format [-Wformat=]
+ printf("%[-]*10");
+          ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:00:36 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:28:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+ scanf("%d",s.roll);
+         ^
+..\src\Lect6_Struct_Union_enum.c:31:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+ scanf("%f",s.marks);
+         ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:01:03 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:25:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+ scanf("%s",&s.name);
+         ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:01:21 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:26:33 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:26:52 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:27:11 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:31:23 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:31:38 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:32:16 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:32:45 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:33:37 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:33:52 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:34:16 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:34:41 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:32:12: warning: repeated ''' flag in format [-Wformat=]
+ printf("%'-'*d\n", 20);
+            ^
+..\src\Lect6_Struct_Union_enum.c:32:14: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+ printf("%'-'*d\n", 20);
+              ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:34:52 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:32:12: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+ printf("%-*d\n", 20);
+            ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:35:11 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task1':
+..\src\Lect6_Struct_Union_enum.c:32:10: warning: unknown conversion type character '[' in format [-Wformat=]
+ printf("%[-]*d\n", 20);
+          ^
+..\src\Lect6_Struct_Union_enum.c:32:8: warning: too many arguments for format [-Wformat-extra-args]
+ printf("%[-]*d\n", 20);
+        ^~~~~~~~~~
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:43:29 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:43:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+16:54:17 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+Info: Nothing to build for Lect6_Struct_Union_enum
+16:55:31 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+17:04:14 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task3':
+..\src\Lect6_Struct_Union_enum.c:83:26: warning: 'struct complex' declared inside parameter list will not be visible outside of this definition or declaration
+  void add_complex(struct complex e1, struct complex e2){
+                          ^~~~~~~
+..\src\Lect6_Struct_Union_enum.c:83:34: error: parameter 1 ('e1') has incomplete type
+  void add_complex(struct complex e1, struct complex e2){
+                                  ^~
+..\src\Lect6_Struct_Union_enum.c:83:53: error: parameter 2 ('e2') has incomplete type
+  void add_complex(struct complex e1, struct complex e2){
+                                                     ^~
+..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
+..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                            ^
+..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                                   ^
+..\src\Lect6_Struct_Union_enum.c: In function 'task3':
+..\src\Lect6_Struct_Union_enum.c:104:2: warning: implicit declaration of function 'add' [-Wimplicit-function-declaration]
+  add(first_num, second_num);
+  ^~~
+At top level:
+..\src\Lect6_Struct_Union_enum.c:83:7: warning: 'add_complex' defined but not used [-Wunused-function]
+  void add_complex(struct complex e1, struct complex e2){
+       ^~~~~~~~~~~
+17:04:22 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task3':
+..\src\Lect6_Struct_Union_enum.c:83:26: warning: 'struct complex' declared inside parameter list will not be visible outside of this definition or declaration
+  void add_complex(struct complex e1, struct complex e2){
+                          ^~~~~~~
+..\src\Lect6_Struct_Union_enum.c:83:34: error: parameter 1 ('e1') has incomplete type
+  void add_complex(struct complex e1, struct complex e2){
+                                  ^~
+..\src\Lect6_Struct_Union_enum.c:83:53: error: parameter 2 ('e2') has incomplete type
+  void add_complex(struct complex e1, struct complex e2){
+                                                     ^~
+..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
+..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                            ^
+..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                                   ^
+..\src\Lect6_Struct_Union_enum.c: In function 'task3':
+..\src\Lect6_Struct_Union_enum.c:104:2: warning: implicit declaration of function 'add' [-Wimplicit-function-declaration]
+  add(first_num, second_num);
+  ^~~
+At top level:
+..\src\Lect6_Struct_Union_enum.c:83:7: warning: 'add_complex' defined but not used [-Wunused-function]
+  void add_complex(struct complex e1, struct complex e2){
+       ^~~~~~~~~~~
+17:04:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
+..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                            ^
+..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                                   ^
+..\src\Lect6_Struct_Union_enum.c: In function 'task3':
+..\src\Lect6_Struct_Union_enum.c:104:2: warning: implicit declaration of function 'add' [-Wimplicit-function-declaration]
+  add(first_num, second_num);
+  ^~~
+At top level:
+..\src\Lect6_Struct_Union_enum.c:83:7: warning: 'add_complex' defined but not used [-Wunused-function]
+  void add_complex( complex e1,  complex e2){
+       ^~~~~~~~~~~
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+src\Lect6_Struct_Union_enum.o: In function `task3':
+D:\Project\Keroles\Code\1-C Language\Lect6_Struct_Union_enum\Debug/../src/Lect6_Struct_Union_enum.c:104: undefined reference to `add'
+collect2.exe: error: ld returned 1 exit status
+17:05:02 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
+..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                            ^
+..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %.3f + %.3fi");
+                                   ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+17:06:03 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
+..\src\Lect6_Struct_Union_enum.c:86:26: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %f + %fi");
+                          ^
+..\src\Lect6_Struct_Union_enum.c:86:31: warning: format '%f' expects a matching 'double' argument [-Wformat=]
+   printf("the number is %f + %fi");
+                               ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+17:06:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+17:13:21 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task4':
+..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
+  student s[student_count] ={{0}};
+                            ^
+..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
+..\src\Lect6_Struct_Union_enum.c:124:15: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   scanf("%s",s.name);
+               ^
+               ->
+..\src\Lect6_Struct_Union_enum.c:127:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   scanf("%d",&s.roll);
+                ^
+                ->
+..\src\Lect6_Struct_Union_enum.c:130:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   scanf("%f",&s.marks);
+                ^
+                ->
+..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("Your Student[%d] data \n");
+                         ^
+..\src\Lect6_Struct_Union_enum.c:135:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   printf("Student[%d] Name : %s \n", student_number,s.name);
+                                                      ^
+                                                      ->
+..\src\Lect6_Struct_Union_enum.c:136:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   printf("Student[%d] roll : %d \n", student_number,s.roll);
+                                                      ^
+                                                      ->
+..\src\Lect6_Struct_Union_enum.c:137:57: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   printf("Student[%d] marks : %.2f \n",student_number, s.marks);
+                                                         ^
+                                                         ->
+..\src\Lect6_Struct_Union_enum.c:118:10: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  student s[student_count] ={{0}};
+          ^
+17:14:38 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task4':
+..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
+  student s[student_count] ={{0}};
+                            ^
+..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
+..\src\Lect6_Struct_Union_enum.c:124:15: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   scanf("%s",s.name[student_number]);
+               ^
+               ->
+..\src\Lect6_Struct_Union_enum.c:127:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   scanf("%d",&s.roll[student_number]);
+                ^
+                ->
+..\src\Lect6_Struct_Union_enum.c:130:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   scanf("%f",&s.marks[student_number]);
+                ^
+                ->
+..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("Your Student[%d] data \n");
+                         ^
+..\src\Lect6_Struct_Union_enum.c:135:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   printf("Student[%d] Name : %s \n", student_number,s.name[student_number]);
+                                                      ^
+                                                      ->
+..\src\Lect6_Struct_Union_enum.c:136:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   printf("Student[%d] roll : %d \n", student_number,s.roll[student_number]);
+                                                      ^
+                                                      ->
+..\src\Lect6_Struct_Union_enum.c:137:57: error: '(student *)&s' is a pointer; did you mean to use '->'?
+   printf("Student[%d] marks : %.2f \n",student_number, s.marks[student_number]);
+                                                         ^
+                                                         ->
+..\src\Lect6_Struct_Union_enum.c:118:10: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  student s[student_count] ={{0}};
+          ^
+17:15:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task4':
+..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
+  student s[student_count] ={{0}};
+                            ^
+..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
+..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("Your Student[%d] data \n");
+                         ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+17:16:02 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task4':
+..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
+  student s[student_count] ={{0}};
+                            ^
+..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
+..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("Your Student[%d] data \n");
+                         ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+11:48:08 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
+..\src\Lect6_Struct_Union_enum.c: In function 'task4':
+..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
+  student s[student_count] ={{0}};
+                            ^
+..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
+..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   printf("Your Student[%d] data \n");
+                         ^
+gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 

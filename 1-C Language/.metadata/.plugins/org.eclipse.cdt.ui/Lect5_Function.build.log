@@ -1,0 +1,7 @@
+21:52:42 **** Incremental Build of configuration Debug for project Lect5_Function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect5_Function.o" "..\\src\\Lect5_Function.c" 
+gcc -o Lect5_Function.exe "src\\Lect5_Function.o" 
+
+21:52:42 Build Finished (took 509ms)
+

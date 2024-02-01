@@ -1,0 +1,27 @@
+22:47:35 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+
+22:47:35 Build Finished (took 534ms)
+

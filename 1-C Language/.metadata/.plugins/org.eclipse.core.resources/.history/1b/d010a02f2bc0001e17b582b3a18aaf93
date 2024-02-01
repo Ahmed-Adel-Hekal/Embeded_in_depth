@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+enum days{Mon=-1,tue,wed=6,thu,fri,sat};
+char abc(){
+	int y =20 ;
+	return y;
+}
+
+enum State {Working=0, Failed,Freezed};
+enum State currState = 2 ;
+enum State FindState(){
+	return currState ;
+}
+
+int main() {
+	(FindState()==Working)? printf("Ss") : printf("aaa");
+
+	printf("%d", #if A);
+
+}
+
+

@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+enum days{Mon=-1,tue,wed=6,thu,fri,sat};
+char abc(){
+	int y =20 ;
+	return y;
+}
+#undef a
+int main() {
+for(int i = 0 ; i < 10 ; i++)
+{
+	if(i<4){
+	printf("ASda");
+	continue ;
+	}
+	}
+	printf("%s" , __DATE__);
+}
+
+

@@ -1,0 +1,17 @@
+23:22:08 **** Incremental Build of configuration Debug for project Lect4_C Array & String ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect4_C Array & String.o" "..\\src\\Lect4_C Array & String.c" 
+..\src\Lect4_C Array & String.c: In function 'assignment_3':
+..\src\Lect4_C Array & String.c:63:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&arr[i][j]);
+            ^
+..\src\Lect4_C Array & String.c:71:12: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+    scanf("%d",&temp);
+            ^
+..\src\Lect4_C Array & String.c:77:14: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+    printf("[%d] ",arr[i][j]);
+              ^
+gcc -o "Lect4_C Array & String.exe" "src\\Lect4_C Array & String.o" 
+
+23:22:08 Build Finished (took 506ms)
+
