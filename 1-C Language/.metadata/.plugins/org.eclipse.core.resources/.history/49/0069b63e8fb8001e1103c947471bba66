@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+enum days{Mon=-1,tue,wed=6,thu,fri,sat};
+
+int main() {
+
+char x= '5';
+if(X==5)
+	printf("Sdsd");
+else
+	printf("Ssdsddwew");
+}
+
+

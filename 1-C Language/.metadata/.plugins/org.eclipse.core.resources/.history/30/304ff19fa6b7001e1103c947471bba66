@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+const int x = 5  ;
+int main() {
+
+	int *ptr = &x ;
+	*ptr = 10 ;
+	printf("%d",x);
+
+}
+
+

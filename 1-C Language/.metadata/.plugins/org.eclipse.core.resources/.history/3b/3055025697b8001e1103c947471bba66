@@ -1,0 +1,54 @@
+/*
+ ============================================================================
+ Name        : Mid_Exam.c
+ Author      : Ahmed Hekal
+ Version     :
+ Copyright   : This is open source projec tfeel free to contact if needed
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+//c function to take a number and sum all digits?
+//test case 1:
+//input:123 ->output:6
+//test case 2:
+//input:4565 ->output:20
+void task1(){
+	unsigned long long number = 0 ;
+	printf("Please Enter Number to Get it is sum");
+	fflush(stdin);fflush(stdout);
+	scanf("%llu",&number);
+	unsigned long sum = 0 ;
+	int rem  = 0 ;
+	while(number >0){
+		rem = number%10;
+		sum+=rem ;
+		number /= 10 ;
+	}
+	printf("The sum of number is %lu",sum);
+}
+
+
+//c function to take an integer number and calculate it's square root?
+//test case 1:
+//input:4 ->output:2.000
+//test case 2:
+//input:10 ->output:3.126
+
+void task2(){
+	double number, res ;
+	printf("Enter number to get it is root ");
+	fflush(stdin);fflush(stdout);
+	scanf("%lf",&number);
+	res = sqrt(number) ;
+	printf("%.3lf",res);
+}
+
+int main(void) {
+	task2();
+	return EXIT_SUCCESS;
+}

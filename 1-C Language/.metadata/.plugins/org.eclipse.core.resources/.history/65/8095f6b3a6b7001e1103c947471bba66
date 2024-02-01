@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct v {
+	int bit1:1;
+	int bit3:4;
+	int bit4:4;
+}bit;
+
+
+int main() {
+
+
+	printf("%d",sizeof(bit));
+
+}
+
+

@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct emp {
+	int x;
+	struct emp e;
+}x;
+
+enum days{Mon=-1,tue,wed=6,thu,fri,sat};
+
+int main() {
+
+union a {
+	int i ;
+	char ch[2];
+};
+
+union a z1 = {512};
+union a z2 = {0,1};
+
+}
+
+

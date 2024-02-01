@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+enum days{Mon=-1,tue,wed=6,thu,fri,sat};
+
+int main() {
+
+char a[] = '\0';
+if(printf("%s",a))
+	printf("sdsd");
+else
+	printf("wwww");
+
+}
+
+

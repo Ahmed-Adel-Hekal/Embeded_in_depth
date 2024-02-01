@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+enum days{Mon=-1,tue,wed=6,thu,fri,sat};
+
+int main() {
+
+union a {
+	int i ;
+	char ch[2];
+};
+
+union a z1 = {512};
+union a z2 = {{10,111}};
+
+printf("%d",z2.ch[0]);
+}
+
+

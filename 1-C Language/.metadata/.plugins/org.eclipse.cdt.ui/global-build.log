@@ -1,382 +1,906 @@
-15:57:12 **** Rebuild of configuration Debug for project Lect6_Struct_Union_enum ****
+21:29:38 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:24:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
- scanf("%s",&s.name);
-         ^
-..\src\Lect6_Struct_Union_enum.c:26:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
- scanf("%d",s.roll);
-         ^
-..\src\Lect6_Struct_Union_enum.c:28:12: warning: unknown conversion type character '1' in format [-Wformat=]
- printf("%-*10");
-            ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-15:57:45 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:24:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
- scanf("%s",&s.name);
-         ^
-..\src\Lect6_Struct_Union_enum.c:26:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
- scanf("%f",&s.roll);
-         ^
-..\src\Lect6_Struct_Union_enum.c:28:11: warning: unknown conversion type character '1' in format [-Wformat=]
- printf("%*10[-]");
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:10: warning: conversion lacks type at end of format [-Wformat=]
+  scanf("%l",&number);
+          ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%l",&number);
+        ^~~~
+..\src\Mid_Exam.c:25:11: warning: conversion lacks type at end of format [-Wformat=]
+  printf("%l",number);
            ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-15:58:04 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+..\src\Mid_Exam.c:25:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%l",number);
+         ^~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:30:10 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:24:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
- scanf("%s",&s.name);
-         ^
-..\src\Lect6_Struct_Union_enum.c:26:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
- scanf("%f",&s.roll);
-         ^
-..\src\Lect6_Struct_Union_enum.c:28:10: warning: unknown conversion type character '[' in format [-Wformat=]
- printf("%[-]*10");
-          ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:00:11 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:28:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
- scanf("%d",s.roll);
-         ^
-..\src\Lect6_Struct_Union_enum.c:31:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
- scanf("%f",s.marks);
-         ^
-..\src\Lect6_Struct_Union_enum.c:32:10: warning: unknown conversion type character '[' in format [-Wformat=]
- printf("%[-]*10");
-          ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:00:36 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:28:9: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
- scanf("%d",s.roll);
-         ^
-..\src\Lect6_Struct_Union_enum.c:31:9: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
- scanf("%f",s.marks);
-         ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:01:03 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:25:9: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
- scanf("%s",&s.name);
-         ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:01:21 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:26:33 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:26:52 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:27:11 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:31:23 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:31:38 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:32:16 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:32:45 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:33:37 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:33:52 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:34:16 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:34:41 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:32:12: warning: repeated ''' flag in format [-Wformat=]
- printf("%'-'*d\n", 20);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c:25:12: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("%lld",number);
             ^
-..\src\Lect6_Struct_Union_enum.c:32:14: warning: format '%d' expects a matching 'int' argument [-Wformat=]
- printf("%'-'*d\n", 20);
-              ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:34:52 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+..\src\Mid_Exam.c:25:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%lld",number);
+         ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:30:24 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:32:12: warning: format '%d' expects a matching 'int' argument [-Wformat=]
- printf("%-*d\n", 20);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c:25:12: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("%lld",number);
             ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:35:11 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+..\src\Mid_Exam.c:25:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%lld",number);
+         ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:31:22 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task1':
-..\src\Lect6_Struct_Union_enum.c:32:10: warning: unknown conversion type character '[' in format [-Wformat=]
- printf("%[-]*d\n", 20);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:18: warning: unknown conversion type character 'l' in format [-Wformat=]
+  int l= scanf("%lld",&number);
+                  ^
+..\src\Mid_Exam.c:24:15: warning: too many arguments for format [-Wformat-extra-args]
+  int l= scanf("%lld",&number);
+               ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:31:55 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:24: warning: unknown conversion type character 'l' in format [-Wformat=]
+  long long l= scanf("%lld",&number);
+                        ^
+..\src\Mid_Exam.c:24:21: warning: too many arguments for format [-Wformat-extra-args]
+  long long l= scanf("%lld",&number);
+                     ^~~~~~
+..\src\Mid_Exam.c:27:12: warning: unknown conversion type character 'l' in format [-Wformat=]
+  printf("%lld",l);
+            ^
+..\src\Mid_Exam.c:27:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%lld",l);
+         ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:32:45 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:10: warning: unknown conversion type character 'L' in format [-Wformat=]
+  scanf("%LLd",&number);
           ^
-..\src\Lect6_Struct_Union_enum.c:32:8: warning: too many arguments for format [-Wformat-extra-args]
- printf("%[-]*d\n", 20);
-        ^~~~~~~~~~
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:43:29 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%LLd",&number);
+        ^~~~~~
+..\src\Mid_Exam.c:27:16: error: 'l' undeclared (first use in this function)
+  printf("%LLd",l);
+                ^
+..\src\Mid_Exam.c:27:16: note: each undeclared identifier is reported only once for each function it appears in
+21:34:59 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:43:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:10: warning: unknown conversion type character 'L' in format [-Wformat=]
+  scanf("%LLd",&number);
+          ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%LLd",&number);
+        ^~~~~~
+..\src\Mid_Exam.c:32:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+  printf("%d",sum);
+           ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:36:04 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-16:54:17 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:10: warning: unknown conversion type character 'L' in format [-Wformat=]
+  scanf("%LLd",&number);
+          ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%LLd",&number);
+        ^~~~~~
+..\src\Mid_Exam.c:32:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+  printf("The sum of number is %d",sum);
+                                ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:38:05 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-Info: Nothing to build for Lect6_Struct_Union_enum
-16:55:31 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:40:03 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-17:04:14 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'main':
+..\src\Mid_Exam.c:40:12: warning: unknown conversion type character 'l' in format [-Wformat=]
+   scanf("%llu",&number);
+            ^
+..\src\Mid_Exam.c:40:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("%llu",&number);
+         ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:42:31 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task3':
-..\src\Lect6_Struct_Union_enum.c:83:26: warning: 'struct complex' declared inside parameter list will not be visible outside of this definition or declaration
-  void add_complex(struct complex e1, struct complex e2){
-                          ^~~~~~~
-..\src\Lect6_Struct_Union_enum.c:83:34: error: parameter 1 ('e1') has incomplete type
-  void add_complex(struct complex e1, struct complex e2){
-                                  ^~
-..\src\Lect6_Struct_Union_enum.c:83:53: error: parameter 2 ('e2') has incomplete type
-  void add_complex(struct complex e1, struct complex e2){
-                                                     ^~
-..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
-..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                            ^
-..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                                   ^
-..\src\Lect6_Struct_Union_enum.c: In function 'task3':
-..\src\Lect6_Struct_Union_enum.c:104:2: warning: implicit declaration of function 'add' [-Wimplicit-function-declaration]
-  add(first_num, second_num);
-  ^~~
-At top level:
-..\src\Lect6_Struct_Union_enum.c:83:7: warning: 'add_complex' defined but not used [-Wunused-function]
-  void add_complex(struct complex e1, struct complex e2){
-       ^~~~~~~~~~~
-17:04:22 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:48:39 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task3':
-..\src\Lect6_Struct_Union_enum.c:83:26: warning: 'struct complex' declared inside parameter list will not be visible outside of this definition or declaration
-  void add_complex(struct complex e1, struct complex e2){
-                          ^~~~~~~
-..\src\Lect6_Struct_Union_enum.c:83:34: error: parameter 1 ('e1') has incomplete type
-  void add_complex(struct complex e1, struct complex e2){
-                                  ^~
-..\src\Lect6_Struct_Union_enum.c:83:53: error: parameter 2 ('e2') has incomplete type
-  void add_complex(struct complex e1, struct complex e2){
-                                                     ^~
-..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
-..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                            ^
-..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                                   ^
-..\src\Lect6_Struct_Union_enum.c: In function 'task3':
-..\src\Lect6_Struct_Union_enum.c:104:2: warning: implicit declaration of function 'add' [-Wimplicit-function-declaration]
-  add(first_num, second_num);
-  ^~~
-At top level:
-..\src\Lect6_Struct_Union_enum.c:83:7: warning: 'add_complex' defined but not used [-Wunused-function]
-  void add_complex(struct complex e1, struct complex e2){
-       ^~~~~~~~~~~
-17:04:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:46:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'double *' [-Wformat=]
+  scanf("%d",&number);
+          ^
+..\src\Mid_Exam.c:47:14: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  printf("%d",sqrt(number));
+              ^~~~
+..\src\Mid_Exam.c:47:14: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:14: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c:47:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("%d",sqrt(number));
+           ^
+..\src\Mid_Exam.c:43:17: warning: unused variable 'res' [-Wunused-variable]
+  double number, res ;
+                 ^~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:48:57 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
-..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                            ^
-..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                                   ^
-..\src\Lect6_Struct_Union_enum.c: In function 'task3':
-..\src\Lect6_Struct_Union_enum.c:104:2: warning: implicit declaration of function 'add' [-Wimplicit-function-declaration]
-  add(first_num, second_num);
-  ^~~
-At top level:
-..\src\Lect6_Struct_Union_enum.c:83:7: warning: 'add_complex' defined but not used [-Wunused-function]
-  void add_complex( complex e1,  complex e2){
-       ^~~~~~~~~~~
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-src\Lect6_Struct_Union_enum.o: In function `task3':
-D:\Project\Keroles\Code\1-C Language\Lect6_Struct_Union_enum\Debug/../src/Lect6_Struct_Union_enum.c:104: undefined reference to `add'
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:46:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
+  scanf("%f",&number);
+          ^
+..\src\Mid_Exam.c:47:14: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  printf("%f",sqrt(number));
+              ^~~~
+..\src\Mid_Exam.c:47:14: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:14: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c:43:17: warning: unused variable 'res' [-Wunused-variable]
+  double number, res ;
+                 ^~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:49:51 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:46:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
+  scanf("%f",&number);
+          ^
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:50:44 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+Info: Nothing to build for Mid_Exam
+21:51:04 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:52:42 **** Incremental Build of configuration Debug for project Lect5_Function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect5_Function.o" "..\\src\\Lect5_Function.c" 
+gcc -o Lect5_Function.exe "src\\Lect5_Function.o" 
+21:57:41 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:58:6: warning: variable 'rem' set but not used [-Wunused-but-set-variable]
+  int rem = 0 ;
+      ^~~
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:72:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:72:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+Info: Nothing to build for Mid_Exam
+21:58:04 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:58:6: warning: variable 'rem' set but not used [-Wunused-but-set-variable]
+  int rem = 0 ;
+      ^~~
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:72:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:72:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:58:24 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:58:6: warning: variable 'rem' set but not used [-Wunused-but-set-variable]
+  int rem = 0 ;
+      ^~~
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:72:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:72:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+21:59:18 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:00:01 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:01:14 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:01:39 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:01:49 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:74:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:74:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+Info: Nothing to build for Mid_Exam
+Info: Nothing to build for Mid_Exam
+Info: Nothing to build for Mid_Exam
+22:03:18 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+Info: Nothing to build for Mid_Exam
+Info: Nothing to build for Mid_Exam
+22:06:01 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+Info: Nothing to build for Mid_Exam
+22:08:12 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:63:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   printf("%d\n",number);
+            ^
+..\src\Mid_Exam.c:58:6: warning: variable 'rem' set but not used [-Wunused-but-set-variable]
+  int rem = 0 ;
+      ^~~
+..\src\Mid_Exam.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:08:33 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:08:40 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:08:51 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:75:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:75:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:09:24 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'reverse':
+..\src\Mid_Exam.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:13:21 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:22:29 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:22:42 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:23:35 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:27:18 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+Info: Nothing to build for Mid_Exam
+22:36:30 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:41:56 **** Incremental Build of configuration Debug for project Mid_Exam ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'main':
+..\src\Mid_Exam.c:126:2: warning: implicit declaration of function 'pritnf' [-Wimplicit-function-declaration]
+  pritnf("%d",task6(100));
+  ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+src\Mid_Exam.o: In function `main':
+D:\Project\Keroles\Code\1-C Language\Mid_Exam\Debug/../src/Mid_Exam.c:126: undefined reference to `pritnf'
 collect2.exe: error: ld returned 1 exit status
-17:05:02 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+22:42:06 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
-..\src\Lect6_Struct_Union_enum.c:86:28: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                            ^
-..\src\Lect6_Struct_Union_enum.c:86:35: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %.3f + %.3fi");
-                                   ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-17:06:03 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:42:15 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'add_complex':
-..\src\Lect6_Struct_Union_enum.c:86:26: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %f + %fi");
-                          ^
-..\src\Lect6_Struct_Union_enum.c:86:31: warning: format '%f' expects a matching 'double' argument [-Wformat=]
-   printf("the number is %f + %fi");
-                               ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-17:06:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 
+22:47:35 **** Incremental Build of configuration Debug for project Mid_Exam ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-17:13:21 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task4':
-..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
-  student s[student_count] ={{0}};
-                            ^
-..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
-..\src\Lect6_Struct_Union_enum.c:124:15: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   scanf("%s",s.name);
-               ^
-               ->
-..\src\Lect6_Struct_Union_enum.c:127:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   scanf("%d",&s.roll);
-                ^
-                ->
-..\src\Lect6_Struct_Union_enum.c:130:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   scanf("%f",&s.marks);
-                ^
-                ->
-..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
-   printf("Your Student[%d] data \n");
-                         ^
-..\src\Lect6_Struct_Union_enum.c:135:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   printf("Student[%d] Name : %s \n", student_number,s.name);
-                                                      ^
-                                                      ->
-..\src\Lect6_Struct_Union_enum.c:136:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   printf("Student[%d] roll : %d \n", student_number,s.roll);
-                                                      ^
-                                                      ->
-..\src\Lect6_Struct_Union_enum.c:137:57: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   printf("Student[%d] marks : %.2f \n",student_number, s.marks);
-                                                         ^
-                                                         ->
-..\src\Lect6_Struct_Union_enum.c:118:10: warning: variable 's' set but not used [-Wunused-but-set-variable]
-  student s[student_count] ={{0}};
-          ^
-17:14:38 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task4':
-..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
-  student s[student_count] ={{0}};
-                            ^
-..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
-..\src\Lect6_Struct_Union_enum.c:124:15: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   scanf("%s",s.name[student_number]);
-               ^
-               ->
-..\src\Lect6_Struct_Union_enum.c:127:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   scanf("%d",&s.roll[student_number]);
-                ^
-                ->
-..\src\Lect6_Struct_Union_enum.c:130:16: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   scanf("%f",&s.marks[student_number]);
-                ^
-                ->
-..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
-   printf("Your Student[%d] data \n");
-                         ^
-..\src\Lect6_Struct_Union_enum.c:135:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   printf("Student[%d] Name : %s \n", student_number,s.name[student_number]);
-                                                      ^
-                                                      ->
-..\src\Lect6_Struct_Union_enum.c:136:54: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   printf("Student[%d] roll : %d \n", student_number,s.roll[student_number]);
-                                                      ^
-                                                      ->
-..\src\Lect6_Struct_Union_enum.c:137:57: error: '(student *)&s' is a pointer; did you mean to use '->'?
-   printf("Student[%d] marks : %.2f \n",student_number, s.marks[student_number]);
-                                                         ^
-                                                         ->
-..\src\Lect6_Struct_Union_enum.c:118:10: warning: variable 's' set but not used [-Wunused-but-set-variable]
-  student s[student_count] ={{0}};
-          ^
-17:15:49 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task4':
-..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
-  student s[student_count] ={{0}};
-                            ^
-..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
-..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
-   printf("Your Student[%d] data \n");
-                         ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-17:16:02 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task4':
-..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
-  student s[student_count] ={{0}};
-                            ^
-..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
-..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
-   printf("Your Student[%d] data \n");
-                         ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
-11:48:08 **** Incremental Build of configuration Debug for project Lect6_Struct_Union_enum ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Struct_Union_enum.o" "..\\src\\Lect6_Struct_Union_enum.c" 
-..\src\Lect6_Struct_Union_enum.c: In function 'task4':
-..\src\Lect6_Struct_Union_enum.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
-  student s[student_count] ={{0}};
-                            ^
-..\src\Lect6_Struct_Union_enum.c:118:28: note: (near initialization for 's')
-..\src\Lect6_Struct_Union_enum.c:134:25: warning: format '%d' expects a matching 'int' argument [-Wformat=]
-   printf("Your Student[%d] data \n");
-                         ^
-gcc -o Lect6_Struct_Union_enum.exe "src\\Lect6_Struct_Union_enum.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Mid_Exam.o" "..\\src\\Mid_Exam.c" 
+..\src\Mid_Exam.c: In function 'task1':
+..\src\Mid_Exam.c:24:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%llu",&number);
+           ^
+..\src\Mid_Exam.c:24:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%llu",&number);
+        ^~~~~~
+..\src\Mid_Exam.c: In function 'task2':
+..\src\Mid_Exam.c:47:8: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+  res = sqrt(number) ;
+        ^~~~
+..\src\Mid_Exam.c:47:8: warning: incompatible implicit declaration of built-in function 'sqrt'
+..\src\Mid_Exam.c:47:8: note: include '<math.h>' or provide a declaration of 'sqrt'
+..\src\Mid_Exam.c: In function 'task3':
+..\src\Mid_Exam.c:73:11: warning: unknown conversion type character 'l' in format [-Wformat=]
+  scanf("%lld",&number);
+           ^
+..\src\Mid_Exam.c:73:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%lld",&number);
+        ^~~~~~
+gcc -o Mid_Exam.exe "src\\Mid_Exam.o" 

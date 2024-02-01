@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+enum days{Mon=-1,tue,wed=6,thu,fri,sat};
+char abc(){
+	int y =20 ;
+	return y;
+}
+int main() {
+	int x=10 , y=20 ;
+	auto int add(int,int);
+	printf("%d",add(2,3));
+	int add(int x,inty){
+		return x+y;
+	}
+}
+
+
