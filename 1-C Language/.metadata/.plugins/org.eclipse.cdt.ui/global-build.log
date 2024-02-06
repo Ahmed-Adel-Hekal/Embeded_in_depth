@@ -1,10 +1,274 @@
-17:39:38 **** Rebuild of configuration Debug for project Lect6_Enum_Struct_Union ****
+20:28:15 **** Clean-only build of configuration Debug for project Lect8_pointers ****
+rm -rf src/Lect8_pointers.o src/Lect8_pointers.d Lect8_pointers.exe 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files (x86)/Java/jre-1.8/bin/client;C:/Program Files (x86)/Java/jre-1.8/bin;C:/Program Files (x86)/Java/jre-1.8/lib/i386;C:\Python312\Scripts\;C:\Python312\;C:\msys64\mingw64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\ahmed\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\avr8-gnu-toolchain-win32_x86_64\bin;C:\Users\ahmed\AppData\Local\GitHubDesktop\bin;D:\Project\Keroles\00-Tools\eclipse-cpp-neon-2-win32\eclipse]
+
+20:28:15 **** Clean-only build of configuration Debug for project Lect8_pointers ****
+20:28:17 **** Rebuild of configuration Debug for project Lect8_pointers ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect6_Enum_Struct_Union.o" "..\\src\\Lect6_Enum_Struct_Union.c" 
-..\src\Lect6_Enum_Struct_Union.c: In function 'task4':
-..\src\Lect6_Enum_Struct_Union.c:118:28: warning: missing braces around initializer [-Wmissing-braces]
-  student s[student_count] ={{0}};
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
                             ^
-..\src\Lect6_Enum_Struct_Union.c:118:28: note: (near initialization for 's')
-gcc -o Lect6_Enum_Struct_Union.exe "src\\Lect6_Enum_Struct_Union.o" 
-Info: Nothing to build for Lect6_Enum_Struct_Union
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:28:59 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:29:36 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:37:36 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:37:49 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+Info: Nothing to build for Lect8_pointers
+20:39:07 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:39:54 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:40:29 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:52:30 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Lect8_pointers.c: In function 'main':
+..\src\Lect8_pointers.c:83:2: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+  strcpy (ptr1, " c" );
+  ^~~~~~
+..\src\Lect8_pointers.c:83:2: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\src\Lect8_pointers.c:83:2: note: include '<string.h>' or provide a declaration of 'strcpy'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+20:58:09 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+..\src\Lect8_pointers.c: In function 'main':
+..\src\Lect8_pointers.c:83:2: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+  strcpy (ptr1, " c" );
+  ^~~~~~
+..\src\Lect8_pointers.c:83:2: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\src\Lect8_pointers.c:83:2: note: include '<string.h>' or provide a declaration of 'strcpy'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+21:52:19 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
+..\src\Lect8_pointers.c: In function 'task1':
+..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
+  printf("Pointer address :%d\n",&ptr);
+                            ^
+..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable address %d\n", ptr);
+                            ^
+..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Variable Address : %d\n",&x);
+                              ^
+..\src\Lect8_pointers.c: In function 'task3':
+..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  char size = strlen(s);
+              ^~~~~~
+..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 

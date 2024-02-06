@@ -2,13 +2,15 @@
 #include <stdlib.h>
 
 
-enum days{Mon=-1,tue,wed=6,thu,fri,sat};
-char abc(){
-	int y =20 ;
-	return y;
-}
-int main() {
-	printf("%d",sizeof("3.14"));
-}
 
+int main()
+{
+	char s[]="Ahmed";
+	char* ptr = s ;
+	char x = *++ptr ;
+	char y = *ptr++ ;
+	char z = ++*ptr ;
+	printf("%c  %c",x,y,z);
 
+    return 0;
+}

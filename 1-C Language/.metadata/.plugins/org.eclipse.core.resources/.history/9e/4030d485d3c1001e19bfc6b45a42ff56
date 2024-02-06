@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main() {
+
+	char *x = "ahmed";
+	char *p ;
+	p = x ;
+//	p++;
+	*p += 5;
+	printf("%s\n",p);
+//	printf("%s\n",sizeof(p));
+//	*p='S';
+	printf("%s\n",p);
+
+}
+
+

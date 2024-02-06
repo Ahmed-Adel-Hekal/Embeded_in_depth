@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+int main() {
+	int x = 10 ;
+	int *ptr = &x ;
+	printf("%u\n",*ptr++);
+
+	printf("%d\n",x);
+	printf("%u\n",ptr);
+
+}
+
+

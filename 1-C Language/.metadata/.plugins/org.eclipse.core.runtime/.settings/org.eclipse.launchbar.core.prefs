@@ -1,10 +1,11 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Lect3_Easy_Tasks.exe,org.eclipse.launchbar.core.descriptorType.default\:Lect4_C Array _ String.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe,org.eclipse.launchbar.core.descriptorType.default\:Lect5_Function.exe,org.eclipse.launchbar.core.descriptorType.default\:Mid_Exam.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Lect6_Enum_Struct_Union.exe,org.eclipse.launchbar.core.descriptorType.default\:Lect3_Easy_Tasks.exe,org.eclipse.launchbar.core.descriptorType.default\:Lect4_C Array _ String.exe,org.eclipse.launchbar.core.descriptorType.default\:Lect5_Function.exe,org.eclipse.launchbar.core.descriptorType.default\:Mid_Exam.exe,org.eclipse.launchbar.core.descriptorType.default\:test.exe,org.eclipse.launchbar.core.descriptorType.default\:Lect8_pointers.exe
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Lect3_Easy_Tasks.exe/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Lect3_Easy_Tasks.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Lect4_C\ Array\ _\ String.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Lect5_Function.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lect8_pointers.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Mid_Exam.exe/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:test.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:test.exe/activeLaunchMode=debug

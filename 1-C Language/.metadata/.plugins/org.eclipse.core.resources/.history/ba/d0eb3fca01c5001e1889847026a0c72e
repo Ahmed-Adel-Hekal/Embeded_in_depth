@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void swap(char **x,char** y ){
+
+	char **t = x ;
+	x  = y ;
+	y = t ;
+}
+
+int main()
+{
+	char *s = "Ahemd";
+	char *z = "Hekal";
+	swap(s,z);
+	printf("%s",s);
+//    int arr [6]= {5,10,15,20,25,30};
+//    int *ptr = &arr ;
+//    ++*ptr;
+//    int y = (*++ptr);
+//    int z =(*ptr++);
+//    printf("   %d    %d ",y,z );
+
+//	    static char *a[] = {"ahmed",
+//	    "Adel","mohy","hekl"};
+//	    char **ptr[] = {a+3,a+2,a+1,a},***p;
+//	    p=ptr ;
+//	    ++p ;
+//	    printf("%s",**p+1);
+
+    return 0;
+}

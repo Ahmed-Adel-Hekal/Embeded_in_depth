@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main() {
+
+	int arr [2][3]={1,2,3,4,5,6};
+	int (*ptr)[2][3] = &arr ;
+	printf("%d\n",***ptr);
+	printf("%d\n",***(ptr+1));
+	printf("%d\n",**(*ptr+1));
+	printf("%d\n",*(*(*ptr+1)+2));
+
+}
+
+

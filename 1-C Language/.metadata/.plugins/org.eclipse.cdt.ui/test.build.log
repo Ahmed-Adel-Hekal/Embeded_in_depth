@@ -1,7 +1,11 @@
-21:22:44 **** Incremental Build of configuration Debug for project test ****
+17:46:36 **** Incremental Build of configuration Debug for project test ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'main':
+..\src\test.c:13:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("%c  %c",x,y,z);
+         ^~~~~~~~
 gcc -o test.exe "src\\test.o" 
 
-21:22:44 Build Finished (took 516ms)
+17:46:37 Build Finished (took 945ms)
 

@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+int main() {
+
+
+	const int x = 10 ;
+	int *p =&x;
+	*p = 15 ;
+//	p++;
+	printf("%s\n",*p);
+//	printf("%s\n",sizeof(p));
+//	*p='S';
+	printf("%s\n",p);
+
+}
+
+

@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main() {
+
+	char *x = "ahmed";
+	char *p ;
+	p = x ;
+//	p++;
+	printf("%s\n",p);
+    *(p + 1) = 'b';  // Modifying the character at the second position in the string to 'b'
+
+    printf("%s\n", p);  // Output: abmed
+//	printf("%s\n",sizeof(p));
+//	*p='S';
+
+}
+
+

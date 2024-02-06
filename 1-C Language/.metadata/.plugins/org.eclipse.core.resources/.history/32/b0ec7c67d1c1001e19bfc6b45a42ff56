@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+int main() {
+	char *p = "Ahmed";
+	printf("%s\n",p);
+	p++;
+	printf("%s\n",p);
+//	printf("%s\n",sizeof(p));
+	*p='S';
+	printf("%s\n",p);
+
+}
+
+
