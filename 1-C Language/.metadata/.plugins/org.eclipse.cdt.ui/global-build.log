@@ -272,3 +272,147 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lec
 ..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
 ..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
 gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
+15:10:15 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'plusMinus':
+..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
+         printf("%d\n",(arr[i]>>32)&1);
+                              ^~
+..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
+         if ((arr[i]>>32)&1) {
+                    ^~
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+15:06:51 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'plusMinus':
+..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
+         printf("%d\n",(arr[i]>>32)&1);
+                              ^~
+..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
+         if ((arr[i]>>32)&1) {
+                    ^~
+..\src\test.c: In function 'main':
+..\src\test.c:33:10: error: void value not ignored as it ought to be
+  int p = f1()+f2() ;
+          ^~~~
+..\src\test.c:33:15: error: void value not ignored as it ought to be
+  int p = f1()+f2() ;
+               ^~~~
+15:07:13 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'plusMinus':
+..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
+         printf("%d\n",(arr[i]>>32)&1);
+                              ^~
+..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
+         if ((arr[i]>>32)&1) {
+                    ^~
+..\src\test.c: At top level:
+..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f1(){printf("geeks");}
+  ^~
+..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f2(){printf("forGeeks");}
+  ^~
+..\src\test.c: In function 'f1':
+..\src\test.c:27:2: warning: control reaches end of non-void function [-Wreturn-type]
+  f1(){printf("geeks");}
+  ^~
+..\src\test.c: In function 'f2':
+..\src\test.c:28:2: warning: control reaches end of non-void function [-Wreturn-type]
+  f2(){printf("forGeeks");}
+  ^~
+gcc -o test.exe "src\\test.o" 
+15:15:42 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'plusMinus':
+..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
+         printf("%d\n",(arr[i]>>32)&1);
+                              ^~
+..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
+         if ((arr[i]>>32)&1) {
+                    ^~
+..\src\test.c: At top level:
+..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f1(){x=x+10;return x }
+  ^~
+..\src\test.c: In function 'f1':
+..\src\test.c:27:23: error: expected ';' before '}' token
+  f1(){x=x+10;return x }
+                       ^
+..\src\test.c: At top level:
+..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f2(){x=x-5;return x}
+  ^~
+..\src\test.c: In function 'f2':
+..\src\test.c:28:21: error: expected ';' before '}' token
+  f2(){x=x-5;return x}
+                     ^
+15:15:55 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'plusMinus':
+..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
+         printf("%d\n",(arr[i]>>32)&1);
+                              ^~
+..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
+         if ((arr[i]>>32)&1) {
+                    ^~
+..\src\test.c: At top level:
+..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f1(){x=x+10;return x; }
+  ^~
+..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f2(){x=x-5;return x;}
+  ^~
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+15:16:53 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'plusMinus':
+..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
+         printf("%d\n",(arr[i]>>32)&1);
+                              ^~
+..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
+         if ((arr[i]>>32)&1) {
+                    ^~
+..\src\test.c: In function 'main':
+..\src\test.c:30:3: warning: implicit declaration of function 'f1' [-Wimplicit-function-declaration]
+   f1(){x=x+10;return x; }
+   ^~
+..\src\test.c:30:7: error: expected ';' before '{' token
+   f1(){x=x+10;return x; }
+       ^
+..\src\test.c:35:19: error: 'p' undeclared (first use in this function)
+     printf("  %d",p);
+                   ^
+..\src\test.c:35:19: note: each undeclared identifier is reported only once for each function it appears in
+..\src\test.c:29:6: warning: unused variable 'x' [-Wunused-variable]
+  int x = 20 ;
+      ^
+15:17:14 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
+..\src\test.c: In function 'plusMinus':
+..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
+         printf("%d\n",(arr[i]>>32)&1);
+                              ^~
+..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
+         if ((arr[i]>>32)&1) {
+                    ^~
+..\src\test.c: At top level:
+..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f1(){x=x+10;return x; }
+  ^~
+..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
+  f2(){x=x-5;return x;}
+  ^~
+gcc -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+Info: Nothing to build for test

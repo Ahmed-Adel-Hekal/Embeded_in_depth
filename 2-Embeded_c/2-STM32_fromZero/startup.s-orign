@@ -1,0 +1,41 @@
+/*
+Ahmed Hekal
+*/
+
+/*
+- in arm cortex m3 we have to provide sp address at the begin of startup 
+	as by default processror excepect to find address on startup so 
+	if SRAM address starts from 0x20000000 
+	we will define our stack to start from 0x20001000
+*/
+
+/*
+using .section assembly instruction give you the ability to define 
+where this code belongs to 
+so .section .vector 
+force assembler to define this address in vector section not .data
+*/
+
+.section .vectors
+.word 		0x20001000
+.word 		_reset
+.word 		Vector_handler 
+
+/* you have to define all interrupts and define interrupt handler */
+
+.section .text
+_reset:
+	bl main
+	b .
+	
+/*Enable thumb instruction in arm */
+.thumb_func
+
+/*	
+_NMI_handler:
+	here you need to provide interrupt handler 
+_HARD_Fault:
+*/
+
+Vector_handler:
+	b _reset

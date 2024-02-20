@@ -1,0 +1,17 @@
+arm-none-eabi-gcc.exe -c -g -I -mcpu=arm926ej-s . uart.c application.c 
+
+arm-none-eabi-as.exe -g -mcpu=arm926ej-s startup.s -o startup.o
+
+arm-none-eabi-objdump.exe -h file.o 
+arm-none-eabi-objdump.exe -D file.o
+ 
+arm-none-eabi-ld.exe -T linker.ld *.o -o learn.elf
+
+
+arm-none-eabi-ld.exe -T linker.ld -Map=map.out  *.o -o learn.elf
+
+arm-none-eabi-objcopy.exe -O binary learn.elf learn.bin
+
+
+/c/"Program Files (x86)"/qemu/qemu-system-arm.exe -M versatilepb -m 128M -nographic -s -S -kernel learn.bin
+

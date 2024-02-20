@@ -1,0 +1,9 @@
+bin_name = Uart
+excutable_type=-O binary
+path = 
+toolchain_prefix = arm-none-eabi-
+CC_path=$(path)$(toolchain_prefix)
+INCLUDES= -I .
+PROCESSOR=arm926ej-s
+debug = 0
+startupFile = startup
