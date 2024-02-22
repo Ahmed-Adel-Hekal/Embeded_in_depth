@@ -1,0 +1,31 @@
+
+startup.o:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000c4  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .data         00000000  00000000  00000000  000000f8  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000000  00000000  00000000  000000f8  2**0
+                  ALLOC
+  3 .vectors      0000000c  00000000  00000000  000000f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+  4 .debug_info   00000159  00000000  00000000  00000104  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  5 .debug_abbrev 000000c0  00000000  00000000  0000025d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_loc    00000064  00000000  00000000  0000031d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_aranges 00000020  00000000  00000000  00000381  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  8 .debug_line   000000ad  00000000  00000000  000003a1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  9 .debug_str    00000152  00000000  00000000  0000044e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .comment      00000012  00000000  00000000  000005a0  2**0
+                  CONTENTS, READONLY
+ 11 .ARM.attributes 00000033  00000000  00000000  000005b2  2**0
+                  CONTENTS, READONLY
+ 12 .debug_frame  0000004c  00000000  00000000  000005e8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING

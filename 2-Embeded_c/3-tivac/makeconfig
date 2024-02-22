@@ -1,0 +1,5 @@
+project_name=tivac
+CC = arm-none-eabi-
+INCLUDES= -I . 
+linker_script=linker.ld
+PROCESSOR= cortex-m4 -gdwarf-2
