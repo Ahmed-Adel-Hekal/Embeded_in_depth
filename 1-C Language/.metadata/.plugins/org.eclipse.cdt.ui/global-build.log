@@ -1,418 +1,690 @@
-20:28:15 **** Clean-only build of configuration Debug for project Lect8_pointers ****
-rm -rf src/Lect8_pointers.o src/Lect8_pointers.d Lect8_pointers.exe 
-Cannot run program "rm": Launching failed
-
-Error: Program "rm" not found in PATH
-PATH=[C:\MinGW\bin;\bin;\usr\bin;C:/Program Files (x86)/Java/jre-1.8/bin/client;C:/Program Files (x86)/Java/jre-1.8/bin;C:/Program Files (x86)/Java/jre-1.8/lib/i386;C:\Python312\Scripts\;C:\Python312\;C:\msys64\mingw64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microchip\xc8\v2.36\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\ahmed\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\avr8-gnu-toolchain-win32_x86_64\bin;C:\Users\ahmed\AppData\Local\GitHubDesktop\bin;D:\Project\Keroles\00-Tools\eclipse-cpp-neon-2-win32\eclipse]
-
-20:28:15 **** Clean-only build of configuration Debug for project Lect8_pointers ****
-20:28:17 **** Rebuild of configuration Debug for project Lect8_pointers ****
+03:13:51 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:28:59 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'main':
+..\src\nnk.c:75:17: warning: passing argument 1 of 'Add_student' from incompatible pointer type [-Wincompatible-pointer-types]
+     Add_student(&DataBase);
+                 ^
+..\src\nnk.c:64:9: note: expected 'Node_t * {aka struct Student *}' but argument is of type 'Node_t ** {aka struct Student **}'
+ Node_t* Add_student (Node_t *head){
+         ^~~~~~~~~~~
+..\src\nnk.c:76:17: warning: passing argument 1 of 'Add_student' from incompatible pointer type [-Wincompatible-pointer-types]
+     Add_student(&DataBase);
+                 ^
+..\src\nnk.c:64:9: note: expected 'Node_t * {aka struct Student *}' but argument is of type 'Node_t ** {aka struct Student **}'
+ Node_t* Add_student (Node_t *head){
+         ^~~~~~~~~~~
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+03:14:43 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:29:36 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'main':
+..\src\nnk.c:76:17: warning: passing argument 1 of 'Add_student' from incompatible pointer type [-Wincompatible-pointer-types]
+     Add_student(&DataBase);
+                 ^
+..\src\nnk.c:64:9: note: expected 'Node_t * {aka struct Student *}' but argument is of type 'Node_t ** {aka struct Student **}'
+ Node_t* Add_student (Node_t *head){
+         ^~~~~~~~~~~
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o nnk.exe "src\\nnk.o" 
+03:17:10 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:37:36 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:78:2: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+  prinf("New Record Added ...");
+  ^~~~~
+..\src\nnk.c: In function 'main':
+..\src\nnk.c:85:17: warning: passing argument 1 of 'Add_student' from incompatible pointer type [-Wincompatible-pointer-types]
+     Add_student(&DataBase);
+                 ^
+..\src\nnk.c:64:9: note: expected 'Node_t * {aka struct Student *}' but argument is of type 'Node_t ** {aka struct Student **}'
+ Node_t* Add_student (Node_t *head){
+         ^~~~~~~~~~~
+gcc -o nnk.exe "src\\nnk.o" 
+src\nnk.o: In function `Add_student':
+D:\Project\Keroles\Code\03-Data_Structure\Linked_List\Debug/../src/nnk.c:78: undefined reference to `prinf'
+collect2.exe: error: ld returned 1 exit status
+03:17:18 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:37:49 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'main':
+..\src\nnk.c:85:17: warning: passing argument 1 of 'Add_student' from incompatible pointer type [-Wincompatible-pointer-types]
+     Add_student(&DataBase);
+                 ^
+..\src\nnk.c:64:9: note: expected 'Node_t * {aka struct Student *}' but argument is of type 'Node_t ** {aka struct Student **}'
+ Node_t* Add_student (Node_t *head){
+         ^~~~~~~~~~~
+gcc -o nnk.exe "src\\nnk.o" 
+03:18:02 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-Info: Nothing to build for Lect8_pointers
-20:39:07 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:73:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &temp->NextNode ;
+         ^
+..\src\nnk.c: In function 'main':
+..\src\nnk.c:85:17: warning: passing argument 1 of 'Add_student' from incompatible pointer type [-Wincompatible-pointer-types]
+     Add_student(&DataBase);
+                 ^
+..\src\nnk.c:64:9: note: expected 'Node_t * {aka struct Student *}' but argument is of type 'Node_t ** {aka struct Student **}'
+ Node_t* Add_student (Node_t *head){
+         ^~~~~~~~~~~
+gcc -o nnk.exe "src\\nnk.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file nnk.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:18:09 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:39:54 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -o nnk.exe "src\\nnk.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file nnk.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+03:18:20 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:40:29 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -o nnk.exe "src\\nnk.o" 
+03:21:37 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:52:30 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:73:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &temp->NextNode ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:84:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",head->student,i);
+            ^
+..\src\nnk.c:85:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+03:22:08 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-..\src\Lect8_pointers.c: In function 'main':
-..\src\Lect8_pointers.c:83:2: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
-  strcpy (ptr1, " c" );
-  ^~~~~~
-..\src\Lect8_pointers.c:83:2: warning: incompatible implicit declaration of built-in function 'strcpy'
-..\src\Lect8_pointers.c:83:2: note: include '<string.h>' or provide a declaration of 'strcpy'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-20:58:09 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:73:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:84:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",head->student,i);
+            ^
+..\src\nnk.c:85:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+03:23:20 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-..\src\Lect8_pointers.c: In function 'main':
-..\src\Lect8_pointers.c:83:2: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
-  strcpy (ptr1, " c" );
-  ^~~~~~
-..\src\Lect8_pointers.c:83:2: warning: incompatible implicit declaration of built-in function 'strcpy'
-..\src\Lect8_pointers.c:83:2: note: include '<string.h>' or provide a declaration of 'strcpy'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-21:52:19 **** Incremental Build of configuration Debug for project Lect8_pointers ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:85:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",head->student,i);
+            ^
+..\src\nnk.c:86:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+03:25:30 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Lect8_pointers.o" "..\\src\\Lect8_pointers.c" 
-..\src\Lect8_pointers.c: In function 'task1':
-..\src\Lect8_pointers.c:21:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c:23:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int **' [-Wformat=]
-  printf("Pointer address :%d\n",&ptr);
-                            ^
-..\src\Lect8_pointers.c:24:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable address %d\n", ptr);
-                            ^
-..\src\Lect8_pointers.c:27:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
-  printf("Variable Address : %d\n",&x);
-                              ^
-..\src\Lect8_pointers.c: In function 'task3':
-..\src\Lect8_pointers.c:46:14: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
-  char size = strlen(s);
-              ^~~~~~
-..\src\Lect8_pointers.c:46:14: warning: incompatible implicit declaration of built-in function 'strlen'
-..\src\Lect8_pointers.c:46:14: note: include '<string.h>' or provide a declaration of 'strlen'
-gcc -o Lect8_pointers.exe "src\\Lect8_pointers.o" 
-15:10:15 **** Incremental Build of configuration Debug for project test ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:86:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",head->student,i);
+            ^
+..\src\nnk.c:87:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+03:26:53 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
-..\src\test.c: In function 'plusMinus':
-..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
-         printf("%d\n",(arr[i]>>32)&1);
-                              ^~
-..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
-         if ((arr[i]>>32)&1) {
-                    ^~
-gcc -o test.exe "src\\test.o" 
-Info: Nothing to build for test
-15:06:51 **** Incremental Build of configuration Debug for project test ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:85:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",head->student,i);
+            ^
+..\src\nnk.c:86:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+03:29:30 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
-..\src\test.c: In function 'plusMinus':
-..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
-         printf("%d\n",(arr[i]>>32)&1);
-                              ^~
-..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
-         if ((arr[i]>>32)&1) {
-                    ^~
-..\src\test.c: In function 'main':
-..\src\test.c:33:10: error: void value not ignored as it ought to be
-  int p = f1()+f2() ;
-          ^~~~
-..\src\test.c:33:15: error: void value not ignored as it ought to be
-  int p = f1()+f2() ;
-               ^~~~
-15:07:13 **** Incremental Build of configuration Debug for project test ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:84:16: error: invalid initializer
+  Node_t temp = head ;
+                ^~~~
+..\src\nnk.c:85:12: error: invalid type argument of '->' (have 'Node_t {aka struct Student}')
+  while(temp->NextNode != NULL){
+            ^~
+..\src\nnk.c:86:28: error: invalid type argument of '->' (have 'Node_t {aka struct Student}')
+   printf("%d : %d\n",i,temp->student);
+                            ^~
+..\src\nnk.c:87:15: error: invalid type argument of '->' (have 'Node_t {aka struct Student}')
+   temp = &temp->NextNode ;
+               ^~
+03:29:52 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
-..\src\test.c: In function 'plusMinus':
-..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
-         printf("%d\n",(arr[i]>>32)&1);
-                              ^~
-..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
-         if ((arr[i]>>32)&1) {
-                    ^~
-..\src\test.c: At top level:
-..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f1(){printf("geeks");}
-  ^~
-..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f2(){printf("forGeeks");}
-  ^~
-..\src\test.c: In function 'f1':
-..\src\test.c:27:2: warning: control reaches end of non-void function [-Wreturn-type]
-  f1(){printf("geeks");}
-  ^~
-..\src\test.c: In function 'f2':
-..\src\test.c:28:2: warning: control reaches end of non-void function [-Wreturn-type]
-  f2(){printf("forGeeks");}
-  ^~
-gcc -o test.exe "src\\test.o" 
-15:15:42 **** Incremental Build of configuration Debug for project test ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:86:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,temp->student);
+                 ^
+..\src\nnk.c:87:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp = &temp->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+03:31:38 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
-..\src\test.c: In function 'plusMinus':
-..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
-         printf("%d\n",(arr[i]>>32)&1);
-                              ^~
-..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
-         if ((arr[i]>>32)&1) {
-                    ^~
-..\src\test.c: At top level:
-..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f1(){x=x+10;return x }
-  ^~
-..\src\test.c: In function 'f1':
-..\src\test.c:27:23: error: expected ';' before '}' token
-  f1(){x=x+10;return x }
-                       ^
-..\src\test.c: At top level:
-..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f2(){x=x-5;return x}
-  ^~
-..\src\test.c: In function 'f2':
-..\src\test.c:28:21: error: expected ';' before '}' token
-  f2(){x=x-5;return x}
-                     ^
-15:15:55 **** Incremental Build of configuration Debug for project test ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,temp->student);
+                 ^
+..\src\nnk.c:88:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp = &temp->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+03:34:39 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
-..\src\test.c: In function 'plusMinus':
-..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
-         printf("%d\n",(arr[i]>>32)&1);
-                              ^~
-..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
-         if ((arr[i]>>32)&1) {
-                    ^~
-..\src\test.c: At top level:
-..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f1(){x=x+10;return x; }
-  ^~
-..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f2(){x=x-5;return x;}
-  ^~
-gcc -o test.exe "src\\test.o" 
-Info: Nothing to build for test
-15:16:53 **** Incremental Build of configuration Debug for project test ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c:77:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp = &temp->NextNode;
+        ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:88:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,temp->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp = &temp->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+03:35:14 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
-..\src\test.c: In function 'plusMinus':
-..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
-         printf("%d\n",(arr[i]>>32)&1);
-                              ^~
-..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
-         if ((arr[i]>>32)&1) {
-                    ^~
-..\src\test.c: In function 'main':
-..\src\test.c:30:3: warning: implicit declaration of function 'f1' [-Wimplicit-function-declaration]
-   f1(){x=x+10;return x; }
-   ^~
-..\src\test.c:30:7: error: expected ';' before '{' token
-   f1(){x=x+10;return x; }
-       ^
-..\src\test.c:35:19: error: 'p' undeclared (first use in this function)
-     printf("  %d",p);
-                   ^
-..\src\test.c:35:19: note: each undeclared identifier is reported only once for each function it appears in
-..\src\test.c:29:6: warning: unused variable 'x' [-Wunused-variable]
-  int x = 20 ;
-      ^
-15:17:14 **** Incremental Build of configuration Debug for project test ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c:77:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp = &temp->NextNode;
+        ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+03:35:25 **** Incremental Build of configuration Debug for project nnk ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.c" 
-..\src\test.c: In function 'plusMinus':
-..\src\test.c:14:30: warning: right shift count >= width of type [-Wshift-count-overflow]
-         printf("%d\n",(arr[i]>>32)&1);
-                              ^~
-..\src\test.c:15:20: warning: right shift count >= width of type [-Wshift-count-overflow]
-         if ((arr[i]>>32)&1) {
-                    ^~
-..\src\test.c: At top level:
-..\src\test.c:27:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f1(){x=x+10;return x; }
-  ^~
-..\src\test.c:28:2: warning: return type defaults to 'int' [-Wimplicit-int]
-  f2(){x=x-5;return x;}
-  ^~
-gcc -o test.exe "src\\test.o" 
-Info: Nothing to build for test
-Info: Nothing to build for test
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c:77:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp = &temp->NextNode;
+        ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+03:37:01 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c:77:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp2 = &temp->NextNode;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+03:37:56 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+Info: Nothing to build for nnk
+14:12:58 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+14:21:07 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+14:21:32 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+14:21:51 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c:77:18: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   temp->NextNode = &temp2;
+                  ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+14:22:26 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c:77:20: error: lvalue required as unary '&' operand
+   temp->NextNode = &(Node_t *)temp2;
+                    ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+14:22:33 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+14:22:41 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'Add_student':
+..\src\nnk.c:74:9: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+    temp = &(temp->NextNode) ;
+         ^
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+14:22:52 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+..\src\nnk.c:89:8: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+   head = &head->NextNode ;
+        ^
+gcc -o nnk.exe "src\\nnk.o" 
+14:23:12 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'print_linkedList':
+..\src\nnk.c:87:17: warning: format '%d' expects argument of type 'int', but argument 3 has type 'Data_t {aka struct <anonymous>}' [-Wformat=]
+   printf("%d : %d\n",i,head->student);
+                 ^
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk
+Info: Nothing to build for nnk
+14:24:39 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+..\src\nnk.c: In function 'main':
+..\src\nnk.c:98:5: warning: implicit declaration of function 'print_linkedList' [-Wimplicit-function-declaration]
+     print_linkedList(DataBase);
+     ^~~~~~~~~~~~~~~~
+gcc -o nnk.exe "src\\nnk.o" 
+src\nnk.o: In function `main':
+D:\Project\Keroles\Code\03-Data_Structure\Linked_List\Debug/../src/nnk.c:98: undefined reference to `print_linkedList'
+collect2.exe: error: ld returned 1 exit status
+14:24:52 **** Incremental Build of configuration Debug for project nnk ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\nnk.o" "..\\src\\nnk.c" 
+..\src\nnk.c:15:0: warning: "NULL" redefined
+ #define NULL  ((void *)0x0)
+ 
+In file included from c:\mingw\include\stdlib.h:55:0,
+                 from ..\src\nnk.c:12:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h:406:0: note: this is the location of the previous definition
+ #define NULL ((void *)0)
+ 
+gcc -o nnk.exe "src\\nnk.o" 
+Info: Nothing to build for nnk

@@ -1,0 +1,33 @@
+
+/*
+ * main.c
+ *
+ *  Created on: Feb 22, 2024
+ *      Author: ahmed
+ */
+
+
+#include "FIFO.h"
+#include <stdint.h>
+#include  <stdio.h>
+
+element_t uart_buf[5] ;
+FIFO_t uart_fifo  ;
+
+int main ()
+{
+	FIFO_Init(&uart_fifo, uart_buf, 5) ;
+	element_t i , temp ;
+	for(i =0 ; i<7; i++){
+		if(FIFO_dequeue(&uart_fifo, i)){
+			printf("Dequeue succesed\n");
+		}
+		else{
+			printf("Dequeue Failed\n");
+		}
+	}
+
+	FIFO_print(&uart_fifo);
+
+	return 0 ;
+}

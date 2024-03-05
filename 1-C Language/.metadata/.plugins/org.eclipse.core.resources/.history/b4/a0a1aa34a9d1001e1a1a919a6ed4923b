@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : LIFO.c
+ Author      : Ahmed Hekal
+ Version     :
+ Copyright   : This is open source projec tfeel free to contact if needed
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdint.h>
+
+// define DataType needed
+
+#define element_type uint8_t
+
+// define LIFO
+
+typedef struct {
+	uint8_t counter ,
+	element_type* base,
+	element_type* head
+}LIFO_buffer_t;
+
+

@@ -1,0 +1,98 @@
+/*
+ ============================================================================
+ Name        : Linked_list.c
+ Author      : Ahmed Hekal
+ Version     :
+ Copyright   : This is open source projec tfeel free to contact if needed
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+#define NULL  ((void *)0x0)
+typedef struct {
+	uint32_t Id;
+	uint8_t Name[10];
+	float Degree ;
+	float Total_degree;
+}Data_t;
+
+typedef struct Student {
+	struct Student *PreviousNode ;
+	Data_t student;
+	struct Student *NextNode ;
+}Node_t;
+
+typedef enum {
+	Linked_List_Error,
+	Linked_List_Ok,
+	Linked_List_Empty,
+	Linked_List_Full,
+}Linked_Error;
+
+
+//Linked_Error Add_student(Node_t** head) {
+//    Node_t* ptr;
+//    Node_t* temp;
+//    if (*head == NULL) {
+//        ptr = (Node_t*)malloc(sizeof(Node_t));
+//        if (ptr == NULL) {
+//            return Linked_List_Error; // Handle malloc failure
+//        }
+//        ptr->NextNode = NULL ;
+//        *head = ptr;
+//    } else {
+//        // loop to the last element of the linked list
+//        ptr = *head;
+//        while (ptr->NextNode != NULL) {
+//            ptr = &ptr->NextNode;
+//        }
+//        temp = (Node_t*)malloc(sizeof(Node_t));
+//        if (temp == NULL) {
+//            return Linked_List_Error; // Handle malloc failure
+//        }
+//        ptr->NextNode = temp;
+//    }
+//    printf("New REcord added\n");
+//    return Linked_List_Ok;
+//}
+
+
+Node_t* Add_student (Node_t *head){
+	Node_t *temp ;
+	if(head == NULL){
+		temp = (Node_t *)malloc(sizeof(Node_t));
+		temp->NextNode = NULL ;
+		head = temp ;
+
+	}else{
+		temp = head ;
+		while(temp->NextNode != NULL){
+			temp = &(temp->NextNode) ;
+		}
+		temp->NextNode = (Node_t *)malloc(sizeof(Node_t));
+		temp = &temp->NextNode;
+		temp->NextNode = NULL ;
+	}
+	printf("New Record Added ...");
+	return head ;
+}
+
+void print_linkedList (Node_t *head){
+	int i = 0;
+	while(head->NextNode != NULL){
+		printf("%d : %d\n",i,head->student);
+		i++;
+		head = &head->NextNode ;
+	}
+}
+int main(void) {
+    Node_t* DataBase = NULL;
+    DataBase = Add_student(DataBase);
+    DataBase = Add_student(DataBase);
+    print_linkedList(DataBase);
+    return 0;
+}

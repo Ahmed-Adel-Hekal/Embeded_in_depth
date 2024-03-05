@@ -1,0 +1,35 @@
+#ifndef FIFO_H
+#define FIFO_H
+
+#include <stdint.h>
+#include  <stdio.h>
+
+//#define  NULL ((unsigned int*) 0)
+#define element_t   uint8_t
+
+
+typedef struct {
+	element_t length;
+	element_t *base ;
+	element_t *head ;
+	element_t *tail ;
+	element_t count;
+}FIFO_t;
+
+
+typedef enum {
+	FIFO_ERROR,
+	FIFO_OK,
+	FIFO_EMPTY,
+	FIFO_FULL,
+	FIFO_Null
+}FIFO_error;
+
+
+FIFO_error FIFO_Init(FIFO_t *buf, element_t *storage, element_t length);
+FIFO_error FIFO_enqueue(FIFO_t *buf, element_t item);
+FIFO_error FIFO_dequeue(FIFO_t *buf, element_t *item);
+FIFO_error FIFO_Is_full(FIFO_t *buf);
+void FIFO_print(FIFO_t *buf);
+
+#endif

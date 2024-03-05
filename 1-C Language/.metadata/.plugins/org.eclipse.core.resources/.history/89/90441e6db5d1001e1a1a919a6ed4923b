@@ -1,0 +1,64 @@
+/*
+ ============================================================================
+ Name        : FIFO.c
+ Author      : Ahmed Hekal
+ Version     :
+ Copyright   : This is open source projec tfeel free to contact if needed
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include "FIFO.h"
+#include <stdint.h>
+
+#define element_t   uint8_t
+
+
+typedef struct {
+	element_t length;
+	element_t *base ;
+	element_t *head ;
+	element_t *tail ;
+}FIFO_t;
+
+
+typedef enum {
+	FIFO_ERROR,
+	FIFO_OK,
+	FIFO_EMPTY,
+	FIFO_OVERRIDE,
+
+}FIFO_error;
+
+
+FIFO_error FIFO_Init(FIFO_t *buf, element_t *storage, element_t length){
+	buf->base = storage ;
+	buf->head = storage ;
+	buf->tail = storage ;
+	buf->length = length;
+	return FIFO_OK;
+}
+
+FIFO_error FIFO_enqueue(FIFO_t *buf, element_t item){
+
+	if(!buf || !item ){return FIFO_ERROR;}
+	*(buf->head) = item ;
+	buf->head++ ;
+	buf->length++ ;
+
+	return FIFO_OK;
+}
+FIFO_error FIFO_dequeue(FIFO_t *buf, element_t *item){
+
+	return FIFO_OK;
+}
+
+FIFO_error FIFO_Is_full(FIFO_t *buf){
+
+	return FIFO_OK;
+}
+
+void FIFO_print(FIFO_t *buf){
+
+	return FIFO_OK;
+}

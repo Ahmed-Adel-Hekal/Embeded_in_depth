@@ -1,0 +1,22 @@
+#ifndef LIFO_H
+#define LIFO_H
+
+#define element_type           uint8_t
+#define LIFO_buffer_length     5
+typedef enum {
+	LIFO_no_error,
+	LIFO_full,
+	LIFO_not_full,
+	LIFO_empty,
+	LIFO_not_empty,
+	LIFO_Null
+}LIFO_error_t;
+// define LIFO
+typedef struct {
+	element_type length;
+	element_type* base;
+	element_type* head;
+	element_type count;
+}LIFO_buffer_t;
+
+#endif

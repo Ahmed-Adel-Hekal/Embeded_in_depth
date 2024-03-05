@@ -3,6 +3,7 @@ ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.cdt.ui.presentation
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.cdt.ui.editors.textfont
 UIActivities.org.eclipse.cdt.debug.cdigdbActivity=true
 UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
+WORKBENCH_SAVE_INTERVAL=3
 eclipse.preferences.version=1
 org.eclipse.cdt.internal.ui.compare.AsmMergeViewer=1|Consolas|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 org.eclipse.cdt.internal.ui.compare.CMergeViewer=1|Consolas|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;

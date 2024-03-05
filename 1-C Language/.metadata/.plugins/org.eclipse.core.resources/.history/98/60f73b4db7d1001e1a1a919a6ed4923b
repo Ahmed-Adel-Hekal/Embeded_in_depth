@@ -1,0 +1,102 @@
+/*
+ ============================================================================
+ Name        : FIFO.c
+ Author      : Ahmed Hekal
+ Version     :
+ Copyright   : This is open source projec tfeel free to contact if needed
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include "FIFO.h"
+#include <stdint.h>
+
+#define  NULL ((unsigned int*) 0)
+#define element_t   uint8_t
+
+
+typedef struct {
+	element_t length;
+	element_t *base ;
+	element_t *head ;
+	element_t *tail ;
+	element_t count;
+}FIFO_t;
+
+
+typedef enum {
+	FIFO_ERROR,
+	FIFO_OK,
+	FIFO_EMPTY,
+	FIFO_FULL,
+	FIFO_Null
+}FIFO_error;
+
+
+FIFO_error FIFO_Init(FIFO_t *buf, element_t *storage, element_t length){
+	if(buf==NULL){return FIFO_Null ;}
+	buf->base = storage ;
+	buf->head = storage ;
+	buf->tail = storage ;
+	buf->length = length;
+	buf->count  = 0 ;
+	return FIFO_OK;
+}
+
+FIFO_error FIFO_enqueue(FIFO_t *buf, element_t item){
+
+	if(!buf->base || !buf->head || !buf->tail ){return FIFO_Null;}
+
+	if(FIFO_Is_full(buf)==FIFO_FULL) return FIFO_FULL ;
+
+	*(buf->head) = item ;
+	buf->count++ ;
+	// circular code
+	if(buf->head == (buf->base + (buf->length * sizeof(element_t)))){
+		buf->head = buf->base ;
+	}
+	else {
+		buf->head++ ;
+	}
+
+	return FIFO_OK;
+}
+FIFO_error FIFO_dequeue(FIFO_t *buf, element_t *item){
+
+	if(FIFO_Is_full(buf)==FIFO_Null ) return FIFO_Null ;
+	if(buf->count == 0 ) return FIFO_EMPTY ;
+	*item = *(buf->tail) ;
+	buf->count-- ;
+	if(buf->head == (buf->base + (buf->length * sizeof(element_t)))){
+		buf->tail = buf->base ;
+	}
+	else {
+		buf->tail++ ;
+	}
+	return FIFO_OK;
+}
+
+FIFO_error FIFO_Is_full(FIFO_t *buf){
+	if(!buf->base || !buf->head || !buf->tail ){return FIFO_Null;}
+	if(buf->count >= buf->length){return FIFO_FULL ;}
+	else {return FIFO_OK;}
+}
+
+void FIFO_print(FIFO_t *buf){
+	element_t *temp  ;
+	int i  = 0 ;
+	if(buf->count ==0 ){
+		printf("\nEmpty FIFO");
+	}
+	else{
+		temp = buf->tail ;
+		printf("=============================\n");
+		for(i=0; i<buf->length; i++)
+			{
+			printf("Element number %d : %d", i, *temp);
+			temp++;
+			}
+
+	}
+
+}

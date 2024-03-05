@@ -1,0 +1,3451 @@
+
+LECT2.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000ba  00000000  00000000  00000134  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  000000ba  000001f7  2**0
+                  ALLOC
+  2 .bss          00000002  00800060  00800060  000016f1  2**0
+                  ALLOC
+  3 .comment      0000002f  00000000  00000000  000016f1  2**0
+                  CONTENTS, READONLY
+  4 .stack.descriptors.hdr 0000001c  00000000  00000000  00001720  2**0
+                  CONTENTS, READONLY
+  5 .debug_aranges 000002f0  00000000  00000000  0000173c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   00004bfb  00000000  00000000  00001a2c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00000f57  00000000  00000000  00006627  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   00001ed5  00000000  00000000  0000757e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  00000928  00000000  00000000  00009454  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    00000561  00000000  00000000  00009d7c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    00003394  00000000  00000000  0000a2dd  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 000002d0  00000000  00000000  0000d671  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .text         00000004  000015a8  000015a8  000016dc  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  0000d944  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .text.prvHeapInit 00000046  0000144a  0000144a  0000157e  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 16 .text.prvInsertBlockIntoFreeList 00000094  00000ef0  00000ef0  00001024  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .text.pvPortMalloc 00000136  000004a8  000004a8  000005dc  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 18 .text.vPortFree 00000068  0000107e  0000107e  000011b2  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 19 .bss.xNumberOfSuccessfulFrees 00000002  0080068f  0080068f  000016f1  2**0
+                  ALLOC
+ 20 .bss.xNumberOfSuccessfulAllocations 00000002  00800691  00800691  000016f1  2**0
+                  ALLOC
+ 21 .bss.xMinimumEverFreeBytesRemaining 00000002  00800693  00800693  000016f1  2**0
+                  ALLOC
+ 22 .bss.xFreeBytesRemaining 00000002  00800695  00800695  000016f1  2**0
+                  ALLOC
+ 23 .bss.pxEnd    00000002  00800697  00800697  000016f1  2**0
+                  ALLOC
+ 24 .bss.xStart   00000004  0080068b  0080068b  000016f1  2**0
+                  ALLOC
+ 25 .bss.ucHeap   000005dc  00800062  00800062  000016f1  2**0
+                  ALLOC
+ 26 .text.HLCD_vsendData 00000068  000010e6  000010e6  0000121a  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 27 .text.HLCD_vShowInt 00000096  00000e5a  00000e5a  00000f8e  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .text.HLCD_vsendCommand 00000068  0000114e  0000114e  00001282  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 29 .text.HLCD_vInit 00000076  00001008  00001008  0000113c  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 30 .text.vListInitialise 0000001c  00001536  00001536  0000166a  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 31 .text.vListInitialiseItem 00000008  0000159a  0000159a  000016ce  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 32 .text.vListInsert 00000062  0000121c  0000121c  00001350  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 33 .text.uxListRemove 0000004e  000013fc  000013fc  00001530  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 34 .text.Generic_led 00000062  0000127e  0000127e  000013b2  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 35 .text.Lcd     00000060  000012e0  000012e0  00001414  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 36 .progmemx.data 00000009  000000ba  000000ba  000001ee  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, PROGMEMX
+ 37 .rodata       00000005  00800686  000015b8  000016ec  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 38 .text.main    00000098  00000dc2  00000dc2  00000ef6  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 39 .text.prvSetupTimerInterrupt 00000012  0000157c  0000157c  000016b0  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 40 .text.pxPortInitialiseStack 000000d8  00000ad8  00000ad8  00000c0c  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 41 .text.xPortStartScheduler 0000005e  00001340  00001340  00001474  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 42 .text.vPortYield 000000b2  00000c68  00000c68  00000d9c  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 43 .text.vPortYieldFromTick 000000b8  00000bb0  00000bb0  00000ce4  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 44 .text.__vector_7 00000006  000015a2  000015a2  000016d6  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 45 .text.prvIdleTask 00000002  000015b0  000015b0  000016e4  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 46 .text.prvResetNextTaskUnblockTime 00000038  000014d4  000014d4  00001608  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 47 .text.prvInitialiseNewTask 000000ea  00000910  00000910  00000a44  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 48 .text.prvInitialiseTaskLists 00000066  000011b6  000011b6  000012ea  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 49 .text.prvAddNewTaskToReadyList 000000fa  00000816  00000816  0000094a  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 50 .text.prvAddCurrentTaskToDelayedList 00000102  00000714  00000714  00000848  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 51 .text.xTaskCreate 000000de  000009fa  000009fa  00000b2e  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 52 .text.uxTaskPriorityGet 0000002a  0000150c  0000150c  00001640  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 53 .text.vTaskPrioritySet 00000136  000005de  000005de  00000712  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 54 .progmemx.data 00000006  000000c3  000000c3  000001f7  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, PROGMEMX
+ 55 .text.vTaskStartScheduler 0000005e  0000139e  0000139e  000014d2  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 56 .text.vTaskSuspendAll 0000000c  0000158e  0000158e  000016c2  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 57 .text.xTaskGetTickCount 00000014  00001568  00001568  0000169c  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 58 .text.xTaskIncrementTick 00000234  000000ca  000000ca  000001fe  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 59 .text.xTaskResumeAll 000001aa  000002fe  000002fe  00000432  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 60 .text.xTaskDelayUntil 00000084  00000f84  00000f84  000010b8  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 61 .text.vTaskSwitchContext 000000a8  00000d1a  00000d1a  00000e4e  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 62 .bss.uxSchedulerSuspended 00000001  008006a7  008006a7  000016f1  2**0
+                  ALLOC
+ 63 .bss.xIdleTaskHandle 00000002  00800699  00800699  000016f1  2**0
+                  ALLOC
+ 64 .bss.xNextTaskUnblockTime 00000002  0080069b  0080069b  000016f1  2**0
+                  ALLOC
+ 65 .bss.uxTaskNumber 00000001  008006a8  008006a8  000016f1  2**0
+                  ALLOC
+ 66 .bss.xNumOfOverflows 00000001  008006a9  008006a9  000016f1  2**0
+                  ALLOC
+ 67 .bss.xYieldPending 00000001  008006aa  008006aa  000016f1  2**0
+                  ALLOC
+ 68 .bss.xPendedTicks 00000002  0080069d  0080069d  000016f1  2**0
+                  ALLOC
+ 69 .bss.xSchedulerRunning 00000001  008006ab  008006ab  000016f1  2**0
+                  ALLOC
+ 70 .bss.uxTopReadyPriority 00000001  008006ac  008006ac  000016f1  2**0
+                  ALLOC
+ 71 .bss.xTickCount 00000002  0080069f  0080069f  000016f1  2**0
+                  ALLOC
+ 72 .bss.uxCurrentNumberOfTasks 00000001  008006ad  008006ad  000016f1  2**0
+                  ALLOC
+ 73 .bss.xSuspendedTaskList 00000009  00800662  00800662  000016f1  2**0
+                  ALLOC
+ 74 .bss.xPendingReadyList 00000009  0080066b  0080066b  000016f1  2**0
+                  ALLOC
+ 75 .bss.pxOverflowDelayedTaskList 00000002  008006a1  008006a1  000016f1  2**0
+                  ALLOC
+ 76 .bss.pxDelayedTaskList 00000002  008006a3  008006a3  000016f1  2**0
+                  ALLOC
+ 77 .bss.xDelayedTaskList2 00000009  00800674  00800674  000016f1  2**0
+                  ALLOC
+ 78 .bss.xDelayedTaskList1 00000009  0080067d  0080067d  000016f1  2**0
+                  ALLOC
+ 79 .bss.pxReadyTasksLists 00000024  0080063e  0080063e  000016f1  2**0
+                  ALLOC
+ 80 .bss.pxCurrentTCB 00000002  008006a5  008006a5  000016f1  2**0
+                  ALLOC
+ 81 .text.libgcc.div 00000044  00001490  00001490  000015c4  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 82 .text.__dummy_fini 00000002  000015b2  000015b2  000016e6  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 83 .text.__dummy_funcs_on_exit 00000002  000015b4  000015b4  000016e8  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 84 .text.__dummy_simulator_exit 00000002  000015b6  000015b6  000016ea  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 85 .text.exit    00000016  00001552  00001552  00001686  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 86 .text._Exit   00000004  000015ac  000015ac  000016e0  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 33 00 	jmp	0x66	; 0x66 <__ctors_end>
+   4:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+   8:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+   c:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  10:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  14:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  18:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  1c:	0c 94 d1 0a 	jmp	0x15a2	; 0x15a2 <__vector_7>
+  20:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  24:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  28:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  2c:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  30:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  34:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  38:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  3c:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  40:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  44:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  48:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  4c:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+  50:	0c 94 d4 0a 	jmp	0x15a8	; 0x15a8 <__bad_interrupt>
+
+00000054 <.dinit>:
+  54:	00 60       	ori	r16, 0x00	; 0
+  56:	06 86       	std	Z+14, r0	; 0x0e
+  58:	80 06       	cpc	r8, r16
+  5a:	86 06       	cpc	r8, r22
+  5c:	8b 00       	.word	0x008b	; ????
+  5e:	15 b8       	out	0x05, r1	; 5
+  60:	06 8b       	std	Z+22, r16	; 0x16
+  62:	06 ae       	std	Z+62, r0	; 0x3e
+  64:	80 00       	.word	0x0080	; ????
+
+00000066 <__ctors_end>:
+  66:	11 24       	eor	r1, r1
+  68:	1f be       	out	0x3f, r1	; 63
+  6a:	cf e5       	ldi	r28, 0x5F	; 95
+  6c:	d8 e0       	ldi	r29, 0x08	; 8
+  6e:	de bf       	out	0x3e, r29	; 62
+  70:	cd bf       	out	0x3d, r28	; 61
+
+00000072 <__do_copy_data>:
+  72:	e4 e5       	ldi	r30, 0x54	; 84
+  74:	f0 e0       	ldi	r31, 0x00	; 0
+  76:	40 e0       	ldi	r20, 0x00	; 0
+  78:	17 c0       	rjmp	.+46     	; 0xa8 <__do_clear_bss+0x8>
+  7a:	b5 91       	lpm	r27, Z+
+  7c:	a5 91       	lpm	r26, Z+
+  7e:	35 91       	lpm	r19, Z+
+  80:	25 91       	lpm	r18, Z+
+  82:	05 91       	lpm	r16, Z+
+  84:	07 fd       	sbrc	r16, 7
+  86:	0c c0       	rjmp	.+24     	; 0xa0 <__do_clear_bss>
+  88:	95 91       	lpm	r25, Z+
+  8a:	85 91       	lpm	r24, Z+
+  8c:	ef 01       	movw	r28, r30
+  8e:	f9 2f       	mov	r31, r25
+  90:	e8 2f       	mov	r30, r24
+  92:	05 90       	lpm	r0, Z+
+  94:	0d 92       	st	X+, r0
+  96:	a2 17       	cp	r26, r18
+  98:	b3 07       	cpc	r27, r19
+  9a:	d9 f7       	brne	.-10     	; 0x92 <__do_copy_data+0x20>
+  9c:	fe 01       	movw	r30, r28
+  9e:	04 c0       	rjmp	.+8      	; 0xa8 <__do_clear_bss+0x8>
+
+000000a0 <__do_clear_bss>:
+  a0:	1d 92       	st	X+, r1
+  a2:	a2 17       	cp	r26, r18
+  a4:	b3 07       	cpc	r27, r19
+  a6:	e1 f7       	brne	.-8      	; 0xa0 <__do_clear_bss>
+  a8:	e5 36       	cpi	r30, 0x65	; 101
+  aa:	f4 07       	cpc	r31, r20
+  ac:	31 f7       	brne	.-52     	; 0x7a <__do_copy_data+0x8>
+  ae:	0e 94 e1 06 	call	0xdc2	; 0xdc2 <main>
+  b2:	0c 94 a9 0a 	jmp	0x1552	; 0x1552 <exit>
+
+000000b6 <_exit>:
+  b6:	f8 94       	cli
+
+000000b8 <__stop_program>:
+  b8:	ff cf       	rjmp	.-2      	; 0xb8 <__stop_program>
+
+Disassembly of section .text:
+
+000015a8 <__bad_interrupt>:
+    15a8:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+Disassembly of section .text.prvHeapInit:
+
+0000144a <prvHeapInit>:
+
+    pucAlignedHeap = ( uint8_t * ) uxAddress;
+
+    /* xStart is used to hold a pointer to the first item in the list of free
+     * blocks.  The void cast is used to prevent compiler warnings. */
+    xStart.pxNextFreeBlock = ( void * ) pucAlignedHeap;
+    144a:	eb e8       	ldi	r30, 0x8B	; 139
+    144c:	f6 e0       	ldi	r31, 0x06	; 6
+    144e:	a2 e6       	ldi	r26, 0x62	; 98
+    1450:	b0 e0       	ldi	r27, 0x00	; 0
+    1452:	b1 83       	std	Z+1, r27	; 0x01
+    1454:	a0 83       	st	Z, r26
+    xStart.xBlockSize = ( size_t ) 0;
+    1456:	13 82       	std	Z+3, r1	; 0x03
+    1458:	12 82       	std	Z+2, r1	; 0x02
+
+    /* pxEnd is used to mark the end of the list of free blocks and is inserted
+     * at the end of the heap space. */
+    uxAddress = ( ( portPOINTER_SIZE_TYPE ) pucAlignedHeap ) + xTotalHeapSize;
+    uxAddress -= xHeapStructSize;
+    145a:	ea e3       	ldi	r30, 0x3A	; 58
+    145c:	f6 e0       	ldi	r31, 0x06	; 6
+    uxAddress &= ~( ( portPOINTER_SIZE_TYPE ) portBYTE_ALIGNMENT_MASK );
+    pxEnd = ( BlockLink_t * ) uxAddress;
+    145e:	f0 93 98 06 	sts	0x0698, r31	; 0x800698 <pxEnd+0x1>
+    1462:	e0 93 97 06 	sts	0x0697, r30	; 0x800697 <pxEnd>
+    pxEnd->xBlockSize = 0;
+    1466:	13 82       	std	Z+3, r1	; 0x03
+    1468:	12 82       	std	Z+2, r1	; 0x02
+    pxEnd->pxNextFreeBlock = NULL;
+    146a:	11 82       	std	Z+1, r1	; 0x01
+    146c:	10 82       	st	Z, r1
+
+    /* To start with there is a single free block that is sized to take up the
+     * entire heap space, minus the space taken by pxEnd. */
+    pxFirstFreeBlock = ( BlockLink_t * ) pucAlignedHeap;
+    pxFirstFreeBlock->xBlockSize = ( size_t ) ( uxAddress - ( portPOINTER_SIZE_TYPE ) pxFirstFreeBlock );
+    146e:	88 ed       	ldi	r24, 0xD8	; 216
+    1470:	95 e0       	ldi	r25, 0x05	; 5
+    1472:	13 96       	adiw	r26, 0x03	; 3
+    1474:	9c 93       	st	X, r25
+    1476:	8e 93       	st	-X, r24
+    1478:	12 97       	sbiw	r26, 0x02	; 2
+    pxFirstFreeBlock->pxNextFreeBlock = pxEnd;
+    147a:	ed 93       	st	X+, r30
+    147c:	fc 93       	st	X, r31
+
+    /* Only one block exists - and it covers the entire usable heap space. */
+    xMinimumEverFreeBytesRemaining = pxFirstFreeBlock->xBlockSize;
+    147e:	90 93 94 06 	sts	0x0694, r25	; 0x800694 <xMinimumEverFreeBytesRemaining+0x1>
+    1482:	80 93 93 06 	sts	0x0693, r24	; 0x800693 <xMinimumEverFreeBytesRemaining>
+    xFreeBytesRemaining = pxFirstFreeBlock->xBlockSize;
+    1486:	90 93 96 06 	sts	0x0696, r25	; 0x800696 <xFreeBytesRemaining+0x1>
+    148a:	80 93 95 06 	sts	0x0695, r24	; 0x800695 <xFreeBytesRemaining>
+    148e:	08 95       	ret
+
+Disassembly of section .text.prvInsertBlockIntoFreeList:
+
+00000ef0 <prvInsertBlockIntoFreeList>:
+}
+/*-----------------------------------------------------------*/
+
+static void prvInsertBlockIntoFreeList( BlockLink_t * pxBlockToInsert ) /* PRIVILEGED_FUNCTION */
+{
+ ef0:	cf 93       	push	r28
+ ef2:	df 93       	push	r29
+ ef4:	ec 01       	movw	r28, r24
+    BlockLink_t * pxIterator;
+    uint8_t * puc;
+
+    /* Iterate through the list until a block is found that has a higher address
+     * than the block being inserted. */
+    for( pxIterator = &xStart; pxIterator->pxNextFreeBlock < pxBlockToInsert; pxIterator = pxIterator->pxNextFreeBlock )
+ ef6:	ab e8       	ldi	r26, 0x8B	; 139
+ ef8:	b6 e0       	ldi	r27, 0x06	; 6
+ efa:	01 c0       	rjmp	.+2      	; 0xefe <prvInsertBlockIntoFreeList+0xe>
+ efc:	df 01       	movw	r26, r30
+ efe:	ed 91       	ld	r30, X+
+ f00:	fc 91       	ld	r31, X
+ f02:	11 97       	sbiw	r26, 0x01	; 1
+ f04:	ec 17       	cp	r30, r28
+ f06:	fd 07       	cpc	r31, r29
+ f08:	c8 f3       	brcs	.-14     	; 0xefc <prvInsertBlockIntoFreeList+0xc>
+
+    /* Do the block being inserted, and the block it is being inserted after
+     * make a contiguous block of memory? */
+    puc = ( uint8_t * ) pxIterator;
+
+    if( ( puc + pxIterator->xBlockSize ) == ( uint8_t * ) pxBlockToInsert )
+ f0a:	12 96       	adiw	r26, 0x02	; 2
+ f0c:	8d 91       	ld	r24, X+
+ f0e:	9c 91       	ld	r25, X
+ f10:	13 97       	sbiw	r26, 0x03	; 3
+ f12:	9d 01       	movw	r18, r26
+ f14:	28 0f       	add	r18, r24
+ f16:	39 1f       	adc	r19, r25
+ f18:	c2 17       	cp	r28, r18
+ f1a:	d3 07       	cpc	r29, r19
+ f1c:	49 f4       	brne	.+18     	; 0xf30 <prvInsertBlockIntoFreeList+0x40>
+    {
+        pxIterator->xBlockSize += pxBlockToInsert->xBlockSize;
+ f1e:	2a 81       	ldd	r18, Y+2	; 0x02
+ f20:	3b 81       	ldd	r19, Y+3	; 0x03
+ f22:	82 0f       	add	r24, r18
+ f24:	93 1f       	adc	r25, r19
+ f26:	13 96       	adiw	r26, 0x03	; 3
+ f28:	9c 93       	st	X, r25
+ f2a:	8e 93       	st	-X, r24
+ f2c:	12 97       	sbiw	r26, 0x02	; 2
+        pxBlockToInsert = pxIterator;
+ f2e:	ed 01       	movw	r28, r26
+
+    /* Do the block being inserted, and the block it is being inserted before
+     * make a contiguous block of memory? */
+    puc = ( uint8_t * ) pxBlockToInsert;
+
+    if( ( puc + pxBlockToInsert->xBlockSize ) == ( uint8_t * ) pxIterator->pxNextFreeBlock )
+ f30:	8a 81       	ldd	r24, Y+2	; 0x02
+ f32:	9b 81       	ldd	r25, Y+3	; 0x03
+ f34:	9e 01       	movw	r18, r28
+ f36:	28 0f       	add	r18, r24
+ f38:	39 1f       	adc	r19, r25
+ f3a:	e2 17       	cp	r30, r18
+ f3c:	f3 07       	cpc	r31, r19
+ f3e:	c1 f4       	brne	.+48     	; 0xf70 <prvInsertBlockIntoFreeList+0x80>
+    {
+        if( pxIterator->pxNextFreeBlock != pxEnd )
+ f40:	20 91 97 06 	lds	r18, 0x0697	; 0x800697 <pxEnd>
+ f44:	30 91 98 06 	lds	r19, 0x0698	; 0x800698 <pxEnd+0x1>
+ f48:	e2 17       	cp	r30, r18
+ f4a:	f3 07       	cpc	r31, r19
+ f4c:	71 f0       	breq	.+28     	; 0xf6a <prvInsertBlockIntoFreeList+0x7a>
+        {
+            /* Form one big block from the two blocks. */
+            pxBlockToInsert->xBlockSize += pxIterator->pxNextFreeBlock->xBlockSize;
+ f4e:	22 81       	ldd	r18, Z+2	; 0x02
+ f50:	33 81       	ldd	r19, Z+3	; 0x03
+ f52:	82 0f       	add	r24, r18
+ f54:	93 1f       	adc	r25, r19
+ f56:	9b 83       	std	Y+3, r25	; 0x03
+ f58:	8a 83       	std	Y+2, r24	; 0x02
+            pxBlockToInsert->pxNextFreeBlock = pxIterator->pxNextFreeBlock->pxNextFreeBlock;
+ f5a:	ed 91       	ld	r30, X+
+ f5c:	fc 91       	ld	r31, X
+ f5e:	11 97       	sbiw	r26, 0x01	; 1
+ f60:	80 81       	ld	r24, Z
+ f62:	91 81       	ldd	r25, Z+1	; 0x01
+ f64:	99 83       	std	Y+1, r25	; 0x01
+ f66:	88 83       	st	Y, r24
+ f68:	05 c0       	rjmp	.+10     	; 0xf74 <prvInsertBlockIntoFreeList+0x84>
+        }
+        else
+        {
+            pxBlockToInsert->pxNextFreeBlock = pxEnd;
+ f6a:	39 83       	std	Y+1, r19	; 0x01
+ f6c:	28 83       	st	Y, r18
+ f6e:	02 c0       	rjmp	.+4      	; 0xf74 <prvInsertBlockIntoFreeList+0x84>
+        }
+    }
+    else
+    {
+        pxBlockToInsert->pxNextFreeBlock = pxIterator->pxNextFreeBlock;
+ f70:	f9 83       	std	Y+1, r31	; 0x01
+ f72:	e8 83       	st	Y, r30
+
+    /* If the block being inserted plugged a gab, so was merged with the block
+     * before and the block after, then it's pxNextFreeBlock pointer will have
+     * already been set, and should not be set here as that would make it point
+     * to itself. */
+    if( pxIterator != pxBlockToInsert )
+ f74:	ca 17       	cp	r28, r26
+ f76:	db 07       	cpc	r29, r27
+ f78:	11 f0       	breq	.+4      	; 0xf7e <prvInsertBlockIntoFreeList+0x8e>
+    {
+        pxIterator->pxNextFreeBlock = pxBlockToInsert;
+ f7a:	cd 93       	st	X+, r28
+ f7c:	dc 93       	st	X, r29
+    }
+    else
+    {
+        mtCOVERAGE_TEST_MARKER();
+    }
+}
+ f7e:	df 91       	pop	r29
+ f80:	cf 91       	pop	r28
+ f82:	08 95       	ret
+
+Disassembly of section .text.pvPortMalloc:
+
+000004a8 <pvPortMalloc>:
+PRIVILEGED_DATA static size_t xNumberOfSuccessfulFrees = 0;
+
+/*-----------------------------------------------------------*/
+
+void * pvPortMalloc( size_t xWantedSize )
+{
+ 4a8:	ef 92       	push	r14
+ 4aa:	ff 92       	push	r15
+ 4ac:	0f 93       	push	r16
+ 4ae:	1f 93       	push	r17
+ 4b0:	cf 93       	push	r28
+ 4b2:	df 93       	push	r29
+ 4b4:	8c 01       	movw	r16, r24
+    BlockLink_t * pxPreviousBlock;
+    BlockLink_t * pxNewBlockLink;
+    void * pvReturn = NULL;
+    size_t xAdditionalRequiredSize;
+
+    vTaskSuspendAll();
+ 4b6:	0e 94 c7 0a 	call	0x158e	; 0x158e <vTaskSuspendAll>
+    {
+        /* If this is the first call to malloc then the heap will require
+         * initialisation to setup the list of free blocks. */
+        if( pxEnd == NULL )
+ 4ba:	80 91 97 06 	lds	r24, 0x0697	; 0x800697 <pxEnd>
+ 4be:	90 91 98 06 	lds	r25, 0x0698	; 0x800698 <pxEnd+0x1>
+ 4c2:	89 2b       	or	r24, r25
+ 4c4:	11 f4       	brne	.+4      	; 0x4ca <pvPortMalloc+0x22>
+        {
+            prvHeapInit();
+ 4c6:	0e 94 25 0a 	call	0x144a	; 0x144a <prvHeapInit>
+        else
+        {
+            mtCOVERAGE_TEST_MARKER();
+        }
+
+        if( xWantedSize > 0 )
+ 4ca:	01 15       	cp	r16, r1
+ 4cc:	11 05       	cpc	r17, r1
+ 4ce:	49 f0       	breq	.+18     	; 0x4e2 <pvPortMalloc+0x3a>
+            /* The wanted size must be increased so it can contain a BlockLink_t
+             * structure in addition to the requested amount of bytes. Some
+             * additional increment may also be needed for alignment. */
+            xAdditionalRequiredSize = xHeapStructSize + portBYTE_ALIGNMENT - ( xWantedSize & portBYTE_ALIGNMENT_MASK );
+
+            if( heapADD_WILL_OVERFLOW( xWantedSize, xAdditionalRequiredSize ) == 0 )
+ 4d0:	0b 3f       	cpi	r16, 0xFB	; 251
+ 4d2:	8f ef       	ldi	r24, 0xFF	; 255
+ 4d4:	18 07       	cpc	r17, r24
+ 4d6:	18 f4       	brcc	.+6      	; 0x4de <pvPortMalloc+0x36>
+            {
+                xWantedSize += xAdditionalRequiredSize;
+ 4d8:	0b 5f       	subi	r16, 0xFB	; 251
+ 4da:	1f 4f       	sbci	r17, 0xFF	; 255
+ 4dc:	02 c0       	rjmp	.+4      	; 0x4e2 <pvPortMalloc+0x3a>
+            }
+            else
+            {
+                xWantedSize = 0;
+ 4de:	00 e0       	ldi	r16, 0x00	; 0
+ 4e0:	10 e0       	ldi	r17, 0x00	; 0
+
+        /* Check the block size we are trying to allocate is not so large that the
+         * top bit is set.  The top bit of the block size member of the BlockLink_t
+         * structure is used to determine who owns the block - the application or
+         * the kernel, so it must be free. */
+        if( heapBLOCK_SIZE_IS_VALID( xWantedSize ) != 0 )
+ 4e2:	11 23       	and	r17, r17
+ 4e4:	0c f4       	brge	.+2      	; 0x4e8 <pvPortMalloc+0x40>
+ 4e6:	66 c0       	rjmp	.+204    	; 0x5b4 <pvPortMalloc+0x10c>
+        {
+            if( ( xWantedSize > 0 ) && ( xWantedSize <= xFreeBytesRemaining ) )
+ 4e8:	01 15       	cp	r16, r1
+ 4ea:	11 05       	cpc	r17, r1
+ 4ec:	09 f4       	brne	.+2      	; 0x4f0 <pvPortMalloc+0x48>
+ 4ee:	65 c0       	rjmp	.+202    	; 0x5ba <pvPortMalloc+0x112>
+ 4f0:	80 91 95 06 	lds	r24, 0x0695	; 0x800695 <xFreeBytesRemaining>
+ 4f4:	90 91 96 06 	lds	r25, 0x0696	; 0x800696 <xFreeBytesRemaining+0x1>
+ 4f8:	80 17       	cp	r24, r16
+ 4fa:	91 07       	cpc	r25, r17
+ 4fc:	08 f4       	brcc	.+2      	; 0x500 <pvPortMalloc+0x58>
+ 4fe:	60 c0       	rjmp	.+192    	; 0x5c0 <pvPortMalloc+0x118>
+            {
+                /* Traverse the list from the start (lowest address) block until
+                 * one of adequate size is found. */
+                pxPreviousBlock = &xStart;
+                pxBlock = xStart.pxNextFreeBlock;
+ 500:	c0 91 8b 06 	lds	r28, 0x068B	; 0x80068b <xStart>
+ 504:	d0 91 8c 06 	lds	r29, 0x068C	; 0x80068c <xStart+0x1>
+        {
+            if( ( xWantedSize > 0 ) && ( xWantedSize <= xFreeBytesRemaining ) )
+            {
+                /* Traverse the list from the start (lowest address) block until
+                 * one of adequate size is found. */
+                pxPreviousBlock = &xStart;
+ 508:	eb e8       	ldi	r30, 0x8B	; 139
+ 50a:	f6 e0       	ldi	r31, 0x06	; 6
+                pxBlock = xStart.pxNextFreeBlock;
+
+                while( ( pxBlock->xBlockSize < xWantedSize ) && ( pxBlock->pxNextFreeBlock != NULL ) )
+ 50c:	02 c0       	rjmp	.+4      	; 0x512 <pvPortMalloc+0x6a>
+                {
+                    pxPreviousBlock = pxBlock;
+ 50e:	fe 01       	movw	r30, r28
+                    pxBlock = pxBlock->pxNextFreeBlock;
+ 510:	ec 01       	movw	r28, r24
+                /* Traverse the list from the start (lowest address) block until
+                 * one of adequate size is found. */
+                pxPreviousBlock = &xStart;
+                pxBlock = xStart.pxNextFreeBlock;
+
+                while( ( pxBlock->xBlockSize < xWantedSize ) && ( pxBlock->pxNextFreeBlock != NULL ) )
+ 512:	8a 81       	ldd	r24, Y+2	; 0x02
+ 514:	9b 81       	ldd	r25, Y+3	; 0x03
+ 516:	80 17       	cp	r24, r16
+ 518:	91 07       	cpc	r25, r17
+ 51a:	20 f4       	brcc	.+8      	; 0x524 <pvPortMalloc+0x7c>
+ 51c:	88 81       	ld	r24, Y
+ 51e:	99 81       	ldd	r25, Y+1	; 0x01
+ 520:	00 97       	sbiw	r24, 0x00	; 0
+ 522:	a9 f7       	brne	.-22     	; 0x50e <pvPortMalloc+0x66>
+                    pxBlock = pxBlock->pxNextFreeBlock;
+                }
+
+                /* If the end marker was reached then a block of adequate size
+                 * was not found. */
+                if( pxBlock != pxEnd )
+ 524:	80 91 97 06 	lds	r24, 0x0697	; 0x800697 <pxEnd>
+ 528:	90 91 98 06 	lds	r25, 0x0698	; 0x800698 <pxEnd+0x1>
+ 52c:	c8 17       	cp	r28, r24
+ 52e:	d9 07       	cpc	r29, r25
+ 530:	09 f4       	brne	.+2      	; 0x534 <pvPortMalloc+0x8c>
+ 532:	49 c0       	rjmp	.+146    	; 0x5c6 <pvPortMalloc+0x11e>
+                {
+                    /* Return the memory space pointed to - jumping over the
+                     * BlockLink_t structure at its start. */
+                    pvReturn = ( void * ) ( ( ( uint8_t * ) pxPreviousBlock->pxNextFreeBlock ) + xHeapStructSize );
+ 534:	e0 80       	ld	r14, Z
+ 536:	f1 80       	ldd	r15, Z+1	; 0x01
+ 538:	84 e0       	ldi	r24, 0x04	; 4
+ 53a:	e8 0e       	add	r14, r24
+ 53c:	f1 1c       	adc	r15, r1
+
+                    /* This block is being returned for use so must be taken out
+                     * of the list of free blocks. */
+                    pxPreviousBlock->pxNextFreeBlock = pxBlock->pxNextFreeBlock;
+ 53e:	88 81       	ld	r24, Y
+ 540:	99 81       	ldd	r25, Y+1	; 0x01
+ 542:	91 83       	std	Z+1, r25	; 0x01
+ 544:	80 83       	st	Z, r24
+
+                    /* If the block is larger than required it can be split into
+                     * two. */
+                    if( ( pxBlock->xBlockSize - xWantedSize ) > heapMINIMUM_BLOCK_SIZE )
+ 546:	2a 81       	ldd	r18, Y+2	; 0x02
+ 548:	3b 81       	ldd	r19, Y+3	; 0x03
+ 54a:	20 1b       	sub	r18, r16
+ 54c:	31 0b       	sbc	r19, r17
+ 54e:	29 30       	cpi	r18, 0x09	; 9
+ 550:	31 05       	cpc	r19, r1
+ 552:	50 f0       	brcs	.+20     	; 0x568 <pvPortMalloc+0xc0>
+                    {
+                        /* This block is to be split into two.  Create a new
+                         * block following the number of bytes requested. The void
+                         * cast is used to prevent byte alignment warnings from the
+                         * compiler. */
+                        pxNewBlockLink = ( void * ) ( ( ( uint8_t * ) pxBlock ) + xWantedSize );
+ 554:	ce 01       	movw	r24, r28
+ 556:	80 0f       	add	r24, r16
+ 558:	91 1f       	adc	r25, r17
+                        configASSERT( ( ( ( size_t ) pxNewBlockLink ) & portBYTE_ALIGNMENT_MASK ) == 0 );
+
+                        /* Calculate the sizes of two blocks split from the
+                         * single block. */
+                        pxNewBlockLink->xBlockSize = pxBlock->xBlockSize - xWantedSize;
+ 55a:	fc 01       	movw	r30, r24
+ 55c:	33 83       	std	Z+3, r19	; 0x03
+ 55e:	22 83       	std	Z+2, r18	; 0x02
+                        pxBlock->xBlockSize = xWantedSize;
+ 560:	1b 83       	std	Y+3, r17	; 0x03
+ 562:	0a 83       	std	Y+2, r16	; 0x02
+
+                        /* Insert the new block into the list of free blocks. */
+                        prvInsertBlockIntoFreeList( pxNewBlockLink );
+ 564:	0e 94 78 07 	call	0xef0	; 0xef0 <prvInsertBlockIntoFreeList>
+                    else
+                    {
+                        mtCOVERAGE_TEST_MARKER();
+                    }
+
+                    xFreeBytesRemaining -= pxBlock->xBlockSize;
+ 568:	2a 81       	ldd	r18, Y+2	; 0x02
+ 56a:	3b 81       	ldd	r19, Y+3	; 0x03
+ 56c:	80 91 95 06 	lds	r24, 0x0695	; 0x800695 <xFreeBytesRemaining>
+ 570:	90 91 96 06 	lds	r25, 0x0696	; 0x800696 <xFreeBytesRemaining+0x1>
+ 574:	82 1b       	sub	r24, r18
+ 576:	93 0b       	sbc	r25, r19
+ 578:	90 93 96 06 	sts	0x0696, r25	; 0x800696 <xFreeBytesRemaining+0x1>
+ 57c:	80 93 95 06 	sts	0x0695, r24	; 0x800695 <xFreeBytesRemaining>
+
+                    if( xFreeBytesRemaining < xMinimumEverFreeBytesRemaining )
+ 580:	40 91 93 06 	lds	r20, 0x0693	; 0x800693 <xMinimumEverFreeBytesRemaining>
+ 584:	50 91 94 06 	lds	r21, 0x0694	; 0x800694 <xMinimumEverFreeBytesRemaining+0x1>
+ 588:	84 17       	cp	r24, r20
+ 58a:	95 07       	cpc	r25, r21
+ 58c:	20 f4       	brcc	.+8      	; 0x596 <pvPortMalloc+0xee>
+                    {
+                        xMinimumEverFreeBytesRemaining = xFreeBytesRemaining;
+ 58e:	90 93 94 06 	sts	0x0694, r25	; 0x800694 <xMinimumEverFreeBytesRemaining+0x1>
+ 592:	80 93 93 06 	sts	0x0693, r24	; 0x800693 <xMinimumEverFreeBytesRemaining>
+                        mtCOVERAGE_TEST_MARKER();
+                    }
+
+                    /* The block is being returned - it is allocated and owned
+                     * by the application and has no "next" block. */
+                    heapALLOCATE_BLOCK( pxBlock );
+ 596:	30 68       	ori	r19, 0x80	; 128
+ 598:	3b 83       	std	Y+3, r19	; 0x03
+ 59a:	2a 83       	std	Y+2, r18	; 0x02
+                    pxBlock->pxNextFreeBlock = NULL;
+ 59c:	19 82       	std	Y+1, r1	; 0x01
+ 59e:	18 82       	st	Y, r1
+                    xNumberOfSuccessfulAllocations++;
+ 5a0:	80 91 91 06 	lds	r24, 0x0691	; 0x800691 <xNumberOfSuccessfulAllocations>
+ 5a4:	90 91 92 06 	lds	r25, 0x0692	; 0x800692 <xNumberOfSuccessfulAllocations+0x1>
+ 5a8:	01 96       	adiw	r24, 0x01	; 1
+ 5aa:	90 93 92 06 	sts	0x0692, r25	; 0x800692 <xNumberOfSuccessfulAllocations+0x1>
+ 5ae:	80 93 91 06 	sts	0x0691, r24	; 0x800691 <xNumberOfSuccessfulAllocations>
+ 5b2:	0b c0       	rjmp	.+22     	; 0x5ca <pvPortMalloc+0x122>
+void * pvPortMalloc( size_t xWantedSize )
+{
+    BlockLink_t * pxBlock;
+    BlockLink_t * pxPreviousBlock;
+    BlockLink_t * pxNewBlockLink;
+    void * pvReturn = NULL;
+ 5b4:	e1 2c       	mov	r14, r1
+ 5b6:	f1 2c       	mov	r15, r1
+ 5b8:	08 c0       	rjmp	.+16     	; 0x5ca <pvPortMalloc+0x122>
+ 5ba:	e1 2c       	mov	r14, r1
+ 5bc:	f1 2c       	mov	r15, r1
+ 5be:	05 c0       	rjmp	.+10     	; 0x5ca <pvPortMalloc+0x122>
+ 5c0:	e1 2c       	mov	r14, r1
+ 5c2:	f1 2c       	mov	r15, r1
+ 5c4:	02 c0       	rjmp	.+4      	; 0x5ca <pvPortMalloc+0x122>
+ 5c6:	e1 2c       	mov	r14, r1
+ 5c8:	f1 2c       	mov	r15, r1
+            mtCOVERAGE_TEST_MARKER();
+        }
+
+        traceMALLOC( pvReturn, xWantedSize );
+    }
+    ( void ) xTaskResumeAll();
+ 5ca:	0e 94 7f 01 	call	0x2fe	; 0x2fe <xTaskResumeAll>
+    }
+    #endif /* if ( configUSE_MALLOC_FAILED_HOOK == 1 ) */
+
+    configASSERT( ( ( ( size_t ) pvReturn ) & ( size_t ) portBYTE_ALIGNMENT_MASK ) == 0 );
+    return pvReturn;
+}
+ 5ce:	c7 01       	movw	r24, r14
+ 5d0:	df 91       	pop	r29
+ 5d2:	cf 91       	pop	r28
+ 5d4:	1f 91       	pop	r17
+ 5d6:	0f 91       	pop	r16
+ 5d8:	ff 90       	pop	r15
+ 5da:	ef 90       	pop	r14
+ 5dc:	08 95       	ret
+
+Disassembly of section .text.vPortFree:
+
+0000107e <vPortFree>:
+/*-----------------------------------------------------------*/
+
+void vPortFree( void * pv )
+{
+    107e:	0f 93       	push	r16
+    1080:	1f 93       	push	r17
+    1082:	cf 93       	push	r28
+    1084:	df 93       	push	r29
+    uint8_t * puc = ( uint8_t * ) pv;
+    BlockLink_t * pxLink;
+
+    if( pv != NULL )
+    1086:	00 97       	sbiw	r24, 0x00	; 0
+    1088:	49 f1       	breq	.+82     	; 0x10dc <vPortFree+0x5e>
+    {
+        /* The memory being freed will have an BlockLink_t structure immediately
+         * before it. */
+        puc -= xHeapStructSize;
+    108a:	ec 01       	movw	r28, r24
+    108c:	24 97       	sbiw	r28, 0x04	; 4
+        pxLink = ( void * ) puc;
+
+        configASSERT( heapBLOCK_IS_ALLOCATED( pxLink ) != 0 );
+        configASSERT( pxLink->pxNextFreeBlock == NULL );
+
+        if( heapBLOCK_IS_ALLOCATED( pxLink ) != 0 )
+    108e:	2a 81       	ldd	r18, Y+2	; 0x02
+    1090:	3b 81       	ldd	r19, Y+3	; 0x03
+    1092:	33 23       	and	r19, r19
+    1094:	1c f5       	brge	.+70     	; 0x10dc <vPortFree+0x5e>
+        {
+            if( pxLink->pxNextFreeBlock == NULL )
+    1096:	48 81       	ld	r20, Y
+    1098:	59 81       	ldd	r21, Y+1	; 0x01
+    109a:	45 2b       	or	r20, r21
+    109c:	f9 f4       	brne	.+62     	; 0x10dc <vPortFree+0x5e>
+            {
+                /* The block is being returned to the heap - it is no longer
+                 * allocated. */
+                heapFREE_BLOCK( pxLink );
+    109e:	3f 77       	andi	r19, 0x7F	; 127
+    10a0:	3b 83       	std	Y+3, r19	; 0x03
+    10a2:	2a 83       	std	Y+2, r18	; 0x02
+                {
+                    ( void ) memset( puc + xHeapStructSize, 0, pxLink->xBlockSize - xHeapStructSize );
+                }
+                #endif
+
+                vTaskSuspendAll();
+    10a4:	0e 94 c7 0a 	call	0x158e	; 0x158e <vTaskSuspendAll>
+                {
+                    /* Add this block to the list of free blocks. */
+                    xFreeBytesRemaining += pxLink->xBlockSize;
+    10a8:	8a 81       	ldd	r24, Y+2	; 0x02
+    10aa:	9b 81       	ldd	r25, Y+3	; 0x03
+    10ac:	20 91 95 06 	lds	r18, 0x0695	; 0x800695 <xFreeBytesRemaining>
+    10b0:	30 91 96 06 	lds	r19, 0x0696	; 0x800696 <xFreeBytesRemaining+0x1>
+    10b4:	82 0f       	add	r24, r18
+    10b6:	93 1f       	adc	r25, r19
+    10b8:	90 93 96 06 	sts	0x0696, r25	; 0x800696 <xFreeBytesRemaining+0x1>
+    10bc:	80 93 95 06 	sts	0x0695, r24	; 0x800695 <xFreeBytesRemaining>
+                    traceFREE( pv, pxLink->xBlockSize );
+                    prvInsertBlockIntoFreeList( ( ( BlockLink_t * ) pxLink ) );
+    10c0:	ce 01       	movw	r24, r28
+    10c2:	0e 94 78 07 	call	0xef0	; 0xef0 <prvInsertBlockIntoFreeList>
+                    xNumberOfSuccessfulFrees++;
+    10c6:	80 91 8f 06 	lds	r24, 0x068F	; 0x80068f <xNumberOfSuccessfulFrees>
+    10ca:	90 91 90 06 	lds	r25, 0x0690	; 0x800690 <xNumberOfSuccessfulFrees+0x1>
+    10ce:	01 96       	adiw	r24, 0x01	; 1
+    10d0:	90 93 90 06 	sts	0x0690, r25	; 0x800690 <xNumberOfSuccessfulFrees+0x1>
+    10d4:	80 93 8f 06 	sts	0x068F, r24	; 0x80068f <xNumberOfSuccessfulFrees>
+                }
+                ( void ) xTaskResumeAll();
+    10d8:	0e 94 7f 01 	call	0x2fe	; 0x2fe <xTaskResumeAll>
+        else
+        {
+            mtCOVERAGE_TEST_MARKER();
+        }
+    }
+}
+    10dc:	df 91       	pop	r29
+    10de:	cf 91       	pop	r28
+    10e0:	1f 91       	pop	r17
+    10e2:	0f 91       	pop	r16
+    10e4:	08 95       	ret
+
+Disassembly of section .text.HLCD_vsendData:
+
+000010e6 <HLCD_vsendData>:
+
+
+
+void HLCD_vsendData(u8 LCD_DATA){
+	
+	LCD_DATA_PORT = (LCD_DATA_PORT & 0x0F) | (LCD_DATA & 0xF0);
+    10e6:	9b b3       	in	r25, 0x1b	; 27
+    10e8:	9f 70       	andi	r25, 0x0F	; 15
+    10ea:	28 2f       	mov	r18, r24
+    10ec:	20 7f       	andi	r18, 0xF0	; 240
+    10ee:	92 2b       	or	r25, r18
+    10f0:	9b bb       	out	0x1b, r25	; 27
+
+	SET_BIT(LCD_CONTROL_PORT, LCD_BS);
+    10f2:	98 b3       	in	r25, 0x18	; 24
+    10f4:	92 60       	ori	r25, 0x02	; 2
+    10f6:	98 bb       	out	0x18, r25	; 24
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_RW);
+    10f8:	98 b3       	in	r25, 0x18	; 24
+    10fa:	9b 7f       	andi	r25, 0xFB	; 251
+    10fc:	98 bb       	out	0x18, r25	; 24
+	
+	SET_BIT(LCD_CONTROL_PORT, LCD_E);
+    10fe:	98 b3       	in	r25, 0x18	; 24
+    1100:	98 60       	ori	r25, 0x08	; 8
+    1102:	98 bb       	out	0x18, r25	; 24
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+    1104:	ef e9       	ldi	r30, 0x9F	; 159
+    1106:	ff e0       	ldi	r31, 0x0F	; 15
+    1108:	31 97       	sbiw	r30, 0x01	; 1
+    110a:	f1 f7       	brne	.-4      	; 0x1108 <HLCD_vsendData+0x22>
+    110c:	00 c0       	rjmp	.+0      	; 0x110e <HLCD_vsendData+0x28>
+    110e:	00 00       	nop
+	_delay_ms(1);
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_E);
+    1110:	98 b3       	in	r25, 0x18	; 24
+    1112:	97 7f       	andi	r25, 0xF7	; 247
+    1114:	98 bb       	out	0x18, r25	; 24
+	
+	LCD_DATA_PORT = (LCD_DATA_PORT & 0x0F) | ((LCD_DATA & 0x0F)<<4);
+    1116:	2b b3       	in	r18, 0x1b	; 27
+    1118:	f0 e1       	ldi	r31, 0x10	; 16
+    111a:	8f 9f       	mul	r24, r31
+    111c:	c0 01       	movw	r24, r0
+    111e:	11 24       	eor	r1, r1
+    1120:	92 2f       	mov	r25, r18
+    1122:	9f 70       	andi	r25, 0x0F	; 15
+    1124:	89 2b       	or	r24, r25
+    1126:	8b bb       	out	0x1b, r24	; 27
+	SET_BIT(LCD_CONTROL_PORT, LCD_BS);
+    1128:	88 b3       	in	r24, 0x18	; 24
+    112a:	82 60       	ori	r24, 0x02	; 2
+    112c:	88 bb       	out	0x18, r24	; 24
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_RW);
+    112e:	88 b3       	in	r24, 0x18	; 24
+    1130:	8b 7f       	andi	r24, 0xFB	; 251
+    1132:	88 bb       	out	0x18, r24	; 24
+	
+	SET_BIT(LCD_CONTROL_PORT, LCD_E);
+    1134:	88 b3       	in	r24, 0x18	; 24
+    1136:	88 60       	ori	r24, 0x08	; 8
+    1138:	88 bb       	out	0x18, r24	; 24
+    113a:	8f e9       	ldi	r24, 0x9F	; 159
+    113c:	9f e0       	ldi	r25, 0x0F	; 15
+    113e:	01 97       	sbiw	r24, 0x01	; 1
+    1140:	f1 f7       	brne	.-4      	; 0x113e <HLCD_vsendData+0x58>
+    1142:	00 c0       	rjmp	.+0      	; 0x1144 <HLCD_vsendData+0x5e>
+    1144:	00 00       	nop
+	_delay_ms(1);
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_E);
+    1146:	88 b3       	in	r24, 0x18	; 24
+    1148:	87 7f       	andi	r24, 0xF7	; 247
+    114a:	88 bb       	out	0x18, r24	; 24
+    114c:	08 95       	ret
+
+Disassembly of section .text.HLCD_vShowInt:
+
+00000e5a <HLCD_vShowInt>:
+		HLCD_vsendData(str[i]);
+		_delay_ms(1);
+		i++;
+	}
+	
+}
+ e5a:	1f 93       	push	r17
+ e5c:	cf 93       	push	r28
+ e5e:	df 93       	push	r29
+ e60:	cd b7       	in	r28, 0x3d	; 61
+ e62:	de b7       	in	r29, 0x3e	; 62
+ e64:	64 97       	sbiw	r28, 0x14	; 20
+ e66:	0f b6       	in	r0, 0x3f	; 63
+ e68:	f8 94       	cli
+ e6a:	de bf       	out	0x3e, r29	; 62
+ e6c:	0f be       	out	0x3f, r0	; 63
+ e6e:	cd bf       	out	0x3d, r28	; 61
+ e70:	61 15       	cp	r22, r1
+ e72:	71 05       	cpc	r23, r1
+ e74:	81 05       	cpc	r24, r1
+ e76:	91 05       	cpc	r25, r1
+ e78:	b9 f4       	brne	.+46     	; 0xea8 <HLCD_vShowInt+0x4e>
+ e7a:	2d c0       	rjmp	.+90     	; 0xed6 <HLCD_vShowInt+0x7c>
+ e7c:	2a e0       	ldi	r18, 0x0A	; 10
+ e7e:	30 e0       	ldi	r19, 0x00	; 0
+ e80:	40 e0       	ldi	r20, 0x00	; 0
+ e82:	50 e0       	ldi	r21, 0x00	; 0
+ e84:	0e 94 48 0a 	call	0x1490	; 0x1490 <__udivmodsi4>
+ e88:	e1 e0       	ldi	r30, 0x01	; 1
+ e8a:	f0 e0       	ldi	r31, 0x00	; 0
+ e8c:	ec 0f       	add	r30, r28
+ e8e:	fd 1f       	adc	r31, r29
+ e90:	e1 0f       	add	r30, r17
+ e92:	f1 1d       	adc	r31, r1
+ e94:	17 fd       	sbrc	r17, 7
+ e96:	fa 95       	dec	r31
+ e98:	60 5d       	subi	r22, 0xD0	; 208
+ e9a:	60 83       	st	Z, r22
+ e9c:	62 2f       	mov	r22, r18
+ e9e:	73 2f       	mov	r23, r19
+ ea0:	84 2f       	mov	r24, r20
+ ea2:	95 2f       	mov	r25, r21
+ ea4:	1f 5f       	subi	r17, 0xFF	; 255
+ ea6:	01 c0       	rjmp	.+2      	; 0xeaa <HLCD_vShowInt+0x50>
+ ea8:	10 e0       	ldi	r17, 0x00	; 0
+ eaa:	61 15       	cp	r22, r1
+ eac:	71 05       	cpc	r23, r1
+ eae:	81 05       	cpc	r24, r1
+ eb0:	91 05       	cpc	r25, r1
+ eb2:	21 f7       	brne	.-56     	; 0xe7c <HLCD_vShowInt+0x22>
+ eb4:	11 50       	subi	r17, 0x01	; 1
+ eb6:	0c c0       	rjmp	.+24     	; 0xed0 <HLCD_vShowInt+0x76>
+ eb8:	e1 e0       	ldi	r30, 0x01	; 1
+ eba:	f0 e0       	ldi	r31, 0x00	; 0
+ ebc:	ec 0f       	add	r30, r28
+ ebe:	fd 1f       	adc	r31, r29
+ ec0:	e1 0f       	add	r30, r17
+ ec2:	f1 1d       	adc	r31, r1
+ ec4:	17 fd       	sbrc	r17, 7
+ ec6:	fa 95       	dec	r31
+ ec8:	80 81       	ld	r24, Z
+ eca:	0e 94 73 08 	call	0x10e6	; 0x10e6 <HLCD_vsendData>
+ ece:	11 50       	subi	r17, 0x01	; 1
+ ed0:	11 23       	and	r17, r17
+ ed2:	94 f7       	brge	.-28     	; 0xeb8 <HLCD_vShowInt+0x5e>
+ ed4:	03 c0       	rjmp	.+6      	; 0xedc <HLCD_vShowInt+0x82>
+ ed6:	80 e3       	ldi	r24, 0x30	; 48
+ ed8:	0e 94 73 08 	call	0x10e6	; 0x10e6 <HLCD_vsendData>
+ edc:	64 96       	adiw	r28, 0x14	; 20
+ ede:	0f b6       	in	r0, 0x3f	; 63
+ ee0:	f8 94       	cli
+ ee2:	de bf       	out	0x3e, r29	; 62
+ ee4:	0f be       	out	0x3f, r0	; 63
+ ee6:	cd bf       	out	0x3d, r28	; 61
+ ee8:	df 91       	pop	r29
+ eea:	cf 91       	pop	r28
+ eec:	1f 91       	pop	r17
+ eee:	08 95       	ret
+
+Disassembly of section .text.HLCD_vsendCommand:
+
+0000114e <HLCD_vsendCommand>:
+	
+}
+
+void HLCD_vsendCommand(u8 LCD_COMMAND){
+	
+	LCD_DATA_PORT = (LCD_DATA_PORT & 0x0F) | (LCD_COMMAND & 0xF0);
+    114e:	9b b3       	in	r25, 0x1b	; 27
+    1150:	9f 70       	andi	r25, 0x0F	; 15
+    1152:	28 2f       	mov	r18, r24
+    1154:	20 7f       	andi	r18, 0xF0	; 240
+    1156:	92 2b       	or	r25, r18
+    1158:	9b bb       	out	0x1b, r25	; 27
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_BS);
+    115a:	98 b3       	in	r25, 0x18	; 24
+    115c:	9d 7f       	andi	r25, 0xFD	; 253
+    115e:	98 bb       	out	0x18, r25	; 24
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_RW);
+    1160:	98 b3       	in	r25, 0x18	; 24
+    1162:	9b 7f       	andi	r25, 0xFB	; 251
+    1164:	98 bb       	out	0x18, r25	; 24
+	
+	SET_BIT(LCD_CONTROL_PORT, LCD_E);
+    1166:	98 b3       	in	r25, 0x18	; 24
+    1168:	98 60       	ori	r25, 0x08	; 8
+    116a:	98 bb       	out	0x18, r25	; 24
+    116c:	ef e9       	ldi	r30, 0x9F	; 159
+    116e:	ff e0       	ldi	r31, 0x0F	; 15
+    1170:	31 97       	sbiw	r30, 0x01	; 1
+    1172:	f1 f7       	brne	.-4      	; 0x1170 <HLCD_vsendCommand+0x22>
+    1174:	00 c0       	rjmp	.+0      	; 0x1176 <HLCD_vsendCommand+0x28>
+    1176:	00 00       	nop
+	_delay_ms(1);
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_E);
+    1178:	98 b3       	in	r25, 0x18	; 24
+    117a:	97 7f       	andi	r25, 0xF7	; 247
+    117c:	98 bb       	out	0x18, r25	; 24
+	
+	LCD_DATA_PORT = (LCD_DATA_PORT & 0x0F) | ((LCD_COMMAND & 0x0F)<<4);
+    117e:	2b b3       	in	r18, 0x1b	; 27
+    1180:	f0 e1       	ldi	r31, 0x10	; 16
+    1182:	8f 9f       	mul	r24, r31
+    1184:	c0 01       	movw	r24, r0
+    1186:	11 24       	eor	r1, r1
+    1188:	92 2f       	mov	r25, r18
+    118a:	9f 70       	andi	r25, 0x0F	; 15
+    118c:	89 2b       	or	r24, r25
+    118e:	8b bb       	out	0x1b, r24	; 27
+// 	LCD_DATA_PORT &= 0x0F;
+// 	LCD_DATA_PORT |= (LCD_COMMAND && 0x0F) << 4;
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_BS);
+    1190:	88 b3       	in	r24, 0x18	; 24
+    1192:	8d 7f       	andi	r24, 0xFD	; 253
+    1194:	88 bb       	out	0x18, r24	; 24
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_RW);
+    1196:	88 b3       	in	r24, 0x18	; 24
+    1198:	8b 7f       	andi	r24, 0xFB	; 251
+    119a:	88 bb       	out	0x18, r24	; 24
+	
+	SET_BIT(LCD_CONTROL_PORT, LCD_E);
+    119c:	88 b3       	in	r24, 0x18	; 24
+    119e:	88 60       	ori	r24, 0x08	; 8
+    11a0:	88 bb       	out	0x18, r24	; 24
+    11a2:	8f e9       	ldi	r24, 0x9F	; 159
+    11a4:	9f e0       	ldi	r25, 0x0F	; 15
+    11a6:	01 97       	sbiw	r24, 0x01	; 1
+    11a8:	f1 f7       	brne	.-4      	; 0x11a6 <HLCD_vsendCommand+0x58>
+    11aa:	00 c0       	rjmp	.+0      	; 0x11ac <HLCD_vsendCommand+0x5e>
+    11ac:	00 00       	nop
+	_delay_ms(1);
+	CLEAR_BIT(LCD_CONTROL_PORT, LCD_E);
+    11ae:	88 b3       	in	r24, 0x18	; 24
+    11b0:	87 7f       	andi	r24, 0xF7	; 247
+    11b2:	88 bb       	out	0x18, r24	; 24
+    11b4:	08 95       	ret
+
+Disassembly of section .text.HLCD_vInit:
+
+00001008 <HLCD_vInit>:
+	
+}
+
+void HLCD_vInit(void){
+	
+	DDRB = 0x0f;
+    1008:	8f e0       	ldi	r24, 0x0F	; 15
+    100a:	87 bb       	out	0x17, r24	; 23
+	DDRA = 0xf0;
+    100c:	80 ef       	ldi	r24, 0xF0	; 240
+    100e:	8a bb       	out	0x1a, r24	; 26
+    1010:	2f ef       	ldi	r18, 0xFF	; 255
+    1012:	83 ef       	ldi	r24, 0xF3	; 243
+    1014:	91 e0       	ldi	r25, 0x01	; 1
+    1016:	21 50       	subi	r18, 0x01	; 1
+    1018:	80 40       	sbci	r24, 0x00	; 0
+    101a:	90 40       	sbci	r25, 0x00	; 0
+    101c:	e1 f7       	brne	.-8      	; 0x1016 <HLCD_vInit+0xe>
+    101e:	00 c0       	rjmp	.+0      	; 0x1020 <HLCD_vInit+0x18>
+    1020:	00 00       	nop
+	_delay_ms(40);
+	HLCD_vsendCommand(LCD_FUNCTION_SET_COMMAND|LCD_FUNCTION_SET_F_COMMAND);// FUNCtion set
+    1022:	88 e2       	ldi	r24, 0x28	; 40
+    1024:	0e 94 a7 08 	call	0x114e	; 0x114e <HLCD_vsendCommand>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+    1028:	25 ed       	ldi	r18, 0xD5	; 213
+    102a:	2a 95       	dec	r18
+    102c:	f1 f7       	brne	.-4      	; 0x102a <HLCD_vInit+0x22>
+    102e:	00 00       	nop
+	LCD_FUNCTION_SET_COMMAND_DELAY;
+	HLCD_vsendCommand(LCD_RETURN_HOME_COMMAND);
+    1030:	82 e0       	ldi	r24, 0x02	; 2
+    1032:	0e 94 a7 08 	call	0x114e	; 0x114e <HLCD_vsendCommand>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+    1036:	8f e3       	ldi	r24, 0x3F	; 63
+    1038:	9f e1       	ldi	r25, 0x1F	; 31
+    103a:	01 97       	sbiw	r24, 0x01	; 1
+    103c:	f1 f7       	brne	.-4      	; 0x103a <HLCD_vInit+0x32>
+    103e:	00 c0       	rjmp	.+0      	; 0x1040 <HLCD_vInit+0x38>
+    1040:	00 00       	nop
+	LCD_RETURN_HOME_COMMAND_DELAY;
+ 	HLCD_vsendCommand(LCD_ENTRY_MODE_COMMAND|LCD_ENTRY_MODE_ID_CURSOR_COMMAND);
+    1042:	86 e0       	ldi	r24, 0x06	; 6
+    1044:	0e 94 a7 08 	call	0x114e	; 0x114e <HLCD_vsendCommand>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+    1048:	95 ed       	ldi	r25, 0xD5	; 213
+    104a:	9a 95       	dec	r25
+    104c:	f1 f7       	brne	.-4      	; 0x104a <HLCD_vInit+0x42>
+    104e:	00 00       	nop
+	LCD_ENTRY_MODE_COMMAND_DELAY;
+	HLCD_vsendCommand(LCD_DISPLAY_ON_OFF_CONTROL_COMMAND|LCD_DISPLAY_ON_OFF_CONTROL_D_COMMAND|LCD_DISPLAY_ON_OFF_CONTROL_C_COMMAND|LCD_DISPLAY_ON_OFF_CONTROL_B_COMMAND);
+    1050:	8f e0       	ldi	r24, 0x0F	; 15
+    1052:	0e 94 a7 08 	call	0x114e	; 0x114e <HLCD_vsendCommand>
+	HLCD_vsendCommand(LCD_CURSOR_DISPLAY_SHIFT_COMMAND|LCD_CURSOR_DISPLAY_SHIFT_RL_COMMAND);
+    1056:	84 e1       	ldi	r24, 0x14	; 20
+    1058:	0e 94 a7 08 	call	0x114e	; 0x114e <HLCD_vsendCommand>
+    105c:	25 ed       	ldi	r18, 0xD5	; 213
+    105e:	2a 95       	dec	r18
+    1060:	f1 f7       	brne	.-4      	; 0x105e <HLCD_vInit+0x56>
+    1062:	00 00       	nop
+	LCD_CURSOR_DISPLAY_SHIFT_COMMAND_DELAY;
+	HLCD_vsendCommand(LCD_CLEAR_DISPLAY_COMMAND);
+    1064:	81 e0       	ldi	r24, 0x01	; 1
+    1066:	0e 94 a7 08 	call	0x114e	; 0x114e <HLCD_vsendCommand>
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+    106a:	8f ef       	ldi	r24, 0xFF	; 255
+    106c:	93 ec       	ldi	r25, 0xC3	; 195
+    106e:	29 e0       	ldi	r18, 0x09	; 9
+    1070:	81 50       	subi	r24, 0x01	; 1
+    1072:	90 40       	sbci	r25, 0x00	; 0
+    1074:	20 40       	sbci	r18, 0x00	; 0
+    1076:	e1 f7       	brne	.-8      	; 0x1070 <HLCD_vInit+0x68>
+    1078:	00 c0       	rjmp	.+0      	; 0x107a <HLCD_vInit+0x72>
+    107a:	00 00       	nop
+    107c:	08 95       	ret
+
+Disassembly of section .text.vListInitialise:
+
+00001536 <vListInitialise>:
+/*-----------------------------------------------------------
+* PUBLIC LIST API documented in list.h
+*----------------------------------------------------------*/
+
+void vListInitialise( List_t * const pxList )
+{
+    1536:	fc 01       	movw	r30, r24
+    /* The list structure contains a list item which is used to mark the
+     * end of the list.  To initialise the list the list end is inserted
+     * as the only list entry. */
+    pxList->pxIndex = ( ListItem_t * ) &( pxList->xListEnd ); /*lint !e826 !e740 !e9087 The mini list structure is used as the list end to save RAM.  This is checked and valid. */
+    1538:	03 96       	adiw	r24, 0x03	; 3
+    153a:	92 83       	std	Z+2, r25	; 0x02
+    153c:	81 83       	std	Z+1, r24	; 0x01
+
+    listSET_FIRST_LIST_ITEM_INTEGRITY_CHECK_VALUE( &( pxList->xListEnd ) );
+
+    /* The list end value is the highest possible value in the list to
+     * ensure it remains at the end of the list. */
+    pxList->xListEnd.xItemValue = portMAX_DELAY;
+    153e:	2f ef       	ldi	r18, 0xFF	; 255
+    1540:	3f ef       	ldi	r19, 0xFF	; 255
+    1542:	34 83       	std	Z+4, r19	; 0x04
+    1544:	23 83       	std	Z+3, r18	; 0x03
+
+    /* The list end next and previous pointers point to itself so we know
+     * when the list is empty. */
+    pxList->xListEnd.pxNext = ( ListItem_t * ) &( pxList->xListEnd );     /*lint !e826 !e740 !e9087 The mini list structure is used as the list end to save RAM.  This is checked and valid. */
+    1546:	96 83       	std	Z+6, r25	; 0x06
+    1548:	85 83       	std	Z+5, r24	; 0x05
+    pxList->xListEnd.pxPrevious = ( ListItem_t * ) &( pxList->xListEnd ); /*lint !e826 !e740 !e9087 The mini list structure is used as the list end to save RAM.  This is checked and valid. */
+    154a:	90 87       	std	Z+8, r25	; 0x08
+    154c:	87 83       	std	Z+7, r24	; 0x07
+        pxList->xListEnd.pxContainer = NULL;
+        listSET_SECOND_LIST_ITEM_INTEGRITY_CHECK_VALUE( &( pxList->xListEnd ) );
+    }
+    #endif
+
+    pxList->uxNumberOfItems = ( UBaseType_t ) 0U;
+    154e:	10 82       	st	Z, r1
+    1550:	08 95       	ret
+
+Disassembly of section .text.vListInitialiseItem:
+
+0000159a <vListInitialiseItem>:
+/*-----------------------------------------------------------*/
+
+void vListInitialiseItem( ListItem_t * const pxItem )
+{
+    /* Make sure the list item is not recorded as being on a list. */
+    pxItem->pxContainer = NULL;
+    159a:	fc 01       	movw	r30, r24
+    159c:	11 86       	std	Z+9, r1	; 0x09
+    159e:	10 86       	std	Z+8, r1	; 0x08
+    15a0:	08 95       	ret
+
+Disassembly of section .text.vListInsert:
+
+0000121c <vListInsert>:
+}
+/*-----------------------------------------------------------*/
+
+void vListInsert( List_t * const pxList,
+                  ListItem_t * const pxNewListItem )
+{
+    121c:	cf 93       	push	r28
+    121e:	df 93       	push	r29
+    1220:	eb 01       	movw	r28, r22
+    ListItem_t * pxIterator;
+    const TickType_t xValueOfInsertion = pxNewListItem->xItemValue;
+    1222:	48 81       	ld	r20, Y
+    1224:	59 81       	ldd	r21, Y+1	; 0x01
+     * new list item should be placed after it.  This ensures that TCBs which are
+     * stored in ready lists (all of which have the same xItemValue value) get a
+     * share of the CPU.  However, if the xItemValue is the same as the back marker
+     * the iteration loop below will not end.  Therefore the value is checked
+     * first, and the algorithm slightly modified if necessary. */
+    if( xValueOfInsertion == portMAX_DELAY )
+    1226:	4f 3f       	cpi	r20, 0xFF	; 255
+    1228:	2f ef       	ldi	r18, 0xFF	; 255
+    122a:	52 07       	cpc	r21, r18
+    122c:	21 f4       	brne	.+8      	; 0x1236 <vListInsert+0x1a>
+    {
+        pxIterator = pxList->xListEnd.pxPrevious;
+    122e:	fc 01       	movw	r30, r24
+    1230:	a7 81       	ldd	r26, Z+7	; 0x07
+    1232:	b0 85       	ldd	r27, Z+8	; 0x08
+    1234:	0d c0       	rjmp	.+26     	; 0x1250 <vListInsert+0x34>
+        *   5) If the FreeRTOS port supports interrupt nesting then ensure that
+        *      the priority of the tick interrupt is at or below
+        *      configMAX_SYSCALL_INTERRUPT_PRIORITY.
+        **********************************************************************/
+
+        for( pxIterator = ( ListItem_t * ) &( pxList->xListEnd ); pxIterator->pxNext->xItemValue <= xValueOfInsertion; pxIterator = pxIterator->pxNext ) /*lint !e826 !e740 !e9087 The mini list structure is used as the list end to save RAM.  This is checked and valid. *//*lint !e440 The iterator moves to a different value, not xValueOfInsertion. */
+    1236:	dc 01       	movw	r26, r24
+    1238:	13 96       	adiw	r26, 0x03	; 3
+    123a:	01 c0       	rjmp	.+2      	; 0x123e <vListInsert+0x22>
+    123c:	df 01       	movw	r26, r30
+    123e:	12 96       	adiw	r26, 0x02	; 2
+    1240:	ed 91       	ld	r30, X+
+    1242:	fc 91       	ld	r31, X
+    1244:	13 97       	sbiw	r26, 0x03	; 3
+    1246:	20 81       	ld	r18, Z
+    1248:	31 81       	ldd	r19, Z+1	; 0x01
+    124a:	42 17       	cp	r20, r18
+    124c:	53 07       	cpc	r21, r19
+    124e:	b0 f7       	brcc	.-20     	; 0x123c <vListInsert+0x20>
+            /* There is nothing to do here, just iterating to the wanted
+             * insertion position. */
+        }
+    }
+
+    pxNewListItem->pxNext = pxIterator->pxNext;
+    1250:	12 96       	adiw	r26, 0x02	; 2
+    1252:	ed 91       	ld	r30, X+
+    1254:	fc 91       	ld	r31, X
+    1256:	13 97       	sbiw	r26, 0x03	; 3
+    1258:	fb 83       	std	Y+3, r31	; 0x03
+    125a:	ea 83       	std	Y+2, r30	; 0x02
+    pxNewListItem->pxNext->pxPrevious = pxNewListItem;
+    125c:	d5 83       	std	Z+5, r29	; 0x05
+    125e:	c4 83       	std	Z+4, r28	; 0x04
+    pxNewListItem->pxPrevious = pxIterator;
+    1260:	bd 83       	std	Y+5, r27	; 0x05
+    1262:	ac 83       	std	Y+4, r26	; 0x04
+    pxIterator->pxNext = pxNewListItem;
+    1264:	13 96       	adiw	r26, 0x03	; 3
+    1266:	dc 93       	st	X, r29
+    1268:	ce 93       	st	-X, r28
+    126a:	12 97       	sbiw	r26, 0x02	; 2
+
+    /* Remember which list the item is in.  This allows fast removal of the
+     * item later. */
+    pxNewListItem->pxContainer = pxList;
+    126c:	99 87       	std	Y+9, r25	; 0x09
+    126e:	88 87       	std	Y+8, r24	; 0x08
+
+    ( pxList->uxNumberOfItems )++;
+    1270:	fc 01       	movw	r30, r24
+    1272:	20 81       	ld	r18, Z
+    1274:	2f 5f       	subi	r18, 0xFF	; 255
+    1276:	20 83       	st	Z, r18
+}
+    1278:	df 91       	pop	r29
+    127a:	cf 91       	pop	r28
+    127c:	08 95       	ret
+
+Disassembly of section .text.uxListRemove:
+
+000013fc <uxListRemove>:
+/*-----------------------------------------------------------*/
+
+UBaseType_t uxListRemove( ListItem_t * const pxItemToRemove )
+{
+    13fc:	cf 93       	push	r28
+    13fe:	df 93       	push	r29
+    1400:	fc 01       	movw	r30, r24
+/* The list item knows which list it is in.  Obtain the list from the list
+ * item. */
+    List_t * const pxList = pxItemToRemove->pxContainer;
+    1402:	a0 85       	ldd	r26, Z+8	; 0x08
+    1404:	b1 85       	ldd	r27, Z+9	; 0x09
+
+    pxItemToRemove->pxNext->pxPrevious = pxItemToRemove->pxPrevious;
+    1406:	c2 81       	ldd	r28, Z+2	; 0x02
+    1408:	d3 81       	ldd	r29, Z+3	; 0x03
+    140a:	84 81       	ldd	r24, Z+4	; 0x04
+    140c:	95 81       	ldd	r25, Z+5	; 0x05
+    140e:	9d 83       	std	Y+5, r25	; 0x05
+    1410:	8c 83       	std	Y+4, r24	; 0x04
+    pxItemToRemove->pxPrevious->pxNext = pxItemToRemove->pxNext;
+    1412:	c4 81       	ldd	r28, Z+4	; 0x04
+    1414:	d5 81       	ldd	r29, Z+5	; 0x05
+    1416:	82 81       	ldd	r24, Z+2	; 0x02
+    1418:	93 81       	ldd	r25, Z+3	; 0x03
+    141a:	9b 83       	std	Y+3, r25	; 0x03
+    141c:	8a 83       	std	Y+2, r24	; 0x02
+
+    /* Only used during decision coverage testing. */
+    mtCOVERAGE_TEST_DELAY();
+
+    /* Make sure the index is left pointing to a valid item. */
+    if( pxList->pxIndex == pxItemToRemove )
+    141e:	11 96       	adiw	r26, 0x01	; 1
+    1420:	8d 91       	ld	r24, X+
+    1422:	9c 91       	ld	r25, X
+    1424:	12 97       	sbiw	r26, 0x02	; 2
+    1426:	e8 17       	cp	r30, r24
+    1428:	f9 07       	cpc	r31, r25
+    142a:	31 f4       	brne	.+12     	; 0x1438 <uxListRemove+0x3c>
+    {
+        pxList->pxIndex = pxItemToRemove->pxPrevious;
+    142c:	84 81       	ldd	r24, Z+4	; 0x04
+    142e:	95 81       	ldd	r25, Z+5	; 0x05
+    1430:	12 96       	adiw	r26, 0x02	; 2
+    1432:	9c 93       	st	X, r25
+    1434:	8e 93       	st	-X, r24
+    1436:	11 97       	sbiw	r26, 0x01	; 1
+    else
+    {
+        mtCOVERAGE_TEST_MARKER();
+    }
+
+    pxItemToRemove->pxContainer = NULL;
+    1438:	11 86       	std	Z+9, r1	; 0x09
+    143a:	10 86       	std	Z+8, r1	; 0x08
+    ( pxList->uxNumberOfItems )--;
+    143c:	8c 91       	ld	r24, X
+    143e:	81 50       	subi	r24, 0x01	; 1
+    1440:	8c 93       	st	X, r24
+
+    return pxList->uxNumberOfItems;
+    1442:	8c 91       	ld	r24, X
+}
+    1444:	df 91       	pop	r29
+    1446:	cf 91       	pop	r28
+    1448:	08 95       	ret
+
+Disassembly of section .text.Generic_led:
+
+0000127e <Generic_led>:
+	vTaskStartScheduler();
+}
+
+
+// create tasks for lcd & led 
+void Generic_led(void *ptr){
+    127e:	cf 93       	push	r28
+    1280:	df 93       	push	r29
+    1282:	00 d0       	rcall	.+0      	; 0x1284 <Generic_led+0x6>
+    1284:	cd b7       	in	r28, 0x3d	; 61
+    1286:	de b7       	in	r29, 0x3e	; 62
+    1288:	8c 01       	movw	r16, r24
+	// cast pointer to struct pin that holds port_address & pin_number 
+	pin_t *pin = (pin_t *) ptr  ;
+	SET_BIT(*(pin->ddr_address), (pin->pin_number));
+    128a:	dc 01       	movw	r26, r24
+    128c:	13 96       	adiw	r26, 0x03	; 3
+    128e:	ed 91       	ld	r30, X+
+    1290:	fc 91       	ld	r31, X
+    1292:	14 97       	sbiw	r26, 0x04	; 4
+    1294:	20 81       	ld	r18, Z
+    1296:	81 e0       	ldi	r24, 0x01	; 1
+    1298:	90 e0       	ldi	r25, 0x00	; 0
+    129a:	0c 90       	ld	r0, X
+    129c:	02 c0       	rjmp	.+4      	; 0x12a2 <Generic_led+0x24>
+    129e:	88 0f       	add	r24, r24
+    12a0:	99 1f       	adc	r25, r25
+    12a2:	0a 94       	dec	r0
+    12a4:	e2 f7       	brpl	.-8      	; 0x129e <Generic_led+0x20>
+    12a6:	82 2b       	or	r24, r18
+    12a8:	80 83       	st	Z, r24
+	// Adding periodicity to  task 
+	// Note this is best way to make periodicity
+	TickType_t last_wake = xTaskGetTickCount() ; 
+    12aa:	0e 94 b4 0a 	call	0x1568	; 0x1568 <xTaskGetTickCount>
+    12ae:	9a 83       	std	Y+2, r25	; 0x02
+    12b0:	89 83       	std	Y+1, r24	; 0x01
+	TickType_t delay     = 1000/ portTICK_PERIOD_MS  ;
+	while (1)
+	{
+		vTaskDelayUntil(&last_wake, delay);
+    12b2:	68 ee       	ldi	r22, 0xE8	; 232
+    12b4:	73 e0       	ldi	r23, 0x03	; 3
+    12b6:	ce 01       	movw	r24, r28
+    12b8:	01 96       	adiw	r24, 0x01	; 1
+    12ba:	0e 94 c2 07 	call	0xf84	; 0xf84 <xTaskDelayUntil>
+		Toggle_BIT(*(pin->port_address), (pin->pin_number));
+    12be:	d8 01       	movw	r26, r16
+    12c0:	11 96       	adiw	r26, 0x01	; 1
+    12c2:	ed 91       	ld	r30, X+
+    12c4:	fc 91       	ld	r31, X
+    12c6:	12 97       	sbiw	r26, 0x02	; 2
+    12c8:	20 81       	ld	r18, Z
+    12ca:	81 e0       	ldi	r24, 0x01	; 1
+    12cc:	90 e0       	ldi	r25, 0x00	; 0
+    12ce:	0c 90       	ld	r0, X
+    12d0:	02 c0       	rjmp	.+4      	; 0x12d6 <Generic_led+0x58>
+    12d2:	88 0f       	add	r24, r24
+    12d4:	99 1f       	adc	r25, r25
+    12d6:	0a 94       	dec	r0
+    12d8:	e2 f7       	brpl	.-8      	; 0x12d2 <Generic_led+0x54>
+    12da:	82 27       	eor	r24, r18
+    12dc:	80 83       	st	Z, r24
+    12de:	e9 cf       	rjmp	.-46     	; 0x12b2 <Generic_led+0x34>
+
+Disassembly of section .text.Lcd:
+
+000012e0 <Lcd>:
+}
+
+
+// LCD Task 
+
+void Lcd (void *ptr){
+    12e0:	cf 93       	push	r28
+    12e2:	df 93       	push	r29
+    12e4:	00 d0       	rcall	.+0      	; 0x12e6 <Lcd+0x6>
+    12e6:	cd b7       	in	r28, 0x3d	; 61
+    12e8:	de b7       	in	r29, 0x3e	; 62
+	u8 temp = 0 ; 
+	HLCD_vInit() ;
+    12ea:	0e 94 04 08 	call	0x1008	; 0x1008 <HLCD_vInit>
+	
+	// Task periodicity 
+	TickType_t last_wake = xTaskGetTickCount ();
+    12ee:	0e 94 b4 0a 	call	0x1568	; 0x1568 <xTaskGetTickCount>
+    12f2:	9a 83       	std	Y+2, r25	; 0x02
+    12f4:	89 83       	std	Y+1, r24	; 0x01
+	TickType_t delay   = 500 / portTICK_PERIOD_MS;
+	while(1){
+		vTaskDelayUntil(&last_wake, delay) ; 
+    12f6:	64 ef       	ldi	r22, 0xF4	; 244
+    12f8:	71 e0       	ldi	r23, 0x01	; 1
+    12fa:	ce 01       	movw	r24, r28
+    12fc:	01 96       	adiw	r24, 0x01	; 1
+    12fe:	0e 94 c2 07 	call	0xf84	; 0xf84 <xTaskDelayUntil>
+		temp = uxTaskPriorityGet(led) ; 
+    1302:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <_edata>
+    1306:	90 91 61 00 	lds	r25, 0x0061	; 0x800061 <_edata+0x1>
+    130a:	0e 94 86 0a 	call	0x150c	; 0x150c <uxTaskPriorityGet>
+    130e:	18 2f       	mov	r17, r24
+		//HLCD_vShowString("Task Priority :");
+		HLCD_vShowInt(temp);
+    1310:	68 2f       	mov	r22, r24
+    1312:	70 e0       	ldi	r23, 0x00	; 0
+    1314:	80 e0       	ldi	r24, 0x00	; 0
+    1316:	90 e0       	ldi	r25, 0x00	; 0
+    1318:	0e 94 2d 07 	call	0xe5a	; 0xe5a <HLCD_vShowInt>
+		temp++;
+    131c:	1f 5f       	subi	r17, 0xFF	; 255
+		vTaskPrioritySet(led, temp);
+    131e:	61 2f       	mov	r22, r17
+    1320:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <_edata>
+    1324:	90 91 61 00 	lds	r25, 0x0061	; 0x800061 <_edata+0x1>
+    1328:	0e 94 ef 02 	call	0x5de	; 0x5de <vTaskPrioritySet>
+	
+		if (temp >= 4 )
+    132c:	14 30       	cpi	r17, 0x04	; 4
+    132e:	18 f3       	brcs	.-58     	; 0x12f6 <Lcd+0x16>
+		{
+			vTaskPrioritySet(led, 1);
+    1330:	61 e0       	ldi	r22, 0x01	; 1
+    1332:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <_edata>
+    1336:	90 91 61 00 	lds	r25, 0x0061	; 0x800061 <_edata+0x1>
+    133a:	0e 94 ef 02 	call	0x5de	; 0x5de <vTaskPrioritySet>
+    133e:	db cf       	rjmp	.-74     	; 0x12f6 <Lcd+0x16>
+
+Disassembly of section .text.main:
+
+00000dc2 <main>:
+	
+void Generic_led(void *ptr);
+void Lcd (void *ptr);
+
+int main(void)
+{
+ dc2:	cf 92       	push	r12
+ dc4:	df 92       	push	r13
+ dc6:	ef 92       	push	r14
+ dc8:	0f 93       	push	r16
+ dca:	1f 93       	push	r17
+ dcc:	cf 93       	push	r28
+ dce:	df 93       	push	r29
+ dd0:	00 d0       	rcall	.+0      	; 0xdd2 <main+0x10>
+ dd2:	00 d0       	rcall	.+0      	; 0xdd4 <main+0x12>
+ dd4:	0f 92       	push	r0
+ dd6:	cd b7       	in	r28, 0x3d	; 61
+ dd8:	de b7       	in	r29, 0x3e	; 62
+	// make object from struct to use 
+	pin_t Led3 = {3,&PORTD,&DDRD};
+ dda:	85 e0       	ldi	r24, 0x05	; 5
+ ddc:	e6 e8       	ldi	r30, 0x86	; 134
+ dde:	f6 e0       	ldi	r31, 0x06	; 6
+ de0:	de 01       	movw	r26, r28
+ de2:	11 96       	adiw	r26, 0x01	; 1
+ de4:	01 90       	ld	r0, Z+
+ de6:	0d 92       	st	X+, r0
+ de8:	8a 95       	dec	r24
+ dea:	e1 f7       	brne	.-8      	; 0xde4 <main+0x22>
+	pin_t Led2 = {2,&PORTC,&DDRC};
+	pin_t Led1 = {7,&PORTC,&DDRC};
+		
+	// create Task 
+	xTaskCreate(&Generic_led,"Led3",85, &Led3, 2, &led);
+ dec:	0f 2e       	mov	r0, r31
+ dee:	f0 e6       	ldi	r31, 0x60	; 96
+ df0:	cf 2e       	mov	r12, r31
+ df2:	f0 e0       	ldi	r31, 0x00	; 0
+ df4:	df 2e       	mov	r13, r31
+ df6:	f0 2d       	mov	r31, r0
+ df8:	68 94       	set
+ dfa:	ee 24       	eor	r14, r14
+ dfc:	e1 f8       	bld	r14, 1
+ dfe:	8e 01       	movw	r16, r28
+ e00:	0f 5f       	subi	r16, 0xFF	; 255
+ e02:	1f 4f       	sbci	r17, 0xFF	; 255
+ e04:	25 e5       	ldi	r18, 0x55	; 85
+ e06:	30 e0       	ldi	r19, 0x00	; 0
+ e08:	4a eb       	ldi	r20, 0xBA	; 186
+ e0a:	50 e0       	ldi	r21, 0x00	; 0
+ e0c:	60 e0       	ldi	r22, 0x00	; 0
+ e0e:	8f e3       	ldi	r24, 0x3F	; 63
+ e10:	99 e0       	ldi	r25, 0x09	; 9
+ e12:	0e 94 fd 04 	call	0x9fa	; 0x9fa <xTaskCreate>
+	//xTaskCreate(&Generic_led,"Led2",85, &Led2, 2, NULL);
+	xTaskCreate(&Lcd,"LCD",120, NULL, 3, NULL);
+ e16:	c1 2c       	mov	r12, r1
+ e18:	d1 2c       	mov	r13, r1
+ e1a:	0f 2e       	mov	r0, r31
+ e1c:	f3 e0       	ldi	r31, 0x03	; 3
+ e1e:	ef 2e       	mov	r14, r31
+ e20:	f0 2d       	mov	r31, r0
+ e22:	00 e0       	ldi	r16, 0x00	; 0
+ e24:	10 e0       	ldi	r17, 0x00	; 0
+ e26:	28 e7       	ldi	r18, 0x78	; 120
+ e28:	30 e0       	ldi	r19, 0x00	; 0
+ e2a:	4f eb       	ldi	r20, 0xBF	; 191
+ e2c:	50 e0       	ldi	r21, 0x00	; 0
+ e2e:	60 e0       	ldi	r22, 0x00	; 0
+ e30:	80 e7       	ldi	r24, 0x70	; 112
+ e32:	99 e0       	ldi	r25, 0x09	; 9
+ e34:	0e 94 fd 04 	call	0x9fa	; 0x9fa <xTaskCreate>
+
+	
+	vTaskStartScheduler();
+ e38:	0e 94 cf 09 	call	0x139e	; 0x139e <vTaskStartScheduler>
+}
+ e3c:	80 e0       	ldi	r24, 0x00	; 0
+ e3e:	90 e0       	ldi	r25, 0x00	; 0
+ e40:	0f 90       	pop	r0
+ e42:	0f 90       	pop	r0
+ e44:	0f 90       	pop	r0
+ e46:	0f 90       	pop	r0
+ e48:	0f 90       	pop	r0
+ e4a:	df 91       	pop	r29
+ e4c:	cf 91       	pop	r28
+ e4e:	1f 91       	pop	r17
+ e50:	0f 91       	pop	r16
+ e52:	ef 90       	pop	r14
+ e54:	df 90       	pop	r13
+ e56:	cf 90       	pop	r12
+ e58:	08 95       	ret
+
+Disassembly of section .text.prvSetupTimerInterrupt:
+
+0000157c <prvSetupTimerInterrupt>:
+	/* Setup compare match value for compare match A.  Interrupts are disabled 
+	before this is called so we need not worry here. */
+	ucLowByte = ( uint8_t ) ( ulCompareMatch & ( uint32_t ) 0xff );
+	ulCompareMatch >>= 8;
+	ucHighByte = ( uint8_t ) ( ulCompareMatch & ( uint32_t ) 0xff );
+	OCR1AH = ucHighByte;
+    157c:	1b bc       	out	0x2b, r1	; 43
+	OCR1AL = ucLowByte;
+    157e:	89 ef       	ldi	r24, 0xF9	; 249
+    1580:	8a bd       	out	0x2a, r24	; 42
+
+	/* Setup clock source and compare match behaviour. */
+	ucLowByte = portCLEAR_COUNTER_ON_MATCH | portPRESCALE_64;
+	TCCR1B = ucLowByte;
+    1582:	8b e0       	ldi	r24, 0x0B	; 11
+    1584:	8e bd       	out	0x2e, r24	; 46
+
+	/* Enable the interrupt - this is okay as interrupt are currently globally
+	disabled. */
+	ucLowByte = TIMSK;
+    1586:	89 b7       	in	r24, 0x39	; 57
+	ucLowByte |= portCOMPARE_MATCH_A_INTERRUPT_ENABLE;
+    1588:	80 61       	ori	r24, 0x10	; 16
+	TIMSK = ucLowByte;
+    158a:	89 bf       	out	0x39, r24	; 57
+    158c:	08 95       	ret
+
+Disassembly of section .text.pxPortInitialiseStack:
+
+00000ad8 <pxPortInitialiseStack>:
+	return pdTRUE;
+}
+/*-----------------------------------------------------------*/
+
+void vPortEndScheduler( void )
+{
+ ad8:	31 e1       	ldi	r19, 0x11	; 17
+ ada:	fc 01       	movw	r30, r24
+ adc:	30 83       	st	Z, r19
+ ade:	31 97       	sbiw	r30, 0x01	; 1
+ ae0:	22 e2       	ldi	r18, 0x22	; 34
+ ae2:	20 83       	st	Z, r18
+ ae4:	31 97       	sbiw	r30, 0x01	; 1
+ ae6:	a3 e3       	ldi	r26, 0x33	; 51
+ ae8:	a0 83       	st	Z, r26
+ aea:	31 97       	sbiw	r30, 0x01	; 1
+ aec:	60 83       	st	Z, r22
+ aee:	31 97       	sbiw	r30, 0x01	; 1
+ af0:	70 83       	st	Z, r23
+ af2:	31 97       	sbiw	r30, 0x01	; 1
+ af4:	10 82       	st	Z, r1
+ af6:	31 97       	sbiw	r30, 0x01	; 1
+ af8:	60 e8       	ldi	r22, 0x80	; 128
+ afa:	60 83       	st	Z, r22
+ afc:	31 97       	sbiw	r30, 0x01	; 1
+ afe:	10 82       	st	Z, r1
+ b00:	31 97       	sbiw	r30, 0x01	; 1
+ b02:	62 e0       	ldi	r22, 0x02	; 2
+ b04:	60 83       	st	Z, r22
+ b06:	31 97       	sbiw	r30, 0x01	; 1
+ b08:	63 e0       	ldi	r22, 0x03	; 3
+ b0a:	60 83       	st	Z, r22
+ b0c:	31 97       	sbiw	r30, 0x01	; 1
+ b0e:	64 e0       	ldi	r22, 0x04	; 4
+ b10:	60 83       	st	Z, r22
+ b12:	31 97       	sbiw	r30, 0x01	; 1
+ b14:	65 e0       	ldi	r22, 0x05	; 5
+ b16:	60 83       	st	Z, r22
+ b18:	31 97       	sbiw	r30, 0x01	; 1
+ b1a:	66 e0       	ldi	r22, 0x06	; 6
+ b1c:	60 83       	st	Z, r22
+ b1e:	31 97       	sbiw	r30, 0x01	; 1
+ b20:	67 e0       	ldi	r22, 0x07	; 7
+ b22:	60 83       	st	Z, r22
+ b24:	31 97       	sbiw	r30, 0x01	; 1
+ b26:	68 e0       	ldi	r22, 0x08	; 8
+ b28:	60 83       	st	Z, r22
+ b2a:	31 97       	sbiw	r30, 0x01	; 1
+ b2c:	69 e0       	ldi	r22, 0x09	; 9
+ b2e:	60 83       	st	Z, r22
+ b30:	31 97       	sbiw	r30, 0x01	; 1
+ b32:	60 e1       	ldi	r22, 0x10	; 16
+ b34:	60 83       	st	Z, r22
+ b36:	31 97       	sbiw	r30, 0x01	; 1
+ b38:	30 83       	st	Z, r19
+ b3a:	31 97       	sbiw	r30, 0x01	; 1
+ b3c:	32 e1       	ldi	r19, 0x12	; 18
+ b3e:	30 83       	st	Z, r19
+ b40:	31 97       	sbiw	r30, 0x01	; 1
+ b42:	33 e1       	ldi	r19, 0x13	; 19
+ b44:	30 83       	st	Z, r19
+ b46:	31 97       	sbiw	r30, 0x01	; 1
+ b48:	34 e1       	ldi	r19, 0x14	; 20
+ b4a:	30 83       	st	Z, r19
+ b4c:	31 97       	sbiw	r30, 0x01	; 1
+ b4e:	35 e1       	ldi	r19, 0x15	; 21
+ b50:	30 83       	st	Z, r19
+ b52:	31 97       	sbiw	r30, 0x01	; 1
+ b54:	36 e1       	ldi	r19, 0x16	; 22
+ b56:	30 83       	st	Z, r19
+ b58:	31 97       	sbiw	r30, 0x01	; 1
+ b5a:	37 e1       	ldi	r19, 0x17	; 23
+ b5c:	30 83       	st	Z, r19
+ b5e:	31 97       	sbiw	r30, 0x01	; 1
+ b60:	38 e1       	ldi	r19, 0x18	; 24
+ b62:	30 83       	st	Z, r19
+ b64:	31 97       	sbiw	r30, 0x01	; 1
+ b66:	39 e1       	ldi	r19, 0x19	; 25
+ b68:	30 83       	st	Z, r19
+ b6a:	31 97       	sbiw	r30, 0x01	; 1
+ b6c:	30 e2       	ldi	r19, 0x20	; 32
+ b6e:	30 83       	st	Z, r19
+ b70:	31 97       	sbiw	r30, 0x01	; 1
+ b72:	31 e2       	ldi	r19, 0x21	; 33
+ b74:	30 83       	st	Z, r19
+ b76:	31 97       	sbiw	r30, 0x01	; 1
+ b78:	20 83       	st	Z, r18
+ b7a:	31 97       	sbiw	r30, 0x01	; 1
+ b7c:	23 e2       	ldi	r18, 0x23	; 35
+ b7e:	20 83       	st	Z, r18
+ b80:	31 97       	sbiw	r30, 0x01	; 1
+ b82:	40 83       	st	Z, r20
+ b84:	31 97       	sbiw	r30, 0x01	; 1
+ b86:	50 83       	st	Z, r21
+ b88:	31 97       	sbiw	r30, 0x01	; 1
+ b8a:	26 e2       	ldi	r18, 0x26	; 38
+ b8c:	20 83       	st	Z, r18
+ b8e:	31 97       	sbiw	r30, 0x01	; 1
+ b90:	27 e2       	ldi	r18, 0x27	; 39
+ b92:	20 83       	st	Z, r18
+ b94:	31 97       	sbiw	r30, 0x01	; 1
+ b96:	28 e2       	ldi	r18, 0x28	; 40
+ b98:	20 83       	st	Z, r18
+ b9a:	31 97       	sbiw	r30, 0x01	; 1
+ b9c:	29 e2       	ldi	r18, 0x29	; 41
+ b9e:	20 83       	st	Z, r18
+ ba0:	31 97       	sbiw	r30, 0x01	; 1
+ ba2:	20 e3       	ldi	r18, 0x30	; 48
+ ba4:	20 83       	st	Z, r18
+ ba6:	31 97       	sbiw	r30, 0x01	; 1
+ ba8:	21 e3       	ldi	r18, 0x31	; 49
+ baa:	20 83       	st	Z, r18
+ bac:	86 97       	sbiw	r24, 0x26	; 38
+ bae:	08 95       	ret
+
+Disassembly of section .text.xPortStartScheduler:
+
+00001340 <xPortStartScheduler>:
+/*-----------------------------------------------------------*/
+
+BaseType_t xPortStartScheduler( void )
+{
+	/* Setup the hardware to generate the tick. */
+	prvSetupTimerInterrupt();
+    1340:	0e 94 be 0a 	call	0x157c	; 0x157c <prvSetupTimerInterrupt>
+
+	/* Restore the context of the first task that is going to run. */
+	portRESTORE_CONTEXT();
+    1344:	a0 91 a5 06 	lds	r26, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+    1348:	b0 91 a6 06 	lds	r27, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+    134c:	cd 91       	ld	r28, X+
+    134e:	cd bf       	out	0x3d, r28	; 61
+    1350:	dd 91       	ld	r29, X+
+    1352:	de bf       	out	0x3e, r29	; 62
+    1354:	ff 91       	pop	r31
+    1356:	ef 91       	pop	r30
+    1358:	df 91       	pop	r29
+    135a:	cf 91       	pop	r28
+    135c:	bf 91       	pop	r27
+    135e:	af 91       	pop	r26
+    1360:	9f 91       	pop	r25
+    1362:	8f 91       	pop	r24
+    1364:	7f 91       	pop	r23
+    1366:	6f 91       	pop	r22
+    1368:	5f 91       	pop	r21
+    136a:	4f 91       	pop	r20
+    136c:	3f 91       	pop	r19
+    136e:	2f 91       	pop	r18
+    1370:	1f 91       	pop	r17
+    1372:	0f 91       	pop	r16
+    1374:	ff 90       	pop	r15
+    1376:	ef 90       	pop	r14
+    1378:	df 90       	pop	r13
+    137a:	cf 90       	pop	r12
+    137c:	bf 90       	pop	r11
+    137e:	af 90       	pop	r10
+    1380:	9f 90       	pop	r9
+    1382:	8f 90       	pop	r8
+    1384:	7f 90       	pop	r7
+    1386:	6f 90       	pop	r6
+    1388:	5f 90       	pop	r5
+    138a:	4f 90       	pop	r4
+    138c:	3f 90       	pop	r3
+    138e:	2f 90       	pop	r2
+    1390:	1f 90       	pop	r1
+    1392:	0f 90       	pop	r0
+    1394:	0f be       	out	0x3f, r0	; 63
+    1396:	0f 90       	pop	r0
+
+	/* Simulate a function call end as generated by the compiler.  We will now
+	jump to the start of the task the context of which we have just restored. */
+	asm volatile ( "ret" );
+    1398:	08 95       	ret
+
+	/* Should not get here. */
+	return pdTRUE;
+}
+    139a:	81 e0       	ldi	r24, 0x01	; 1
+    139c:	08 95       	ret
+
+Disassembly of section .text.vPortYield:
+
+00000c68 <vPortYield>:
+ * can use a naked attribute.
+ */
+void vPortYield( void ) __attribute__ ( ( naked ) );
+void vPortYield( void )
+{
+	portSAVE_CONTEXT();
+ c68:	0f 92       	push	r0
+ c6a:	0f b6       	in	r0, 0x3f	; 63
+ c6c:	f8 94       	cli
+ c6e:	0f 92       	push	r0
+ c70:	1f 92       	push	r1
+ c72:	11 24       	eor	r1, r1
+ c74:	2f 92       	push	r2
+ c76:	3f 92       	push	r3
+ c78:	4f 92       	push	r4
+ c7a:	5f 92       	push	r5
+ c7c:	6f 92       	push	r6
+ c7e:	7f 92       	push	r7
+ c80:	8f 92       	push	r8
+ c82:	9f 92       	push	r9
+ c84:	af 92       	push	r10
+ c86:	bf 92       	push	r11
+ c88:	cf 92       	push	r12
+ c8a:	df 92       	push	r13
+ c8c:	ef 92       	push	r14
+ c8e:	ff 92       	push	r15
+ c90:	0f 93       	push	r16
+ c92:	1f 93       	push	r17
+ c94:	2f 93       	push	r18
+ c96:	3f 93       	push	r19
+ c98:	4f 93       	push	r20
+ c9a:	5f 93       	push	r21
+ c9c:	6f 93       	push	r22
+ c9e:	7f 93       	push	r23
+ ca0:	8f 93       	push	r24
+ ca2:	9f 93       	push	r25
+ ca4:	af 93       	push	r26
+ ca6:	bf 93       	push	r27
+ ca8:	cf 93       	push	r28
+ caa:	df 93       	push	r29
+ cac:	ef 93       	push	r30
+ cae:	ff 93       	push	r31
+ cb0:	a0 91 a5 06 	lds	r26, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ cb4:	b0 91 a6 06 	lds	r27, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ cb8:	0d b6       	in	r0, 0x3d	; 61
+ cba:	0d 92       	st	X+, r0
+ cbc:	0e b6       	in	r0, 0x3e	; 62
+ cbe:	0d 92       	st	X+, r0
+	vTaskSwitchContext();
+ cc0:	0e 94 8d 06 	call	0xd1a	; 0xd1a <vTaskSwitchContext>
+	portRESTORE_CONTEXT();
+ cc4:	a0 91 a5 06 	lds	r26, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ cc8:	b0 91 a6 06 	lds	r27, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ ccc:	cd 91       	ld	r28, X+
+ cce:	cd bf       	out	0x3d, r28	; 61
+ cd0:	dd 91       	ld	r29, X+
+ cd2:	de bf       	out	0x3e, r29	; 62
+ cd4:	ff 91       	pop	r31
+ cd6:	ef 91       	pop	r30
+ cd8:	df 91       	pop	r29
+ cda:	cf 91       	pop	r28
+ cdc:	bf 91       	pop	r27
+ cde:	af 91       	pop	r26
+ ce0:	9f 91       	pop	r25
+ ce2:	8f 91       	pop	r24
+ ce4:	7f 91       	pop	r23
+ ce6:	6f 91       	pop	r22
+ ce8:	5f 91       	pop	r21
+ cea:	4f 91       	pop	r20
+ cec:	3f 91       	pop	r19
+ cee:	2f 91       	pop	r18
+ cf0:	1f 91       	pop	r17
+ cf2:	0f 91       	pop	r16
+ cf4:	ff 90       	pop	r15
+ cf6:	ef 90       	pop	r14
+ cf8:	df 90       	pop	r13
+ cfa:	cf 90       	pop	r12
+ cfc:	bf 90       	pop	r11
+ cfe:	af 90       	pop	r10
+ d00:	9f 90       	pop	r9
+ d02:	8f 90       	pop	r8
+ d04:	7f 90       	pop	r7
+ d06:	6f 90       	pop	r6
+ d08:	5f 90       	pop	r5
+ d0a:	4f 90       	pop	r4
+ d0c:	3f 90       	pop	r3
+ d0e:	2f 90       	pop	r2
+ d10:	1f 90       	pop	r1
+ d12:	0f 90       	pop	r0
+ d14:	0f be       	out	0x3f, r0	; 63
+ d16:	0f 90       	pop	r0
+
+	asm volatile ( "ret" );
+ d18:	08 95       	ret
+
+Disassembly of section .text.vPortYieldFromTick:
+
+00000bb0 <vPortYieldFromTick>:
+	return pdTRUE;
+}
+/*-----------------------------------------------------------*/
+
+void vPortEndScheduler( void )
+{
+ bb0:	0f 92       	push	r0
+ bb2:	0f b6       	in	r0, 0x3f	; 63
+ bb4:	f8 94       	cli
+ bb6:	0f 92       	push	r0
+ bb8:	1f 92       	push	r1
+ bba:	11 24       	eor	r1, r1
+ bbc:	2f 92       	push	r2
+ bbe:	3f 92       	push	r3
+ bc0:	4f 92       	push	r4
+ bc2:	5f 92       	push	r5
+ bc4:	6f 92       	push	r6
+ bc6:	7f 92       	push	r7
+ bc8:	8f 92       	push	r8
+ bca:	9f 92       	push	r9
+ bcc:	af 92       	push	r10
+ bce:	bf 92       	push	r11
+ bd0:	cf 92       	push	r12
+ bd2:	df 92       	push	r13
+ bd4:	ef 92       	push	r14
+ bd6:	ff 92       	push	r15
+ bd8:	0f 93       	push	r16
+ bda:	1f 93       	push	r17
+ bdc:	2f 93       	push	r18
+ bde:	3f 93       	push	r19
+ be0:	4f 93       	push	r20
+ be2:	5f 93       	push	r21
+ be4:	6f 93       	push	r22
+ be6:	7f 93       	push	r23
+ be8:	8f 93       	push	r24
+ bea:	9f 93       	push	r25
+ bec:	af 93       	push	r26
+ bee:	bf 93       	push	r27
+ bf0:	cf 93       	push	r28
+ bf2:	df 93       	push	r29
+ bf4:	ef 93       	push	r30
+ bf6:	ff 93       	push	r31
+ bf8:	a0 91 a5 06 	lds	r26, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ bfc:	b0 91 a6 06 	lds	r27, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ c00:	0d b6       	in	r0, 0x3d	; 61
+ c02:	0d 92       	st	X+, r0
+ c04:	0e b6       	in	r0, 0x3e	; 62
+ c06:	0d 92       	st	X+, r0
+ c08:	0e 94 65 00 	call	0xca	; 0xca <xTaskIncrementTick>
+ c0c:	81 11       	cpse	r24, r1
+ c0e:	0e 94 8d 06 	call	0xd1a	; 0xd1a <vTaskSwitchContext>
+ c12:	a0 91 a5 06 	lds	r26, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ c16:	b0 91 a6 06 	lds	r27, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ c1a:	cd 91       	ld	r28, X+
+ c1c:	cd bf       	out	0x3d, r28	; 61
+ c1e:	dd 91       	ld	r29, X+
+ c20:	de bf       	out	0x3e, r29	; 62
+ c22:	ff 91       	pop	r31
+ c24:	ef 91       	pop	r30
+ c26:	df 91       	pop	r29
+ c28:	cf 91       	pop	r28
+ c2a:	bf 91       	pop	r27
+ c2c:	af 91       	pop	r26
+ c2e:	9f 91       	pop	r25
+ c30:	8f 91       	pop	r24
+ c32:	7f 91       	pop	r23
+ c34:	6f 91       	pop	r22
+ c36:	5f 91       	pop	r21
+ c38:	4f 91       	pop	r20
+ c3a:	3f 91       	pop	r19
+ c3c:	2f 91       	pop	r18
+ c3e:	1f 91       	pop	r17
+ c40:	0f 91       	pop	r16
+ c42:	ff 90       	pop	r15
+ c44:	ef 90       	pop	r14
+ c46:	df 90       	pop	r13
+ c48:	cf 90       	pop	r12
+ c4a:	bf 90       	pop	r11
+ c4c:	af 90       	pop	r10
+ c4e:	9f 90       	pop	r9
+ c50:	8f 90       	pop	r8
+ c52:	7f 90       	pop	r7
+ c54:	6f 90       	pop	r6
+ c56:	5f 90       	pop	r5
+ c58:	4f 90       	pop	r4
+ c5a:	3f 90       	pop	r3
+ c5c:	2f 90       	pop	r2
+ c5e:	1f 90       	pop	r1
+ c60:	0f 90       	pop	r0
+ c62:	0f be       	out	0x3f, r0	; 63
+ c64:	0f 90       	pop	r0
+ c66:	08 95       	ret
+
+Disassembly of section .text.__vector_7:
+
+000015a2 <__vector_7>:
+	 * count is incremented after the context is saved.
+	 */
+	void TIMER1_COMPA_vect( void ) __attribute__ ( ( signal, naked ) );
+	void TIMER1_COMPA_vect( void )
+	{
+		vPortYieldFromTick();
+    15a2:	0e 94 d8 05 	call	0xbb0	; 0xbb0 <vPortYieldFromTick>
+		asm volatile ( "reti" );
+    15a6:	18 95       	reti
+
+Disassembly of section .text.prvIdleTask:
+
+000015b0 <prvIdleTask>:
+ *
+ * void prvIdleTask( void *pvParameters );
+ *
+ */
+static portTASK_FUNCTION( prvIdleTask, pvParameters )
+{
+    15b0:	ff cf       	rjmp	.-2      	; 0x15b0 <prvIdleTask>
+
+Disassembly of section .text.prvResetNextTaskUnblockTime:
+
+000014d4 <prvResetNextTaskUnblockTime>:
+        {
+            mtCOVERAGE_TEST_MARKER();
+        }
+
+        return xReturn;
+    } /*lint !e818 xTask cannot be a pointer to const because it is a typedef. */
+    14d4:	e0 91 a3 06 	lds	r30, 0x06A3	; 0x8006a3 <pxDelayedTaskList>
+    14d8:	f0 91 a4 06 	lds	r31, 0x06A4	; 0x8006a4 <pxDelayedTaskList+0x1>
+    14dc:	80 81       	ld	r24, Z
+    14de:	81 11       	cpse	r24, r1
+    14e0:	07 c0       	rjmp	.+14     	; 0x14f0 <prvResetNextTaskUnblockTime+0x1c>
+    14e2:	8f ef       	ldi	r24, 0xFF	; 255
+    14e4:	9f ef       	ldi	r25, 0xFF	; 255
+    14e6:	90 93 9c 06 	sts	0x069C, r25	; 0x80069c <xNextTaskUnblockTime+0x1>
+    14ea:	80 93 9b 06 	sts	0x069B, r24	; 0x80069b <xNextTaskUnblockTime>
+    14ee:	08 95       	ret
+    14f0:	e0 91 a3 06 	lds	r30, 0x06A3	; 0x8006a3 <pxDelayedTaskList>
+    14f4:	f0 91 a4 06 	lds	r31, 0x06A4	; 0x8006a4 <pxDelayedTaskList+0x1>
+    14f8:	05 80       	ldd	r0, Z+5	; 0x05
+    14fa:	f6 81       	ldd	r31, Z+6	; 0x06
+    14fc:	e0 2d       	mov	r30, r0
+    14fe:	80 81       	ld	r24, Z
+    1500:	91 81       	ldd	r25, Z+1	; 0x01
+    1502:	90 93 9c 06 	sts	0x069C, r25	; 0x80069c <xNextTaskUnblockTime+0x1>
+    1506:	80 93 9b 06 	sts	0x069B, r24	; 0x80069b <xNextTaskUnblockTime>
+    150a:	08 95       	ret
+
+Disassembly of section .text.prvInitialiseNewTask:
+
+00000910 <prvInitialiseNewTask>:
+ 910:	6f 92       	push	r6
+ 912:	7f 92       	push	r7
+ 914:	8f 92       	push	r8
+ 916:	9f 92       	push	r9
+ 918:	af 92       	push	r10
+ 91a:	bf 92       	push	r11
+ 91c:	cf 92       	push	r12
+ 91e:	df 92       	push	r13
+ 920:	ef 92       	push	r14
+ 922:	ff 92       	push	r15
+ 924:	0f 93       	push	r16
+ 926:	1f 93       	push	r17
+ 928:	cf 93       	push	r28
+ 92a:	df 93       	push	r29
+ 92c:	cd b7       	in	r28, 0x3d	; 61
+ 92e:	de b7       	in	r29, 0x3e	; 62
+ 930:	3c 01       	movw	r6, r24
+ 932:	a6 2f       	mov	r26, r22
+ 934:	ca 01       	movw	r24, r20
+ 936:	f4 01       	movw	r30, r8
+ 938:	47 89       	ldd	r20, Z+23	; 0x17
+ 93a:	50 8d       	ldd	r21, Z+24	; 0x18
+ 93c:	01 50       	subi	r16, 0x01	; 1
+ 93e:	11 09       	sbc	r17, r1
+ 940:	04 0f       	add	r16, r20
+ 942:	15 1f       	adc	r17, r21
+ 944:	00 97       	sbiw	r24, 0x00	; 0
+ 946:	a1 05       	cpc	r26, r1
+ 948:	d1 f4       	brne	.+52     	; 0x97e <prvInitialiseNewTask+0x6e>
+ 94a:	1e c0       	rjmp	.+60     	; 0x988 <prvInitialiseNewTask+0x78>
+ 94c:	27 2f       	mov	r18, r23
+ 94e:	30 e0       	ldi	r19, 0x00	; 0
+ 950:	ac 01       	movw	r20, r24
+ 952:	6a 2f       	mov	r22, r26
+ 954:	42 0f       	add	r20, r18
+ 956:	53 1f       	adc	r21, r19
+ 958:	61 1d       	adc	r22, r1
+ 95a:	37 fd       	sbrc	r19, 7
+ 95c:	6a 95       	dec	r22
+ 95e:	fa 01       	movw	r30, r20
+ 960:	b4 91       	lpm	r27, Z
+ 962:	67 fd       	sbrc	r22, 7
+ 964:	b0 81       	ld	r27, Z
+ 966:	f4 01       	movw	r30, r8
+ 968:	e2 0f       	add	r30, r18
+ 96a:	f3 1f       	adc	r31, r19
+ 96c:	b1 8f       	std	Z+25, r27	; 0x19
+ 96e:	fa 01       	movw	r30, r20
+ 970:	24 91       	lpm	r18, Z
+ 972:	67 fd       	sbrc	r22, 7
+ 974:	20 81       	ld	r18, Z
+ 976:	22 23       	and	r18, r18
+ 978:	29 f0       	breq	.+10     	; 0x984 <prvInitialiseNewTask+0x74>
+ 97a:	7f 5f       	subi	r23, 0xFF	; 255
+ 97c:	01 c0       	rjmp	.+2      	; 0x980 <prvInitialiseNewTask+0x70>
+ 97e:	70 e0       	ldi	r23, 0x00	; 0
+ 980:	78 30       	cpi	r23, 0x08	; 8
+ 982:	20 f3       	brcs	.-56     	; 0x94c <prvInitialiseNewTask+0x3c>
+ 984:	f4 01       	movw	r30, r8
+ 986:	10 a2       	std	Z+32, r1	; 0x20
+ 988:	f3 e0       	ldi	r31, 0x03	; 3
+ 98a:	fc 15       	cp	r31, r12
+ 98c:	20 f4       	brcc	.+8      	; 0x996 <prvInitialiseNewTask+0x86>
+ 98e:	0f 2e       	mov	r0, r31
+ 990:	f3 e0       	ldi	r31, 0x03	; 3
+ 992:	cf 2e       	mov	r12, r31
+ 994:	f0 2d       	mov	r31, r0
+ 996:	f4 01       	movw	r30, r8
+ 998:	c6 8a       	std	Z+22, r12	; 0x16
+ 99a:	c4 01       	movw	r24, r8
+ 99c:	02 96       	adiw	r24, 0x02	; 2
+ 99e:	0e 94 cd 0a 	call	0x159a	; 0x159a <vListInitialiseItem>
+ 9a2:	c4 01       	movw	r24, r8
+ 9a4:	0c 96       	adiw	r24, 0x0c	; 12
+ 9a6:	0e 94 cd 0a 	call	0x159a	; 0x159a <vListInitialiseItem>
+ 9aa:	f4 01       	movw	r30, r8
+ 9ac:	91 86       	std	Z+9, r9	; 0x09
+ 9ae:	80 86       	std	Z+8, r8	; 0x08
+ 9b0:	84 e0       	ldi	r24, 0x04	; 4
+ 9b2:	90 e0       	ldi	r25, 0x00	; 0
+ 9b4:	8c 19       	sub	r24, r12
+ 9b6:	91 09       	sbc	r25, r1
+ 9b8:	95 87       	std	Z+13, r25	; 0x0d
+ 9ba:	84 87       	std	Z+12, r24	; 0x0c
+ 9bc:	93 8a       	std	Z+19, r9	; 0x13
+ 9be:	82 8a       	std	Z+18, r8	; 0x12
+ 9c0:	a7 01       	movw	r20, r14
+ 9c2:	b3 01       	movw	r22, r6
+ 9c4:	c8 01       	movw	r24, r16
+ 9c6:	0e 94 6c 05 	call	0xad8	; 0xad8 <pxPortInitialiseStack>
+ 9ca:	f4 01       	movw	r30, r8
+ 9cc:	91 83       	std	Z+1, r25	; 0x01
+ 9ce:	80 83       	st	Z, r24
+ 9d0:	a1 14       	cp	r10, r1
+ 9d2:	b1 04       	cpc	r11, r1
+ 9d4:	19 f0       	breq	.+6      	; 0x9dc <prvInitialiseNewTask+0xcc>
+ 9d6:	f5 01       	movw	r30, r10
+ 9d8:	91 82       	std	Z+1, r9	; 0x01
+ 9da:	80 82       	st	Z, r8
+ 9dc:	df 91       	pop	r29
+ 9de:	cf 91       	pop	r28
+ 9e0:	1f 91       	pop	r17
+ 9e2:	0f 91       	pop	r16
+ 9e4:	ff 90       	pop	r15
+ 9e6:	ef 90       	pop	r14
+ 9e8:	df 90       	pop	r13
+ 9ea:	cf 90       	pop	r12
+ 9ec:	bf 90       	pop	r11
+ 9ee:	af 90       	pop	r10
+ 9f0:	9f 90       	pop	r9
+ 9f2:	8f 90       	pop	r8
+ 9f4:	7f 90       	pop	r7
+ 9f6:	6f 90       	pop	r6
+ 9f8:	08 95       	ret
+
+Disassembly of section .text.prvInitialiseTaskLists:
+
+000011b6 <prvInitialiseTaskLists>:
+    11b6:	cf 93       	push	r28
+    11b8:	c0 e0       	ldi	r28, 0x00	; 0
+    11ba:	10 c0       	rjmp	.+32     	; 0x11dc <prvInitialiseTaskLists+0x26>
+    11bc:	8c 2f       	mov	r24, r28
+    11be:	90 e0       	ldi	r25, 0x00	; 0
+    11c0:	9c 01       	movw	r18, r24
+    11c2:	22 0f       	add	r18, r18
+    11c4:	33 1f       	adc	r19, r19
+    11c6:	22 0f       	add	r18, r18
+    11c8:	33 1f       	adc	r19, r19
+    11ca:	22 0f       	add	r18, r18
+    11cc:	33 1f       	adc	r19, r19
+    11ce:	82 0f       	add	r24, r18
+    11d0:	93 1f       	adc	r25, r19
+    11d2:	82 5c       	subi	r24, 0xC2	; 194
+    11d4:	99 4f       	sbci	r25, 0xF9	; 249
+    11d6:	0e 94 9b 0a 	call	0x1536	; 0x1536 <vListInitialise>
+    11da:	cf 5f       	subi	r28, 0xFF	; 255
+    11dc:	c4 30       	cpi	r28, 0x04	; 4
+    11de:	70 f3       	brcs	.-36     	; 0x11bc <prvInitialiseTaskLists+0x6>
+    11e0:	8d e7       	ldi	r24, 0x7D	; 125
+    11e2:	96 e0       	ldi	r25, 0x06	; 6
+    11e4:	0e 94 9b 0a 	call	0x1536	; 0x1536 <vListInitialise>
+    11e8:	84 e7       	ldi	r24, 0x74	; 116
+    11ea:	96 e0       	ldi	r25, 0x06	; 6
+    11ec:	0e 94 9b 0a 	call	0x1536	; 0x1536 <vListInitialise>
+    11f0:	8b e6       	ldi	r24, 0x6B	; 107
+    11f2:	96 e0       	ldi	r25, 0x06	; 6
+    11f4:	0e 94 9b 0a 	call	0x1536	; 0x1536 <vListInitialise>
+    11f8:	82 e6       	ldi	r24, 0x62	; 98
+    11fa:	96 e0       	ldi	r25, 0x06	; 6
+    11fc:	0e 94 9b 0a 	call	0x1536	; 0x1536 <vListInitialise>
+    1200:	8d e7       	ldi	r24, 0x7D	; 125
+    1202:	96 e0       	ldi	r25, 0x06	; 6
+    1204:	90 93 a4 06 	sts	0x06A4, r25	; 0x8006a4 <pxDelayedTaskList+0x1>
+    1208:	80 93 a3 06 	sts	0x06A3, r24	; 0x8006a3 <pxDelayedTaskList>
+    120c:	84 e7       	ldi	r24, 0x74	; 116
+    120e:	96 e0       	ldi	r25, 0x06	; 6
+    1210:	90 93 a2 06 	sts	0x06A2, r25	; 0x8006a2 <pxOverflowDelayedTaskList+0x1>
+    1214:	80 93 a1 06 	sts	0x06A1, r24	; 0x8006a1 <pxOverflowDelayedTaskList>
+    1218:	cf 91       	pop	r28
+    121a:	08 95       	ret
+
+Disassembly of section .text.prvAddNewTaskToReadyList:
+
+00000816 <prvAddNewTaskToReadyList>:
+ 816:	cf 93       	push	r28
+ 818:	df 93       	push	r29
+ 81a:	ec 01       	movw	r28, r24
+ 81c:	0f b6       	in	r0, 0x3f	; 63
+ 81e:	f8 94       	cli
+ 820:	0f 92       	push	r0
+ 822:	80 91 ad 06 	lds	r24, 0x06AD	; 0x8006ad <uxCurrentNumberOfTasks>
+ 826:	8f 5f       	subi	r24, 0xFF	; 255
+ 828:	80 93 ad 06 	sts	0x06AD, r24	; 0x8006ad <uxCurrentNumberOfTasks>
+ 82c:	80 91 a5 06 	lds	r24, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 830:	90 91 a6 06 	lds	r25, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 834:	89 2b       	or	r24, r25
+ 836:	59 f4       	brne	.+22     	; 0x84e <prvAddNewTaskToReadyList+0x38>
+ 838:	d0 93 a6 06 	sts	0x06A6, r29	; 0x8006a6 <pxCurrentTCB+0x1>
+ 83c:	c0 93 a5 06 	sts	0x06A5, r28	; 0x8006a5 <pxCurrentTCB>
+ 840:	80 91 ad 06 	lds	r24, 0x06AD	; 0x8006ad <uxCurrentNumberOfTasks>
+ 844:	81 30       	cpi	r24, 0x01	; 1
+ 846:	99 f4       	brne	.+38     	; 0x86e <__stack+0xf>
+ 848:	0e 94 db 08 	call	0x11b6	; 0x11b6 <prvInitialiseTaskLists>
+ 84c:	10 c0       	rjmp	.+32     	; 0x86e <__stack+0xf>
+ 84e:	80 91 ab 06 	lds	r24, 0x06AB	; 0x8006ab <xSchedulerRunning>
+ 852:	81 11       	cpse	r24, r1
+ 854:	0c c0       	rjmp	.+24     	; 0x86e <__stack+0xf>
+ 856:	e0 91 a5 06 	lds	r30, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 85a:	f0 91 a6 06 	lds	r31, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 85e:	96 89       	ldd	r25, Z+22	; 0x16
+ 860:	8e 89       	ldd	r24, Y+22	; 0x16
+ 862:	89 17       	cp	r24, r25
+ 864:	20 f0       	brcs	.+8      	; 0x86e <__stack+0xf>
+ 866:	d0 93 a6 06 	sts	0x06A6, r29	; 0x8006a6 <pxCurrentTCB+0x1>
+ 86a:	c0 93 a5 06 	sts	0x06A5, r28	; 0x8006a5 <pxCurrentTCB>
+ 86e:	80 91 a8 06 	lds	r24, 0x06A8	; 0x8006a8 <uxTaskNumber>
+ 872:	8f 5f       	subi	r24, 0xFF	; 255
+ 874:	80 93 a8 06 	sts	0x06A8, r24	; 0x8006a8 <uxTaskNumber>
+ 878:	8e 89       	ldd	r24, Y+22	; 0x16
+ 87a:	90 91 ac 06 	lds	r25, 0x06AC	; 0x8006ac <uxTopReadyPriority>
+ 87e:	98 17       	cp	r25, r24
+ 880:	10 f4       	brcc	.+4      	; 0x886 <__stack+0x27>
+ 882:	80 93 ac 06 	sts	0x06AC, r24	; 0x8006ac <uxTopReadyPriority>
+ 886:	90 e0       	ldi	r25, 0x00	; 0
+ 888:	fc 01       	movw	r30, r24
+ 88a:	ee 0f       	add	r30, r30
+ 88c:	ff 1f       	adc	r31, r31
+ 88e:	ee 0f       	add	r30, r30
+ 890:	ff 1f       	adc	r31, r31
+ 892:	ee 0f       	add	r30, r30
+ 894:	ff 1f       	adc	r31, r31
+ 896:	8e 0f       	add	r24, r30
+ 898:	9f 1f       	adc	r25, r31
+ 89a:	fc 01       	movw	r30, r24
+ 89c:	e2 5c       	subi	r30, 0xC2	; 194
+ 89e:	f9 4f       	sbci	r31, 0xF9	; 249
+ 8a0:	01 80       	ldd	r0, Z+1	; 0x01
+ 8a2:	f2 81       	ldd	r31, Z+2	; 0x02
+ 8a4:	e0 2d       	mov	r30, r0
+ 8a6:	fd 83       	std	Y+5, r31	; 0x05
+ 8a8:	ec 83       	std	Y+4, r30	; 0x04
+ 8aa:	84 81       	ldd	r24, Z+4	; 0x04
+ 8ac:	95 81       	ldd	r25, Z+5	; 0x05
+ 8ae:	9f 83       	std	Y+7, r25	; 0x07
+ 8b0:	8e 83       	std	Y+6, r24	; 0x06
+ 8b2:	a4 81       	ldd	r26, Z+4	; 0x04
+ 8b4:	b5 81       	ldd	r27, Z+5	; 0x05
+ 8b6:	ce 01       	movw	r24, r28
+ 8b8:	02 96       	adiw	r24, 0x02	; 2
+ 8ba:	13 96       	adiw	r26, 0x03	; 3
+ 8bc:	9c 93       	st	X, r25
+ 8be:	8e 93       	st	-X, r24
+ 8c0:	12 97       	sbiw	r26, 0x02	; 2
+ 8c2:	95 83       	std	Z+5, r25	; 0x05
+ 8c4:	84 83       	std	Z+4, r24	; 0x04
+ 8c6:	ee 89       	ldd	r30, Y+22	; 0x16
+ 8c8:	f0 e0       	ldi	r31, 0x00	; 0
+ 8ca:	cf 01       	movw	r24, r30
+ 8cc:	88 0f       	add	r24, r24
+ 8ce:	99 1f       	adc	r25, r25
+ 8d0:	88 0f       	add	r24, r24
+ 8d2:	99 1f       	adc	r25, r25
+ 8d4:	88 0f       	add	r24, r24
+ 8d6:	99 1f       	adc	r25, r25
+ 8d8:	e8 0f       	add	r30, r24
+ 8da:	f9 1f       	adc	r31, r25
+ 8dc:	e2 5c       	subi	r30, 0xC2	; 194
+ 8de:	f9 4f       	sbci	r31, 0xF9	; 249
+ 8e0:	fb 87       	std	Y+11, r31	; 0x0b
+ 8e2:	ea 87       	std	Y+10, r30	; 0x0a
+ 8e4:	80 81       	ld	r24, Z
+ 8e6:	8f 5f       	subi	r24, 0xFF	; 255
+ 8e8:	80 83       	st	Z, r24
+ 8ea:	0f 90       	pop	r0
+ 8ec:	0f be       	out	0x3f, r0	; 63
+ 8ee:	80 91 ab 06 	lds	r24, 0x06AB	; 0x8006ab <xSchedulerRunning>
+ 8f2:	88 23       	and	r24, r24
+ 8f4:	51 f0       	breq	.+20     	; 0x90a <__stack+0xab>
+ 8f6:	e0 91 a5 06 	lds	r30, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 8fa:	f0 91 a6 06 	lds	r31, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 8fe:	96 89       	ldd	r25, Z+22	; 0x16
+ 900:	8e 89       	ldd	r24, Y+22	; 0x16
+ 902:	98 17       	cp	r25, r24
+ 904:	10 f4       	brcc	.+4      	; 0x90a <__stack+0xab>
+ 906:	0e 94 34 06 	call	0xc68	; 0xc68 <vPortYield>
+ 90a:	df 91       	pop	r29
+ 90c:	cf 91       	pop	r28
+ 90e:	08 95       	ret
+
+Disassembly of section .text.prvAddCurrentTaskToDelayedList:
+
+00000714 <prvAddCurrentTaskToDelayedList>:
+ 714:	ff 92       	push	r15
+ 716:	0f 93       	push	r16
+ 718:	1f 93       	push	r17
+ 71a:	cf 93       	push	r28
+ 71c:	df 93       	push	r29
+ 71e:	ec 01       	movw	r28, r24
+ 720:	f6 2e       	mov	r15, r22
+ 722:	00 91 9f 06 	lds	r16, 0x069F	; 0x80069f <xTickCount>
+ 726:	10 91 a0 06 	lds	r17, 0x06A0	; 0x8006a0 <xTickCount+0x1>
+ 72a:	80 91 a5 06 	lds	r24, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 72e:	90 91 a6 06 	lds	r25, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 732:	02 96       	adiw	r24, 0x02	; 2
+ 734:	0e 94 fe 09 	call	0x13fc	; 0x13fc <uxListRemove>
+ 738:	cf 3f       	cpi	r28, 0xFF	; 255
+ 73a:	8f ef       	ldi	r24, 0xFF	; 255
+ 73c:	d8 07       	cpc	r29, r24
+ 73e:	b1 f5       	brne	.+108    	; 0x7ac <prvAddCurrentTaskToDelayedList+0x98>
+ 740:	ff 20       	and	r15, r15
+ 742:	a1 f1       	breq	.+104    	; 0x7ac <prvAddCurrentTaskToDelayedList+0x98>
+ 744:	e2 e6       	ldi	r30, 0x62	; 98
+ 746:	f6 e0       	ldi	r31, 0x06	; 6
+ 748:	a1 81       	ldd	r26, Z+1	; 0x01
+ 74a:	b2 81       	ldd	r27, Z+2	; 0x02
+ 74c:	c0 91 a5 06 	lds	r28, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 750:	d0 91 a6 06 	lds	r29, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 754:	bd 83       	std	Y+5, r27	; 0x05
+ 756:	ac 83       	std	Y+4, r26	; 0x04
+ 758:	c0 91 a5 06 	lds	r28, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 75c:	d0 91 a6 06 	lds	r29, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 760:	14 96       	adiw	r26, 0x04	; 4
+ 762:	8d 91       	ld	r24, X+
+ 764:	9c 91       	ld	r25, X
+ 766:	15 97       	sbiw	r26, 0x05	; 5
+ 768:	9f 83       	std	Y+7, r25	; 0x07
+ 76a:	8e 83       	std	Y+6, r24	; 0x06
+ 76c:	14 96       	adiw	r26, 0x04	; 4
+ 76e:	cd 91       	ld	r28, X+
+ 770:	dc 91       	ld	r29, X
+ 772:	15 97       	sbiw	r26, 0x05	; 5
+ 774:	80 91 a5 06 	lds	r24, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 778:	90 91 a6 06 	lds	r25, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 77c:	02 96       	adiw	r24, 0x02	; 2
+ 77e:	9b 83       	std	Y+3, r25	; 0x03
+ 780:	8a 83       	std	Y+2, r24	; 0x02
+ 782:	80 91 a5 06 	lds	r24, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 786:	90 91 a6 06 	lds	r25, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 78a:	02 96       	adiw	r24, 0x02	; 2
+ 78c:	15 96       	adiw	r26, 0x05	; 5
+ 78e:	9c 93       	st	X, r25
+ 790:	8e 93       	st	-X, r24
+ 792:	14 97       	sbiw	r26, 0x04	; 4
+ 794:	a0 91 a5 06 	lds	r26, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 798:	b0 91 a6 06 	lds	r27, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 79c:	1b 96       	adiw	r26, 0x0b	; 11
+ 79e:	fc 93       	st	X, r31
+ 7a0:	ee 93       	st	-X, r30
+ 7a2:	1a 97       	sbiw	r26, 0x0a	; 10
+ 7a4:	80 81       	ld	r24, Z
+ 7a6:	8f 5f       	subi	r24, 0xFF	; 255
+ 7a8:	80 83       	st	Z, r24
+ 7aa:	2f c0       	rjmp	.+94     	; 0x80a <__DATA_REGION_LENGTH__+0xa>
+ 7ac:	c0 0f       	add	r28, r16
+ 7ae:	d1 1f       	adc	r29, r17
+ 7b0:	e0 91 a5 06 	lds	r30, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 7b4:	f0 91 a6 06 	lds	r31, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 7b8:	d3 83       	std	Z+3, r29	; 0x03
+ 7ba:	c2 83       	std	Z+2, r28	; 0x02
+ 7bc:	c0 17       	cp	r28, r16
+ 7be:	d1 07       	cpc	r29, r17
+ 7c0:	68 f4       	brcc	.+26     	; 0x7dc <prvAddCurrentTaskToDelayedList+0xc8>
+ 7c2:	60 91 a5 06 	lds	r22, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 7c6:	70 91 a6 06 	lds	r23, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 7ca:	80 91 a1 06 	lds	r24, 0x06A1	; 0x8006a1 <pxOverflowDelayedTaskList>
+ 7ce:	90 91 a2 06 	lds	r25, 0x06A2	; 0x8006a2 <pxOverflowDelayedTaskList+0x1>
+ 7d2:	6e 5f       	subi	r22, 0xFE	; 254
+ 7d4:	7f 4f       	sbci	r23, 0xFF	; 255
+ 7d6:	0e 94 0e 09 	call	0x121c	; 0x121c <vListInsert>
+ 7da:	17 c0       	rjmp	.+46     	; 0x80a <__DATA_REGION_LENGTH__+0xa>
+ 7dc:	60 91 a5 06 	lds	r22, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 7e0:	70 91 a6 06 	lds	r23, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 7e4:	80 91 a3 06 	lds	r24, 0x06A3	; 0x8006a3 <pxDelayedTaskList>
+ 7e8:	90 91 a4 06 	lds	r25, 0x06A4	; 0x8006a4 <pxDelayedTaskList+0x1>
+ 7ec:	6e 5f       	subi	r22, 0xFE	; 254
+ 7ee:	7f 4f       	sbci	r23, 0xFF	; 255
+ 7f0:	0e 94 0e 09 	call	0x121c	; 0x121c <vListInsert>
+ 7f4:	80 91 9b 06 	lds	r24, 0x069B	; 0x80069b <xNextTaskUnblockTime>
+ 7f8:	90 91 9c 06 	lds	r25, 0x069C	; 0x80069c <xNextTaskUnblockTime+0x1>
+ 7fc:	c8 17       	cp	r28, r24
+ 7fe:	d9 07       	cpc	r29, r25
+ 800:	20 f4       	brcc	.+8      	; 0x80a <__DATA_REGION_LENGTH__+0xa>
+ 802:	d0 93 9c 06 	sts	0x069C, r29	; 0x80069c <xNextTaskUnblockTime+0x1>
+ 806:	c0 93 9b 06 	sts	0x069B, r28	; 0x80069b <xNextTaskUnblockTime>
+ 80a:	df 91       	pop	r29
+ 80c:	cf 91       	pop	r28
+ 80e:	1f 91       	pop	r17
+ 810:	0f 91       	pop	r16
+ 812:	ff 90       	pop	r15
+ 814:	08 95       	ret
+
+Disassembly of section .text.xTaskCreate:
+
+000009fa <xTaskCreate>:
+ 9fa:	4f 92       	push	r4
+ 9fc:	5f 92       	push	r5
+ 9fe:	6f 92       	push	r6
+ a00:	7f 92       	push	r7
+ a02:	8f 92       	push	r8
+ a04:	9f 92       	push	r9
+ a06:	af 92       	push	r10
+ a08:	bf 92       	push	r11
+ a0a:	cf 92       	push	r12
+ a0c:	df 92       	push	r13
+ a0e:	ef 92       	push	r14
+ a10:	ff 92       	push	r15
+ a12:	0f 93       	push	r16
+ a14:	1f 93       	push	r17
+ a16:	cf 93       	push	r28
+ a18:	df 93       	push	r29
+ a1a:	00 d0       	rcall	.+0      	; 0xa1c <xTaskCreate+0x22>
+ a1c:	00 d0       	rcall	.+0      	; 0xa1e <xTaskCreate+0x24>
+ a1e:	0f 92       	push	r0
+ a20:	cd b7       	in	r28, 0x3d	; 61
+ a22:	de b7       	in	r29, 0x3e	; 62
+ a24:	3c 01       	movw	r6, r24
+ a26:	49 83       	std	Y+1, r20	; 0x01
+ a28:	5a 83       	std	Y+2, r21	; 0x02
+ a2a:	6b 83       	std	Y+3, r22	; 0x03
+ a2c:	49 01       	movw	r8, r18
+ a2e:	28 01       	movw	r4, r16
+ a30:	c9 01       	movw	r24, r18
+ a32:	0e 94 54 02 	call	0x4a8	; 0x4a8 <pvPortMalloc>
+ a36:	8c 01       	movw	r16, r24
+ a38:	89 2b       	or	r24, r25
+ a3a:	b9 f0       	breq	.+46     	; 0xa6a <xTaskCreate+0x70>
+ a3c:	86 e2       	ldi	r24, 0x26	; 38
+ a3e:	90 e0       	ldi	r25, 0x00	; 0
+ a40:	0e 94 54 02 	call	0x4a8	; 0x4a8 <pvPortMalloc>
+ a44:	9d 83       	std	Y+5, r25	; 0x05
+ a46:	8c 83       	std	Y+4, r24	; 0x04
+ a48:	89 2b       	or	r24, r25
+ a4a:	59 f0       	breq	.+22     	; 0xa62 <xTaskCreate+0x68>
+ a4c:	86 e2       	ldi	r24, 0x26	; 38
+ a4e:	ec 81       	ldd	r30, Y+4	; 0x04
+ a50:	fd 81       	ldd	r31, Y+5	; 0x05
+ a52:	11 92       	st	Z+, r1
+ a54:	8a 95       	dec	r24
+ a56:	e9 f7       	brne	.-6      	; 0xa52 <xTaskCreate+0x58>
+ a58:	ec 81       	ldd	r30, Y+4	; 0x04
+ a5a:	fd 81       	ldd	r31, Y+5	; 0x05
+ a5c:	10 8f       	std	Z+24, r17	; 0x18
+ a5e:	07 8b       	std	Z+23, r16	; 0x17
+ a60:	06 c0       	rjmp	.+12     	; 0xa6e <xTaskCreate+0x74>
+ a62:	c8 01       	movw	r24, r16
+ a64:	0e 94 3f 08 	call	0x107e	; 0x107e <vPortFree>
+ a68:	02 c0       	rjmp	.+4      	; 0xa6e <xTaskCreate+0x74>
+ a6a:	1d 82       	std	Y+5, r1	; 0x05
+ a6c:	1c 82       	std	Y+4, r1	; 0x04
+ a6e:	8c 81       	ldd	r24, Y+4	; 0x04
+ a70:	9d 81       	ldd	r25, Y+5	; 0x05
+ a72:	89 2b       	or	r24, r25
+ a74:	d1 f0       	breq	.+52     	; 0xaaa <xTaskCreate+0xb0>
+ a76:	84 01       	movw	r16, r8
+ a78:	20 e0       	ldi	r18, 0x00	; 0
+ a7a:	30 e0       	ldi	r19, 0x00	; 0
+ a7c:	1f 92       	push	r1
+ a7e:	1f 92       	push	r1
+ a80:	1f 92       	push	r1
+ a82:	8c 80       	ldd	r8, Y+4	; 0x04
+ a84:	9d 80       	ldd	r9, Y+5	; 0x05
+ a86:	56 01       	movw	r10, r12
+ a88:	ce 2c       	mov	r12, r14
+ a8a:	72 01       	movw	r14, r4
+ a8c:	49 81       	ldd	r20, Y+1	; 0x01
+ a8e:	5a 81       	ldd	r21, Y+2	; 0x02
+ a90:	6b 81       	ldd	r22, Y+3	; 0x03
+ a92:	c3 01       	movw	r24, r6
+ a94:	0e 94 88 04 	call	0x910	; 0x910 <prvInitialiseNewTask>
+ a98:	8c 81       	ldd	r24, Y+4	; 0x04
+ a9a:	9d 81       	ldd	r25, Y+5	; 0x05
+ a9c:	0e 94 0b 04 	call	0x816	; 0x816 <prvAddNewTaskToReadyList>
+ aa0:	0f 90       	pop	r0
+ aa2:	0f 90       	pop	r0
+ aa4:	0f 90       	pop	r0
+ aa6:	81 e0       	ldi	r24, 0x01	; 1
+ aa8:	01 c0       	rjmp	.+2      	; 0xaac <xTaskCreate+0xb2>
+ aaa:	8f ef       	ldi	r24, 0xFF	; 255
+ aac:	0f 90       	pop	r0
+ aae:	0f 90       	pop	r0
+ ab0:	0f 90       	pop	r0
+ ab2:	0f 90       	pop	r0
+ ab4:	0f 90       	pop	r0
+ ab6:	df 91       	pop	r29
+ ab8:	cf 91       	pop	r28
+ aba:	1f 91       	pop	r17
+ abc:	0f 91       	pop	r16
+ abe:	ff 90       	pop	r15
+ ac0:	ef 90       	pop	r14
+ ac2:	df 90       	pop	r13
+ ac4:	cf 90       	pop	r12
+ ac6:	bf 90       	pop	r11
+ ac8:	af 90       	pop	r10
+ aca:	9f 90       	pop	r9
+ acc:	8f 90       	pop	r8
+ ace:	7f 90       	pop	r7
+ ad0:	6f 90       	pop	r6
+ ad2:	5f 90       	pop	r5
+ ad4:	4f 90       	pop	r4
+ ad6:	08 95       	ret
+
+Disassembly of section .text.uxTaskPriorityGet:
+
+0000150c <uxTaskPriorityGet>:
+    150c:	0f b6       	in	r0, 0x3f	; 63
+    150e:	f8 94       	cli
+    1510:	0f 92       	push	r0
+    1512:	00 97       	sbiw	r24, 0x00	; 0
+    1514:	31 f4       	brne	.+12     	; 0x1522 <uxTaskPriorityGet+0x16>
+    1516:	80 91 a5 06 	lds	r24, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+    151a:	90 91 a6 06 	lds	r25, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+    151e:	a0 e8       	ldi	r26, 0x80	; 128
+    1520:	01 c0       	rjmp	.+2      	; 0x1524 <uxTaskPriorityGet+0x18>
+    1522:	a0 e8       	ldi	r26, 0x80	; 128
+    1524:	46 96       	adiw	r24, 0x16	; 22
+    1526:	a1 1d       	adc	r26, r1
+    1528:	fc 01       	movw	r30, r24
+    152a:	84 91       	lpm	r24, Z
+    152c:	a7 fd       	sbrc	r26, 7
+    152e:	80 81       	ld	r24, Z
+    1530:	0f 90       	pop	r0
+    1532:	0f be       	out	0x3f, r0	; 63
+    1534:	08 95       	ret
+
+Disassembly of section .text.vTaskPrioritySet:
+
+000005de <vTaskPrioritySet>:
+ 5de:	ef 92       	push	r14
+ 5e0:	ff 92       	push	r15
+ 5e2:	1f 93       	push	r17
+ 5e4:	cf 93       	push	r28
+ 5e6:	df 93       	push	r29
+ 5e8:	ec 01       	movw	r28, r24
+ 5ea:	64 30       	cpi	r22, 0x04	; 4
+ 5ec:	08 f0       	brcs	.+2      	; 0x5f0 <vTaskPrioritySet+0x12>
+ 5ee:	63 e0       	ldi	r22, 0x03	; 3
+ 5f0:	0f b6       	in	r0, 0x3f	; 63
+ 5f2:	f8 94       	cli
+ 5f4:	0f 92       	push	r0
+ 5f6:	20 97       	sbiw	r28, 0x00	; 0
+ 5f8:	21 f4       	brne	.+8      	; 0x602 <vTaskPrioritySet+0x24>
+ 5fa:	c0 91 a5 06 	lds	r28, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 5fe:	d0 91 a6 06 	lds	r29, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 602:	8e 89       	ldd	r24, Y+22	; 0x16
+ 604:	68 17       	cp	r22, r24
+ 606:	09 f4       	brne	.+2      	; 0x60a <vTaskPrioritySet+0x2c>
+ 608:	7d c0       	rjmp	.+250    	; 0x704 <vTaskPrioritySet+0x126>
+ 60a:	86 17       	cp	r24, r22
+ 60c:	80 f4       	brcc	.+32     	; 0x62e <vTaskPrioritySet+0x50>
+ 60e:	20 91 a5 06 	lds	r18, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 612:	30 91 a6 06 	lds	r19, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 616:	c2 17       	cp	r28, r18
+ 618:	d3 07       	cpc	r29, r19
+ 61a:	91 f0       	breq	.+36     	; 0x640 <vTaskPrioritySet+0x62>
+ 61c:	e0 91 a5 06 	lds	r30, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 620:	f0 91 a6 06 	lds	r31, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 624:	96 89       	ldd	r25, Z+22	; 0x16
+ 626:	69 17       	cp	r22, r25
+ 628:	68 f4       	brcc	.+26     	; 0x644 <vTaskPrioritySet+0x66>
+ 62a:	10 e0       	ldi	r17, 0x00	; 0
+ 62c:	0e c0       	rjmp	.+28     	; 0x64a <vTaskPrioritySet+0x6c>
+ 62e:	20 91 a5 06 	lds	r18, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 632:	30 91 a6 06 	lds	r19, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 636:	c2 17       	cp	r28, r18
+ 638:	d3 07       	cpc	r29, r19
+ 63a:	31 f0       	breq	.+12     	; 0x648 <vTaskPrioritySet+0x6a>
+ 63c:	10 e0       	ldi	r17, 0x00	; 0
+ 63e:	05 c0       	rjmp	.+10     	; 0x64a <vTaskPrioritySet+0x6c>
+ 640:	10 e0       	ldi	r17, 0x00	; 0
+ 642:	03 c0       	rjmp	.+6      	; 0x64a <vTaskPrioritySet+0x6c>
+ 644:	11 e0       	ldi	r17, 0x01	; 1
+ 646:	01 c0       	rjmp	.+2      	; 0x64a <vTaskPrioritySet+0x6c>
+ 648:	11 e0       	ldi	r17, 0x01	; 1
+ 64a:	6e 8b       	std	Y+22, r22	; 0x16
+ 64c:	2c 85       	ldd	r18, Y+12	; 0x0c
+ 64e:	3d 85       	ldd	r19, Y+13	; 0x0d
+ 650:	33 23       	and	r19, r19
+ 652:	34 f0       	brlt	.+12     	; 0x660 <vTaskPrioritySet+0x82>
+ 654:	24 e0       	ldi	r18, 0x04	; 4
+ 656:	30 e0       	ldi	r19, 0x00	; 0
+ 658:	26 1b       	sub	r18, r22
+ 65a:	31 09       	sbc	r19, r1
+ 65c:	3d 87       	std	Y+13, r19	; 0x0d
+ 65e:	2c 87       	std	Y+12, r18	; 0x0c
+ 660:	2a 85       	ldd	r18, Y+10	; 0x0a
+ 662:	3b 85       	ldd	r19, Y+11	; 0x0b
+ 664:	90 e0       	ldi	r25, 0x00	; 0
+ 666:	ac 01       	movw	r20, r24
+ 668:	44 0f       	add	r20, r20
+ 66a:	55 1f       	adc	r21, r21
+ 66c:	44 0f       	add	r20, r20
+ 66e:	55 1f       	adc	r21, r21
+ 670:	44 0f       	add	r20, r20
+ 672:	55 1f       	adc	r21, r21
+ 674:	84 0f       	add	r24, r20
+ 676:	95 1f       	adc	r25, r21
+ 678:	82 5c       	subi	r24, 0xC2	; 194
+ 67a:	99 4f       	sbci	r25, 0xF9	; 249
+ 67c:	28 17       	cp	r18, r24
+ 67e:	39 07       	cpc	r19, r25
+ 680:	f1 f5       	brne	.+124    	; 0x6fe <vTaskPrioritySet+0x120>
+ 682:	7e 01       	movw	r14, r28
+ 684:	82 e0       	ldi	r24, 0x02	; 2
+ 686:	e8 0e       	add	r14, r24
+ 688:	f1 1c       	adc	r15, r1
+ 68a:	c7 01       	movw	r24, r14
+ 68c:	0e 94 fe 09 	call	0x13fc	; 0x13fc <uxListRemove>
+ 690:	8e 89       	ldd	r24, Y+22	; 0x16
+ 692:	90 91 ac 06 	lds	r25, 0x06AC	; 0x8006ac <uxTopReadyPriority>
+ 696:	98 17       	cp	r25, r24
+ 698:	10 f4       	brcc	.+4      	; 0x69e <vTaskPrioritySet+0xc0>
+ 69a:	80 93 ac 06 	sts	0x06AC, r24	; 0x8006ac <uxTopReadyPriority>
+ 69e:	90 e0       	ldi	r25, 0x00	; 0
+ 6a0:	fc 01       	movw	r30, r24
+ 6a2:	ee 0f       	add	r30, r30
+ 6a4:	ff 1f       	adc	r31, r31
+ 6a6:	ee 0f       	add	r30, r30
+ 6a8:	ff 1f       	adc	r31, r31
+ 6aa:	ee 0f       	add	r30, r30
+ 6ac:	ff 1f       	adc	r31, r31
+ 6ae:	8e 0f       	add	r24, r30
+ 6b0:	9f 1f       	adc	r25, r31
+ 6b2:	fc 01       	movw	r30, r24
+ 6b4:	e2 5c       	subi	r30, 0xC2	; 194
+ 6b6:	f9 4f       	sbci	r31, 0xF9	; 249
+ 6b8:	01 80       	ldd	r0, Z+1	; 0x01
+ 6ba:	f2 81       	ldd	r31, Z+2	; 0x02
+ 6bc:	e0 2d       	mov	r30, r0
+ 6be:	fd 83       	std	Y+5, r31	; 0x05
+ 6c0:	ec 83       	std	Y+4, r30	; 0x04
+ 6c2:	84 81       	ldd	r24, Z+4	; 0x04
+ 6c4:	95 81       	ldd	r25, Z+5	; 0x05
+ 6c6:	9f 83       	std	Y+7, r25	; 0x07
+ 6c8:	8e 83       	std	Y+6, r24	; 0x06
+ 6ca:	a4 81       	ldd	r26, Z+4	; 0x04
+ 6cc:	b5 81       	ldd	r27, Z+5	; 0x05
+ 6ce:	13 96       	adiw	r26, 0x03	; 3
+ 6d0:	fc 92       	st	X, r15
+ 6d2:	ee 92       	st	-X, r14
+ 6d4:	12 97       	sbiw	r26, 0x02	; 2
+ 6d6:	f5 82       	std	Z+5, r15	; 0x05
+ 6d8:	e4 82       	std	Z+4, r14	; 0x04
+ 6da:	8e 89       	ldd	r24, Y+22	; 0x16
+ 6dc:	90 e0       	ldi	r25, 0x00	; 0
+ 6de:	fc 01       	movw	r30, r24
+ 6e0:	ee 0f       	add	r30, r30
+ 6e2:	ff 1f       	adc	r31, r31
+ 6e4:	ee 0f       	add	r30, r30
+ 6e6:	ff 1f       	adc	r31, r31
+ 6e8:	ee 0f       	add	r30, r30
+ 6ea:	ff 1f       	adc	r31, r31
+ 6ec:	e8 0f       	add	r30, r24
+ 6ee:	f9 1f       	adc	r31, r25
+ 6f0:	e2 5c       	subi	r30, 0xC2	; 194
+ 6f2:	f9 4f       	sbci	r31, 0xF9	; 249
+ 6f4:	fb 87       	std	Y+11, r31	; 0x0b
+ 6f6:	ea 87       	std	Y+10, r30	; 0x0a
+ 6f8:	80 81       	ld	r24, Z
+ 6fa:	8f 5f       	subi	r24, 0xFF	; 255
+ 6fc:	80 83       	st	Z, r24
+ 6fe:	11 11       	cpse	r17, r1
+ 700:	0e 94 34 06 	call	0xc68	; 0xc68 <vPortYield>
+ 704:	0f 90       	pop	r0
+ 706:	0f be       	out	0x3f, r0	; 63
+ 708:	df 91       	pop	r29
+ 70a:	cf 91       	pop	r28
+ 70c:	1f 91       	pop	r17
+ 70e:	ff 90       	pop	r15
+ 710:	ef 90       	pop	r14
+ 712:	08 95       	ret
+
+Disassembly of section .text.vTaskStartScheduler:
+
+0000139e <vTaskStartScheduler>:
+    139e:	cf 92       	push	r12
+    13a0:	df 92       	push	r13
+    13a2:	ef 92       	push	r14
+    13a4:	0f 93       	push	r16
+    13a6:	1f 93       	push	r17
+    13a8:	0f 2e       	mov	r0, r31
+    13aa:	f9 e9       	ldi	r31, 0x99	; 153
+    13ac:	cf 2e       	mov	r12, r31
+    13ae:	f6 e0       	ldi	r31, 0x06	; 6
+    13b0:	df 2e       	mov	r13, r31
+    13b2:	f0 2d       	mov	r31, r0
+    13b4:	e1 2c       	mov	r14, r1
+    13b6:	00 e0       	ldi	r16, 0x00	; 0
+    13b8:	10 e0       	ldi	r17, 0x00	; 0
+    13ba:	25 e5       	ldi	r18, 0x55	; 85
+    13bc:	30 e0       	ldi	r19, 0x00	; 0
+    13be:	43 ec       	ldi	r20, 0xC3	; 195
+    13c0:	50 e0       	ldi	r21, 0x00	; 0
+    13c2:	60 e0       	ldi	r22, 0x00	; 0
+    13c4:	88 ed       	ldi	r24, 0xD8	; 216
+    13c6:	9a e0       	ldi	r25, 0x0A	; 10
+    13c8:	0e 94 fd 04 	call	0x9fa	; 0x9fa <xTaskCreate>
+    13cc:	81 30       	cpi	r24, 0x01	; 1
+    13ce:	81 f4       	brne	.+32     	; 0x13f0 <vTaskStartScheduler+0x52>
+    13d0:	f8 94       	cli
+    13d2:	8f ef       	ldi	r24, 0xFF	; 255
+    13d4:	9f ef       	ldi	r25, 0xFF	; 255
+    13d6:	90 93 9c 06 	sts	0x069C, r25	; 0x80069c <xNextTaskUnblockTime+0x1>
+    13da:	80 93 9b 06 	sts	0x069B, r24	; 0x80069b <xNextTaskUnblockTime>
+    13de:	81 e0       	ldi	r24, 0x01	; 1
+    13e0:	80 93 ab 06 	sts	0x06AB, r24	; 0x8006ab <xSchedulerRunning>
+    13e4:	10 92 a0 06 	sts	0x06A0, r1	; 0x8006a0 <xTickCount+0x1>
+    13e8:	10 92 9f 06 	sts	0x069F, r1	; 0x80069f <xTickCount>
+    13ec:	0e 94 a0 09 	call	0x1340	; 0x1340 <xPortStartScheduler>
+    13f0:	1f 91       	pop	r17
+    13f2:	0f 91       	pop	r16
+    13f4:	ef 90       	pop	r14
+    13f6:	df 90       	pop	r13
+    13f8:	cf 90       	pop	r12
+    13fa:	08 95       	ret
+
+Disassembly of section .text.vTaskSuspendAll:
+
+0000158e <vTaskSuspendAll>:
+    158e:	80 91 a7 06 	lds	r24, 0x06A7	; 0x8006a7 <uxSchedulerSuspended>
+    1592:	8f 5f       	subi	r24, 0xFF	; 255
+    1594:	80 93 a7 06 	sts	0x06A7, r24	; 0x8006a7 <uxSchedulerSuspended>
+    1598:	08 95       	ret
+
+Disassembly of section .text.xTaskGetTickCount:
+
+00001568 <xTaskGetTickCount>:
+    1568:	0f b6       	in	r0, 0x3f	; 63
+    156a:	f8 94       	cli
+    156c:	0f 92       	push	r0
+    156e:	80 91 9f 06 	lds	r24, 0x069F	; 0x80069f <xTickCount>
+    1572:	90 91 a0 06 	lds	r25, 0x06A0	; 0x8006a0 <xTickCount+0x1>
+    1576:	0f 90       	pop	r0
+    1578:	0f be       	out	0x3f, r0	; 63
+    157a:	08 95       	ret
+
+Disassembly of section .text.xTaskIncrementTick:
+
+000000ca <xTaskIncrementTick>:
+  ca:	0f 93       	push	r16
+  cc:	1f 93       	push	r17
+  ce:	cf 93       	push	r28
+  d0:	df 93       	push	r29
+  d2:	80 91 a7 06 	lds	r24, 0x06A7	; 0x8006a7 <uxSchedulerSuspended>
+  d6:	81 11       	cpse	r24, r1
+  d8:	01 c1       	rjmp	.+514    	; 0x2dc <xTaskIncrementTick+0x212>
+  da:	c0 91 9f 06 	lds	r28, 0x069F	; 0x80069f <xTickCount>
+  de:	d0 91 a0 06 	lds	r29, 0x06A0	; 0x8006a0 <xTickCount+0x1>
+  e2:	8e 01       	movw	r16, r28
+  e4:	0f 5f       	subi	r16, 0xFF	; 255
+  e6:	1f 4f       	sbci	r17, 0xFF	; 255
+  e8:	10 93 a0 06 	sts	0x06A0, r17	; 0x8006a0 <xTickCount+0x1>
+  ec:	00 93 9f 06 	sts	0x069F, r16	; 0x80069f <xTickCount>
+  f0:	01 15       	cp	r16, r1
+  f2:	11 05       	cpc	r17, r1
+  f4:	b9 f4       	brne	.+46     	; 0x124 <xTaskIncrementTick+0x5a>
+  f6:	80 91 a3 06 	lds	r24, 0x06A3	; 0x8006a3 <pxDelayedTaskList>
+  fa:	90 91 a4 06 	lds	r25, 0x06A4	; 0x8006a4 <pxDelayedTaskList+0x1>
+  fe:	20 91 a1 06 	lds	r18, 0x06A1	; 0x8006a1 <pxOverflowDelayedTaskList>
+ 102:	30 91 a2 06 	lds	r19, 0x06A2	; 0x8006a2 <pxOverflowDelayedTaskList+0x1>
+ 106:	30 93 a4 06 	sts	0x06A4, r19	; 0x8006a4 <pxDelayedTaskList+0x1>
+ 10a:	20 93 a3 06 	sts	0x06A3, r18	; 0x8006a3 <pxDelayedTaskList>
+ 10e:	90 93 a2 06 	sts	0x06A2, r25	; 0x8006a2 <pxOverflowDelayedTaskList+0x1>
+ 112:	80 93 a1 06 	sts	0x06A1, r24	; 0x8006a1 <pxOverflowDelayedTaskList>
+ 116:	80 91 a9 06 	lds	r24, 0x06A9	; 0x8006a9 <xNumOfOverflows>
+ 11a:	8f 5f       	subi	r24, 0xFF	; 255
+ 11c:	80 93 a9 06 	sts	0x06A9, r24	; 0x8006a9 <xNumOfOverflows>
+ 120:	0e 94 6a 0a 	call	0x14d4	; 0x14d4 <prvResetNextTaskUnblockTime>
+ 124:	80 91 9b 06 	lds	r24, 0x069B	; 0x80069b <xNextTaskUnblockTime>
+ 128:	90 91 9c 06 	lds	r25, 0x069C	; 0x80069c <xNextTaskUnblockTime+0x1>
+ 12c:	08 17       	cp	r16, r24
+ 12e:	19 07       	cpc	r17, r25
+ 130:	20 f4       	brcc	.+8      	; 0x13a <xTaskIncrementTick+0x70>
+ 132:	80 e0       	ldi	r24, 0x00	; 0
+ 134:	b8 c0       	rjmp	.+368    	; 0x2a6 <xTaskIncrementTick+0x1dc>
+ 136:	81 e0       	ldi	r24, 0x01	; 1
+ 138:	01 c0       	rjmp	.+2      	; 0x13c <xTaskIncrementTick+0x72>
+ 13a:	80 e0       	ldi	r24, 0x00	; 0
+ 13c:	e0 91 a3 06 	lds	r30, 0x06A3	; 0x8006a3 <pxDelayedTaskList>
+ 140:	f0 91 a4 06 	lds	r31, 0x06A4	; 0x8006a4 <pxDelayedTaskList+0x1>
+ 144:	90 81       	ld	r25, Z
+ 146:	91 11       	cpse	r25, r1
+ 148:	07 c0       	rjmp	.+14     	; 0x158 <xTaskIncrementTick+0x8e>
+ 14a:	2f ef       	ldi	r18, 0xFF	; 255
+ 14c:	3f ef       	ldi	r19, 0xFF	; 255
+ 14e:	30 93 9c 06 	sts	0x069C, r19	; 0x80069c <xNextTaskUnblockTime+0x1>
+ 152:	20 93 9b 06 	sts	0x069B, r18	; 0x80069b <xNextTaskUnblockTime>
+ 156:	a7 c0       	rjmp	.+334    	; 0x2a6 <xTaskIncrementTick+0x1dc>
+ 158:	e0 91 a3 06 	lds	r30, 0x06A3	; 0x8006a3 <pxDelayedTaskList>
+ 15c:	f0 91 a4 06 	lds	r31, 0x06A4	; 0x8006a4 <pxDelayedTaskList+0x1>
+ 160:	05 80       	ldd	r0, Z+5	; 0x05
+ 162:	f6 81       	ldd	r31, Z+6	; 0x06
+ 164:	e0 2d       	mov	r30, r0
+ 166:	06 80       	ldd	r0, Z+6	; 0x06
+ 168:	f7 81       	ldd	r31, Z+7	; 0x07
+ 16a:	e0 2d       	mov	r30, r0
+ 16c:	22 81       	ldd	r18, Z+2	; 0x02
+ 16e:	33 81       	ldd	r19, Z+3	; 0x03
+ 170:	02 17       	cp	r16, r18
+ 172:	13 07       	cpc	r17, r19
+ 174:	28 f4       	brcc	.+10     	; 0x180 <xTaskIncrementTick+0xb6>
+ 176:	30 93 9c 06 	sts	0x069C, r19	; 0x80069c <xNextTaskUnblockTime+0x1>
+ 17a:	20 93 9b 06 	sts	0x069B, r18	; 0x80069b <xNextTaskUnblockTime>
+ 17e:	93 c0       	rjmp	.+294    	; 0x2a6 <xTaskIncrementTick+0x1dc>
+ 180:	a2 85       	ldd	r26, Z+10	; 0x0a
+ 182:	b3 85       	ldd	r27, Z+11	; 0x0b
+ 184:	24 81       	ldd	r18, Z+4	; 0x04
+ 186:	35 81       	ldd	r19, Z+5	; 0x05
+ 188:	46 81       	ldd	r20, Z+6	; 0x06
+ 18a:	57 81       	ldd	r21, Z+7	; 0x07
+ 18c:	e9 01       	movw	r28, r18
+ 18e:	5d 83       	std	Y+5, r21	; 0x05
+ 190:	4c 83       	std	Y+4, r20	; 0x04
+ 192:	26 81       	ldd	r18, Z+6	; 0x06
+ 194:	37 81       	ldd	r19, Z+7	; 0x07
+ 196:	44 81       	ldd	r20, Z+4	; 0x04
+ 198:	55 81       	ldd	r21, Z+5	; 0x05
+ 19a:	e9 01       	movw	r28, r18
+ 19c:	5b 83       	std	Y+3, r21	; 0x03
+ 19e:	4a 83       	std	Y+2, r20	; 0x02
+ 1a0:	11 96       	adiw	r26, 0x01	; 1
+ 1a2:	2d 91       	ld	r18, X+
+ 1a4:	3c 91       	ld	r19, X
+ 1a6:	12 97       	sbiw	r26, 0x02	; 2
+ 1a8:	af 01       	movw	r20, r30
+ 1aa:	4e 5f       	subi	r20, 0xFE	; 254
+ 1ac:	5f 4f       	sbci	r21, 0xFF	; 255
+ 1ae:	24 17       	cp	r18, r20
+ 1b0:	35 07       	cpc	r19, r21
+ 1b2:	31 f4       	brne	.+12     	; 0x1c0 <xTaskIncrementTick+0xf6>
+ 1b4:	26 81       	ldd	r18, Z+6	; 0x06
+ 1b6:	37 81       	ldd	r19, Z+7	; 0x07
+ 1b8:	12 96       	adiw	r26, 0x02	; 2
+ 1ba:	3c 93       	st	X, r19
+ 1bc:	2e 93       	st	-X, r18
+ 1be:	11 97       	sbiw	r26, 0x01	; 1
+ 1c0:	13 86       	std	Z+11, r1	; 0x0b
+ 1c2:	12 86       	std	Z+10, r1	; 0x0a
+ 1c4:	9c 91       	ld	r25, X
+ 1c6:	91 50       	subi	r25, 0x01	; 1
+ 1c8:	9c 93       	st	X, r25
+ 1ca:	a4 89       	ldd	r26, Z+20	; 0x14
+ 1cc:	b5 89       	ldd	r27, Z+21	; 0x15
+ 1ce:	10 97       	sbiw	r26, 0x00	; 0
+ 1d0:	19 f1       	breq	.+70     	; 0x218 <xTaskIncrementTick+0x14e>
+ 1d2:	26 85       	ldd	r18, Z+14	; 0x0e
+ 1d4:	37 85       	ldd	r19, Z+15	; 0x0f
+ 1d6:	60 89       	ldd	r22, Z+16	; 0x10
+ 1d8:	71 89       	ldd	r23, Z+17	; 0x11
+ 1da:	e9 01       	movw	r28, r18
+ 1dc:	7d 83       	std	Y+5, r23	; 0x05
+ 1de:	6c 83       	std	Y+4, r22	; 0x04
+ 1e0:	20 89       	ldd	r18, Z+16	; 0x10
+ 1e2:	31 89       	ldd	r19, Z+17	; 0x11
+ 1e4:	66 85       	ldd	r22, Z+14	; 0x0e
+ 1e6:	77 85       	ldd	r23, Z+15	; 0x0f
+ 1e8:	e9 01       	movw	r28, r18
+ 1ea:	7b 83       	std	Y+3, r23	; 0x03
+ 1ec:	6a 83       	std	Y+2, r22	; 0x02
+ 1ee:	11 96       	adiw	r26, 0x01	; 1
+ 1f0:	6d 91       	ld	r22, X+
+ 1f2:	7c 91       	ld	r23, X
+ 1f4:	12 97       	sbiw	r26, 0x02	; 2
+ 1f6:	9f 01       	movw	r18, r30
+ 1f8:	24 5f       	subi	r18, 0xF4	; 244
+ 1fa:	3f 4f       	sbci	r19, 0xFF	; 255
+ 1fc:	62 17       	cp	r22, r18
+ 1fe:	73 07       	cpc	r23, r19
+ 200:	31 f4       	brne	.+12     	; 0x20e <xTaskIncrementTick+0x144>
+ 202:	20 89       	ldd	r18, Z+16	; 0x10
+ 204:	31 89       	ldd	r19, Z+17	; 0x11
+ 206:	12 96       	adiw	r26, 0x02	; 2
+ 208:	3c 93       	st	X, r19
+ 20a:	2e 93       	st	-X, r18
+ 20c:	11 97       	sbiw	r26, 0x01	; 1
+ 20e:	15 8a       	std	Z+21, r1	; 0x15
+ 210:	14 8a       	std	Z+20, r1	; 0x14
+ 212:	9c 91       	ld	r25, X
+ 214:	91 50       	subi	r25, 0x01	; 1
+ 216:	9c 93       	st	X, r25
+ 218:	26 89       	ldd	r18, Z+22	; 0x16
+ 21a:	90 91 ac 06 	lds	r25, 0x06AC	; 0x8006ac <uxTopReadyPriority>
+ 21e:	92 17       	cp	r25, r18
+ 220:	10 f4       	brcc	.+4      	; 0x226 <xTaskIncrementTick+0x15c>
+ 222:	20 93 ac 06 	sts	0x06AC, r18	; 0x8006ac <uxTopReadyPriority>
+ 226:	30 e0       	ldi	r19, 0x00	; 0
+ 228:	d9 01       	movw	r26, r18
+ 22a:	aa 0f       	add	r26, r26
+ 22c:	bb 1f       	adc	r27, r27
+ 22e:	aa 0f       	add	r26, r26
+ 230:	bb 1f       	adc	r27, r27
+ 232:	aa 0f       	add	r26, r26
+ 234:	bb 1f       	adc	r27, r27
+ 236:	2a 0f       	add	r18, r26
+ 238:	3b 1f       	adc	r19, r27
+ 23a:	d9 01       	movw	r26, r18
+ 23c:	a2 5c       	subi	r26, 0xC2	; 194
+ 23e:	b9 4f       	sbci	r27, 0xF9	; 249
+ 240:	11 96       	adiw	r26, 0x01	; 1
+ 242:	0d 90       	ld	r0, X+
+ 244:	bc 91       	ld	r27, X
+ 246:	a0 2d       	mov	r26, r0
+ 248:	b5 83       	std	Z+5, r27	; 0x05
+ 24a:	a4 83       	std	Z+4, r26	; 0x04
+ 24c:	14 96       	adiw	r26, 0x04	; 4
+ 24e:	2d 91       	ld	r18, X+
+ 250:	3c 91       	ld	r19, X
+ 252:	15 97       	sbiw	r26, 0x05	; 5
+ 254:	37 83       	std	Z+7, r19	; 0x07
+ 256:	26 83       	std	Z+6, r18	; 0x06
+ 258:	14 96       	adiw	r26, 0x04	; 4
+ 25a:	2d 91       	ld	r18, X+
+ 25c:	3c 91       	ld	r19, X
+ 25e:	15 97       	sbiw	r26, 0x05	; 5
+ 260:	e9 01       	movw	r28, r18
+ 262:	5b 83       	std	Y+3, r21	; 0x03
+ 264:	4a 83       	std	Y+2, r20	; 0x02
+ 266:	15 96       	adiw	r26, 0x05	; 5
+ 268:	5c 93       	st	X, r21
+ 26a:	4e 93       	st	-X, r20
+ 26c:	14 97       	sbiw	r26, 0x04	; 4
+ 26e:	a6 89       	ldd	r26, Z+22	; 0x16
+ 270:	b0 e0       	ldi	r27, 0x00	; 0
+ 272:	9d 01       	movw	r18, r26
+ 274:	22 0f       	add	r18, r18
+ 276:	33 1f       	adc	r19, r19
+ 278:	22 0f       	add	r18, r18
+ 27a:	33 1f       	adc	r19, r19
+ 27c:	22 0f       	add	r18, r18
+ 27e:	33 1f       	adc	r19, r19
+ 280:	a2 0f       	add	r26, r18
+ 282:	b3 1f       	adc	r27, r19
+ 284:	a2 5c       	subi	r26, 0xC2	; 194
+ 286:	b9 4f       	sbci	r27, 0xF9	; 249
+ 288:	b3 87       	std	Z+11, r27	; 0x0b
+ 28a:	a2 87       	std	Z+10, r26	; 0x0a
+ 28c:	9c 91       	ld	r25, X
+ 28e:	9f 5f       	subi	r25, 0xFF	; 255
+ 290:	9c 93       	st	X, r25
+ 292:	26 89       	ldd	r18, Z+22	; 0x16
+ 294:	e0 91 a5 06 	lds	r30, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 298:	f0 91 a6 06 	lds	r31, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 29c:	96 89       	ldd	r25, Z+22	; 0x16
+ 29e:	92 17       	cp	r25, r18
+ 2a0:	08 f4       	brcc	.+2      	; 0x2a4 <xTaskIncrementTick+0x1da>
+ 2a2:	49 cf       	rjmp	.-366    	; 0x136 <xTaskIncrementTick+0x6c>
+ 2a4:	4b cf       	rjmp	.-362    	; 0x13c <xTaskIncrementTick+0x72>
+ 2a6:	e0 91 a5 06 	lds	r30, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 2aa:	f0 91 a6 06 	lds	r31, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 2ae:	26 89       	ldd	r18, Z+22	; 0x16
+ 2b0:	30 e0       	ldi	r19, 0x00	; 0
+ 2b2:	f9 01       	movw	r30, r18
+ 2b4:	ee 0f       	add	r30, r30
+ 2b6:	ff 1f       	adc	r31, r31
+ 2b8:	ee 0f       	add	r30, r30
+ 2ba:	ff 1f       	adc	r31, r31
+ 2bc:	ee 0f       	add	r30, r30
+ 2be:	ff 1f       	adc	r31, r31
+ 2c0:	2e 0f       	add	r18, r30
+ 2c2:	3f 1f       	adc	r19, r31
+ 2c4:	f9 01       	movw	r30, r18
+ 2c6:	e2 5c       	subi	r30, 0xC2	; 194
+ 2c8:	f9 4f       	sbci	r31, 0xF9	; 249
+ 2ca:	90 81       	ld	r25, Z
+ 2cc:	92 30       	cpi	r25, 0x02	; 2
+ 2ce:	08 f0       	brcs	.+2      	; 0x2d2 <xTaskIncrementTick+0x208>
+ 2d0:	81 e0       	ldi	r24, 0x01	; 1
+ 2d2:	90 91 aa 06 	lds	r25, 0x06AA	; 0x8006aa <xYieldPending>
+ 2d6:	91 11       	cpse	r25, r1
+ 2d8:	0c c0       	rjmp	.+24     	; 0x2f2 <xTaskIncrementTick+0x228>
+ 2da:	0c c0       	rjmp	.+24     	; 0x2f4 <xTaskIncrementTick+0x22a>
+ 2dc:	80 91 9d 06 	lds	r24, 0x069D	; 0x80069d <xPendedTicks>
+ 2e0:	90 91 9e 06 	lds	r25, 0x069E	; 0x80069e <xPendedTicks+0x1>
+ 2e4:	01 96       	adiw	r24, 0x01	; 1
+ 2e6:	90 93 9e 06 	sts	0x069E, r25	; 0x80069e <xPendedTicks+0x1>
+ 2ea:	80 93 9d 06 	sts	0x069D, r24	; 0x80069d <xPendedTicks>
+ 2ee:	80 e0       	ldi	r24, 0x00	; 0
+ 2f0:	01 c0       	rjmp	.+2      	; 0x2f4 <xTaskIncrementTick+0x22a>
+ 2f2:	81 e0       	ldi	r24, 0x01	; 1
+ 2f4:	df 91       	pop	r29
+ 2f6:	cf 91       	pop	r28
+ 2f8:	1f 91       	pop	r17
+ 2fa:	0f 91       	pop	r16
+ 2fc:	08 95       	ret
+
+Disassembly of section .text.xTaskResumeAll:
+
+000002fe <xTaskResumeAll>:
+ 2fe:	cf 93       	push	r28
+ 300:	df 93       	push	r29
+ 302:	0f b6       	in	r0, 0x3f	; 63
+ 304:	f8 94       	cli
+ 306:	0f 92       	push	r0
+ 308:	80 91 a7 06 	lds	r24, 0x06A7	; 0x8006a7 <uxSchedulerSuspended>
+ 30c:	81 50       	subi	r24, 0x01	; 1
+ 30e:	80 93 a7 06 	sts	0x06A7, r24	; 0x8006a7 <uxSchedulerSuspended>
+ 312:	80 91 a7 06 	lds	r24, 0x06A7	; 0x8006a7 <uxSchedulerSuspended>
+ 316:	81 11       	cpse	r24, r1
+ 318:	bf c0       	rjmp	.+382    	; 0x498 <__EEPROM_REGION_LENGTH__+0x98>
+ 31a:	80 91 ad 06 	lds	r24, 0x06AD	; 0x8006ad <uxCurrentNumberOfTasks>
+ 31e:	81 11       	cpse	r24, r1
+ 320:	96 c0       	rjmp	.+300    	; 0x44e <__EEPROM_REGION_LENGTH__+0x4e>
+ 322:	bd c0       	rjmp	.+378    	; 0x49e <__EEPROM_REGION_LENGTH__+0x9e>
+ 324:	e0 91 70 06 	lds	r30, 0x0670	; 0x800670 <xPendingReadyList+0x5>
+ 328:	f0 91 71 06 	lds	r31, 0x0671	; 0x800671 <xPendingReadyList+0x6>
+ 32c:	06 80       	ldd	r0, Z+6	; 0x06
+ 32e:	f7 81       	ldd	r31, Z+7	; 0x07
+ 330:	e0 2d       	mov	r30, r0
+ 332:	a4 89       	ldd	r26, Z+20	; 0x14
+ 334:	b5 89       	ldd	r27, Z+21	; 0x15
+ 336:	c6 85       	ldd	r28, Z+14	; 0x0e
+ 338:	d7 85       	ldd	r29, Z+15	; 0x0f
+ 33a:	80 89       	ldd	r24, Z+16	; 0x10
+ 33c:	91 89       	ldd	r25, Z+17	; 0x11
+ 33e:	9d 83       	std	Y+5, r25	; 0x05
+ 340:	8c 83       	std	Y+4, r24	; 0x04
+ 342:	c0 89       	ldd	r28, Z+16	; 0x10
+ 344:	d1 89       	ldd	r29, Z+17	; 0x11
+ 346:	86 85       	ldd	r24, Z+14	; 0x0e
+ 348:	97 85       	ldd	r25, Z+15	; 0x0f
+ 34a:	9b 83       	std	Y+3, r25	; 0x03
+ 34c:	8a 83       	std	Y+2, r24	; 0x02
+ 34e:	11 96       	adiw	r26, 0x01	; 1
+ 350:	2d 91       	ld	r18, X+
+ 352:	3c 91       	ld	r19, X
+ 354:	12 97       	sbiw	r26, 0x02	; 2
+ 356:	cf 01       	movw	r24, r30
+ 358:	0c 96       	adiw	r24, 0x0c	; 12
+ 35a:	28 17       	cp	r18, r24
+ 35c:	39 07       	cpc	r19, r25
+ 35e:	31 f4       	brne	.+12     	; 0x36c <xTaskResumeAll+0x6e>
+ 360:	80 89       	ldd	r24, Z+16	; 0x10
+ 362:	91 89       	ldd	r25, Z+17	; 0x11
+ 364:	12 96       	adiw	r26, 0x02	; 2
+ 366:	9c 93       	st	X, r25
+ 368:	8e 93       	st	-X, r24
+ 36a:	11 97       	sbiw	r26, 0x01	; 1
+ 36c:	15 8a       	std	Z+21, r1	; 0x15
+ 36e:	14 8a       	std	Z+20, r1	; 0x14
+ 370:	8c 91       	ld	r24, X
+ 372:	81 50       	subi	r24, 0x01	; 1
+ 374:	8c 93       	st	X, r24
+ 376:	a2 85       	ldd	r26, Z+10	; 0x0a
+ 378:	b3 85       	ldd	r27, Z+11	; 0x0b
+ 37a:	c4 81       	ldd	r28, Z+4	; 0x04
+ 37c:	d5 81       	ldd	r29, Z+5	; 0x05
+ 37e:	86 81       	ldd	r24, Z+6	; 0x06
+ 380:	97 81       	ldd	r25, Z+7	; 0x07
+ 382:	9d 83       	std	Y+5, r25	; 0x05
+ 384:	8c 83       	std	Y+4, r24	; 0x04
+ 386:	c6 81       	ldd	r28, Z+6	; 0x06
+ 388:	d7 81       	ldd	r29, Z+7	; 0x07
+ 38a:	84 81       	ldd	r24, Z+4	; 0x04
+ 38c:	95 81       	ldd	r25, Z+5	; 0x05
+ 38e:	9b 83       	std	Y+3, r25	; 0x03
+ 390:	8a 83       	std	Y+2, r24	; 0x02
+ 392:	11 96       	adiw	r26, 0x01	; 1
+ 394:	8d 91       	ld	r24, X+
+ 396:	9c 91       	ld	r25, X
+ 398:	12 97       	sbiw	r26, 0x02	; 2
+ 39a:	9f 01       	movw	r18, r30
+ 39c:	2e 5f       	subi	r18, 0xFE	; 254
+ 39e:	3f 4f       	sbci	r19, 0xFF	; 255
+ 3a0:	82 17       	cp	r24, r18
+ 3a2:	93 07       	cpc	r25, r19
+ 3a4:	31 f4       	brne	.+12     	; 0x3b2 <xTaskResumeAll+0xb4>
+ 3a6:	86 81       	ldd	r24, Z+6	; 0x06
+ 3a8:	97 81       	ldd	r25, Z+7	; 0x07
+ 3aa:	12 96       	adiw	r26, 0x02	; 2
+ 3ac:	9c 93       	st	X, r25
+ 3ae:	8e 93       	st	-X, r24
+ 3b0:	11 97       	sbiw	r26, 0x01	; 1
+ 3b2:	13 86       	std	Z+11, r1	; 0x0b
+ 3b4:	12 86       	std	Z+10, r1	; 0x0a
+ 3b6:	8c 91       	ld	r24, X
+ 3b8:	81 50       	subi	r24, 0x01	; 1
+ 3ba:	8c 93       	st	X, r24
+ 3bc:	86 89       	ldd	r24, Z+22	; 0x16
+ 3be:	90 91 ac 06 	lds	r25, 0x06AC	; 0x8006ac <uxTopReadyPriority>
+ 3c2:	98 17       	cp	r25, r24
+ 3c4:	10 f4       	brcc	.+4      	; 0x3ca <xTaskResumeAll+0xcc>
+ 3c6:	80 93 ac 06 	sts	0x06AC, r24	; 0x8006ac <uxTopReadyPriority>
+ 3ca:	90 e0       	ldi	r25, 0x00	; 0
+ 3cc:	dc 01       	movw	r26, r24
+ 3ce:	aa 0f       	add	r26, r26
+ 3d0:	bb 1f       	adc	r27, r27
+ 3d2:	aa 0f       	add	r26, r26
+ 3d4:	bb 1f       	adc	r27, r27
+ 3d6:	aa 0f       	add	r26, r26
+ 3d8:	bb 1f       	adc	r27, r27
+ 3da:	8a 0f       	add	r24, r26
+ 3dc:	9b 1f       	adc	r25, r27
+ 3de:	dc 01       	movw	r26, r24
+ 3e0:	a2 5c       	subi	r26, 0xC2	; 194
+ 3e2:	b9 4f       	sbci	r27, 0xF9	; 249
+ 3e4:	11 96       	adiw	r26, 0x01	; 1
+ 3e6:	0d 90       	ld	r0, X+
+ 3e8:	bc 91       	ld	r27, X
+ 3ea:	a0 2d       	mov	r26, r0
+ 3ec:	b5 83       	std	Z+5, r27	; 0x05
+ 3ee:	a4 83       	std	Z+4, r26	; 0x04
+ 3f0:	14 96       	adiw	r26, 0x04	; 4
+ 3f2:	8d 91       	ld	r24, X+
+ 3f4:	9c 91       	ld	r25, X
+ 3f6:	15 97       	sbiw	r26, 0x05	; 5
+ 3f8:	97 83       	std	Z+7, r25	; 0x07
+ 3fa:	86 83       	std	Z+6, r24	; 0x06
+ 3fc:	14 96       	adiw	r26, 0x04	; 4
+ 3fe:	cd 91       	ld	r28, X+
+ 400:	dc 91       	ld	r29, X
+ 402:	15 97       	sbiw	r26, 0x05	; 5
+ 404:	3b 83       	std	Y+3, r19	; 0x03
+ 406:	2a 83       	std	Y+2, r18	; 0x02
+ 408:	15 96       	adiw	r26, 0x05	; 5
+ 40a:	3c 93       	st	X, r19
+ 40c:	2e 93       	st	-X, r18
+ 40e:	14 97       	sbiw	r26, 0x04	; 4
+ 410:	a6 89       	ldd	r26, Z+22	; 0x16
+ 412:	b0 e0       	ldi	r27, 0x00	; 0
+ 414:	cd 01       	movw	r24, r26
+ 416:	88 0f       	add	r24, r24
+ 418:	99 1f       	adc	r25, r25
+ 41a:	88 0f       	add	r24, r24
+ 41c:	99 1f       	adc	r25, r25
+ 41e:	88 0f       	add	r24, r24
+ 420:	99 1f       	adc	r25, r25
+ 422:	a8 0f       	add	r26, r24
+ 424:	b9 1f       	adc	r27, r25
+ 426:	a2 5c       	subi	r26, 0xC2	; 194
+ 428:	b9 4f       	sbci	r27, 0xF9	; 249
+ 42a:	b3 87       	std	Z+11, r27	; 0x0b
+ 42c:	a2 87       	std	Z+10, r26	; 0x0a
+ 42e:	8c 91       	ld	r24, X
+ 430:	8f 5f       	subi	r24, 0xFF	; 255
+ 432:	8c 93       	st	X, r24
+ 434:	96 89       	ldd	r25, Z+22	; 0x16
+ 436:	a0 91 a5 06 	lds	r26, 0x06A5	; 0x8006a5 <pxCurrentTCB>
+ 43a:	b0 91 a6 06 	lds	r27, 0x06A6	; 0x8006a6 <pxCurrentTCB+0x1>
+ 43e:	56 96       	adiw	r26, 0x16	; 22
+ 440:	8c 91       	ld	r24, X
+ 442:	98 17       	cp	r25, r24
+ 444:	30 f0       	brcs	.+12     	; 0x452 <__EEPROM_REGION_LENGTH__+0x52>
+ 446:	81 e0       	ldi	r24, 0x01	; 1
+ 448:	80 93 aa 06 	sts	0x06AA, r24	; 0x8006aa <xYieldPending>
+ 44c:	02 c0       	rjmp	.+4      	; 0x452 <__EEPROM_REGION_LENGTH__+0x52>
+ 44e:	e0 e0       	ldi	r30, 0x00	; 0
+ 450:	f0 e0       	ldi	r31, 0x00	; 0
+ 452:	80 91 6b 06 	lds	r24, 0x066B	; 0x80066b <xPendingReadyList>
+ 456:	81 11       	cpse	r24, r1
+ 458:	65 cf       	rjmp	.-310    	; 0x324 <xTaskResumeAll+0x26>
+ 45a:	ef 2b       	or	r30, r31
+ 45c:	11 f0       	breq	.+4      	; 0x462 <__EEPROM_REGION_LENGTH__+0x62>
+ 45e:	0e 94 6a 0a 	call	0x14d4	; 0x14d4 <prvResetNextTaskUnblockTime>
+ 462:	c0 91 9d 06 	lds	r28, 0x069D	; 0x80069d <xPendedTicks>
+ 466:	d0 91 9e 06 	lds	r29, 0x069E	; 0x80069e <xPendedTicks+0x1>
+ 46a:	20 97       	sbiw	r28, 0x00	; 0
+ 46c:	69 f0       	breq	.+26     	; 0x488 <__EEPROM_REGION_LENGTH__+0x88>
+ 46e:	0e 94 65 00 	call	0xca	; 0xca <xTaskIncrementTick>
+ 472:	88 23       	and	r24, r24
+ 474:	19 f0       	breq	.+6      	; 0x47c <__EEPROM_REGION_LENGTH__+0x7c>
+ 476:	81 e0       	ldi	r24, 0x01	; 1
+ 478:	80 93 aa 06 	sts	0x06AA, r24	; 0x8006aa <xYieldPending>
+ 47c:	21 97       	sbiw	r28, 0x01	; 1
+ 47e:	b9 f7       	brne	.-18     	; 0x46e <__EEPROM_REGION_LENGTH__+0x6e>
+ 480:	10 92 9e 06 	sts	0x069E, r1	; 0x80069e <xPendedTicks+0x1>
+ 484:	10 92 9d 06 	sts	0x069D, r1	; 0x80069d <xPendedTicks>
+ 488:	80 91 aa 06 	lds	r24, 0x06AA	; 0x8006aa <xYieldPending>
+ 48c:	88 23       	and	r24, r24
+ 48e:	31 f0       	breq	.+12     	; 0x49c <__EEPROM_REGION_LENGTH__+0x9c>
+ 490:	0e 94 34 06 	call	0xc68	; 0xc68 <vPortYield>
+ 494:	81 e0       	ldi	r24, 0x01	; 1
+ 496:	03 c0       	rjmp	.+6      	; 0x49e <__EEPROM_REGION_LENGTH__+0x9e>
+ 498:	80 e0       	ldi	r24, 0x00	; 0
+ 49a:	01 c0       	rjmp	.+2      	; 0x49e <__EEPROM_REGION_LENGTH__+0x9e>
+ 49c:	80 e0       	ldi	r24, 0x00	; 0
+ 49e:	0f 90       	pop	r0
+ 4a0:	0f be       	out	0x3f, r0	; 63
+ 4a2:	df 91       	pop	r29
+ 4a4:	cf 91       	pop	r28
+ 4a6:	08 95       	ret
+
+Disassembly of section .text.xTaskDelayUntil:
+
+00000f84 <xTaskDelayUntil>:
+     f84:	0f 93       	push	r16
+     f86:	1f 93       	push	r17
+     f88:	cf 93       	push	r28
+     f8a:	df 93       	push	r29
+     f8c:	8c 01       	movw	r16, r24
+     f8e:	eb 01       	movw	r28, r22
+     f90:	0e 94 c7 0a 	call	0x158e	; 0x158e <vTaskSuspendAll>
+     f94:	40 91 9f 06 	lds	r20, 0x069F	; 0x80069f <xTickCount>
+     f98:	50 91 a0 06 	lds	r21, 0x06A0	; 0x8006a0 <xTickCount+0x1>
+     f9c:	f8 01       	movw	r30, r16
+     f9e:	20 81       	ld	r18, Z
+     fa0:	31 81       	ldd	r19, Z+1	; 0x01
+     fa2:	c9 01       	movw	r24, r18
+     fa4:	8c 0f       	add	r24, r28
+     fa6:	9d 1f       	adc	r25, r29
+     fa8:	42 17       	cp	r20, r18
+     faa:	53 07       	cpc	r21, r19
+     fac:	40 f4       	brcc	.+16     	; 0xfbe <xTaskDelayUntil+0x3a>
+     fae:	82 17       	cp	r24, r18
+     fb0:	93 07       	cpc	r25, r19
+     fb2:	68 f4       	brcc	.+26     	; 0xfce <xTaskDelayUntil+0x4a>
+     fb4:	48 17       	cp	r20, r24
+     fb6:	59 07       	cpc	r21, r25
+     fb8:	60 f0       	brcs	.+24     	; 0xfd2 <xTaskDelayUntil+0x4e>
+     fba:	c0 e0       	ldi	r28, 0x00	; 0
+     fbc:	0f c0       	rjmp	.+30     	; 0xfdc <xTaskDelayUntil+0x58>
+     fbe:	82 17       	cp	r24, r18
+     fc0:	93 07       	cpc	r25, r19
+     fc2:	48 f0       	brcs	.+18     	; 0xfd6 <xTaskDelayUntil+0x52>
+     fc4:	48 17       	cp	r20, r24
+     fc6:	59 07       	cpc	r21, r25
+     fc8:	40 f0       	brcs	.+16     	; 0xfda <xTaskDelayUntil+0x56>
+     fca:	c0 e0       	ldi	r28, 0x00	; 0
+     fcc:	07 c0       	rjmp	.+14     	; 0xfdc <xTaskDelayUntil+0x58>
+     fce:	c0 e0       	ldi	r28, 0x00	; 0
+     fd0:	05 c0       	rjmp	.+10     	; 0xfdc <xTaskDelayUntil+0x58>
+     fd2:	c1 e0       	ldi	r28, 0x01	; 1
+     fd4:	03 c0       	rjmp	.+6      	; 0xfdc <xTaskDelayUntil+0x58>
+     fd6:	c1 e0       	ldi	r28, 0x01	; 1
+     fd8:	01 c0       	rjmp	.+2      	; 0xfdc <xTaskDelayUntil+0x58>
+     fda:	c1 e0       	ldi	r28, 0x01	; 1
+     fdc:	f8 01       	movw	r30, r16
+     fde:	91 83       	std	Z+1, r25	; 0x01
+     fe0:	80 83       	st	Z, r24
+     fe2:	cc 23       	and	r28, r28
+     fe4:	29 f0       	breq	.+10     	; 0xff0 <xTaskDelayUntil+0x6c>
+     fe6:	60 e0       	ldi	r22, 0x00	; 0
+     fe8:	84 1b       	sub	r24, r20
+     fea:	95 0b       	sbc	r25, r21
+     fec:	0e 94 8a 03 	call	0x714	; 0x714 <prvAddCurrentTaskToDelayedList>
+     ff0:	0e 94 7f 01 	call	0x2fe	; 0x2fe <xTaskResumeAll>
+     ff4:	81 11       	cpse	r24, r1
+     ff6:	02 c0       	rjmp	.+4      	; 0xffc <xTaskDelayUntil+0x78>
+     ff8:	0e 94 34 06 	call	0xc68	; 0xc68 <vPortYield>
+     ffc:	8c 2f       	mov	r24, r28
+     ffe:	df 91       	pop	r29
+    1000:	cf 91       	pop	r28
+    1002:	1f 91       	pop	r17
+    1004:	0f 91       	pop	r16
+    1006:	08 95       	ret
+
+Disassembly of section .text.vTaskSwitchContext:
+
+00000d1a <vTaskSwitchContext>:
+ d1a:	80 91 a7 06 	lds	r24, 0x06A7	; 0x8006a7 <uxSchedulerSuspended>
+ d1e:	88 23       	and	r24, r24
+ d20:	21 f0       	breq	.+8      	; 0xd2a <vTaskSwitchContext+0x10>
+ d22:	81 e0       	ldi	r24, 0x01	; 1
+ d24:	80 93 aa 06 	sts	0x06AA, r24	; 0x8006aa <xYieldPending>
+ d28:	08 95       	ret
+ d2a:	10 92 aa 06 	sts	0x06AA, r1	; 0x8006aa <xYieldPending>
+ d2e:	20 91 ac 06 	lds	r18, 0x06AC	; 0x8006ac <uxTopReadyPriority>
+ d32:	01 c0       	rjmp	.+2      	; 0xd36 <vTaskSwitchContext+0x1c>
+ d34:	21 50       	subi	r18, 0x01	; 1
+ d36:	82 2f       	mov	r24, r18
+ d38:	90 e0       	ldi	r25, 0x00	; 0
+ d3a:	fc 01       	movw	r30, r24
+ d3c:	ee 0f       	add	r30, r30
+ d3e:	ff 1f       	adc	r31, r31
+ d40:	ee 0f       	add	r30, r30
+ d42:	ff 1f       	adc	r31, r31
+ d44:	ee 0f       	add	r30, r30
+ d46:	ff 1f       	adc	r31, r31
+ d48:	e8 0f       	add	r30, r24
+ d4a:	f9 1f       	adc	r31, r25
+ d4c:	e2 5c       	subi	r30, 0xC2	; 194
+ d4e:	f9 4f       	sbci	r31, 0xF9	; 249
+ d50:	30 81       	ld	r19, Z
+ d52:	33 23       	and	r19, r19
+ d54:	79 f3       	breq	.-34     	; 0xd34 <vTaskSwitchContext+0x1a>
+ d56:	ac 01       	movw	r20, r24
+ d58:	44 0f       	add	r20, r20
+ d5a:	55 1f       	adc	r21, r21
+ d5c:	44 0f       	add	r20, r20
+ d5e:	55 1f       	adc	r21, r21
+ d60:	44 0f       	add	r20, r20
+ d62:	55 1f       	adc	r21, r21
+ d64:	48 0f       	add	r20, r24
+ d66:	59 1f       	adc	r21, r25
+ d68:	df 01       	movw	r26, r30
+ d6a:	01 80       	ldd	r0, Z+1	; 0x01
+ d6c:	f2 81       	ldd	r31, Z+2	; 0x02
+ d6e:	e0 2d       	mov	r30, r0
+ d70:	02 80       	ldd	r0, Z+2	; 0x02
+ d72:	f3 81       	ldd	r31, Z+3	; 0x03
+ d74:	e0 2d       	mov	r30, r0
+ d76:	12 96       	adiw	r26, 0x02	; 2
+ d78:	fc 93       	st	X, r31
+ d7a:	ee 93       	st	-X, r30
+ d7c:	11 97       	sbiw	r26, 0x01	; 1
+ d7e:	4f 5b       	subi	r20, 0xBF	; 191
+ d80:	59 4f       	sbci	r21, 0xF9	; 249
+ d82:	e4 17       	cp	r30, r20
+ d84:	f5 07       	cpc	r31, r21
+ d86:	29 f4       	brne	.+10     	; 0xd92 <vTaskSwitchContext+0x78>
+ d88:	42 81       	ldd	r20, Z+2	; 0x02
+ d8a:	53 81       	ldd	r21, Z+3	; 0x03
+ d8c:	fd 01       	movw	r30, r26
+ d8e:	52 83       	std	Z+2, r21	; 0x02
+ d90:	41 83       	std	Z+1, r20	; 0x01
+ d92:	fc 01       	movw	r30, r24
+ d94:	ee 0f       	add	r30, r30
+ d96:	ff 1f       	adc	r31, r31
+ d98:	ee 0f       	add	r30, r30
+ d9a:	ff 1f       	adc	r31, r31
+ d9c:	ee 0f       	add	r30, r30
+ d9e:	ff 1f       	adc	r31, r31
+ da0:	8e 0f       	add	r24, r30
+ da2:	9f 1f       	adc	r25, r31
+ da4:	fc 01       	movw	r30, r24
+ da6:	e2 5c       	subi	r30, 0xC2	; 194
+ da8:	f9 4f       	sbci	r31, 0xF9	; 249
+ daa:	01 80       	ldd	r0, Z+1	; 0x01
+ dac:	f2 81       	ldd	r31, Z+2	; 0x02
+ dae:	e0 2d       	mov	r30, r0
+ db0:	86 81       	ldd	r24, Z+6	; 0x06
+ db2:	97 81       	ldd	r25, Z+7	; 0x07
+ db4:	90 93 a6 06 	sts	0x06A6, r25	; 0x8006a6 <pxCurrentTCB+0x1>
+ db8:	80 93 a5 06 	sts	0x06A5, r24	; 0x8006a5 <pxCurrentTCB>
+ dbc:	20 93 ac 06 	sts	0x06AC, r18	; 0x8006ac <uxTopReadyPriority>
+ dc0:	08 95       	ret
+
+Disassembly of section .text.libgcc.div:
+
+00001490 <__udivmodsi4>:
+    1490:	a1 e2       	ldi	r26, 0x21	; 33
+    1492:	1a 2e       	mov	r1, r26
+    1494:	aa 1b       	sub	r26, r26
+    1496:	bb 1b       	sub	r27, r27
+    1498:	fd 01       	movw	r30, r26
+    149a:	0d c0       	rjmp	.+26     	; 0x14b6 <__udivmodsi4_ep>
+
+0000149c <__udivmodsi4_loop>:
+    149c:	aa 1f       	adc	r26, r26
+    149e:	bb 1f       	adc	r27, r27
+    14a0:	ee 1f       	adc	r30, r30
+    14a2:	ff 1f       	adc	r31, r31
+    14a4:	a2 17       	cp	r26, r18
+    14a6:	b3 07       	cpc	r27, r19
+    14a8:	e4 07       	cpc	r30, r20
+    14aa:	f5 07       	cpc	r31, r21
+    14ac:	20 f0       	brcs	.+8      	; 0x14b6 <__udivmodsi4_ep>
+    14ae:	a2 1b       	sub	r26, r18
+    14b0:	b3 0b       	sbc	r27, r19
+    14b2:	e4 0b       	sbc	r30, r20
+    14b4:	f5 0b       	sbc	r31, r21
+
+000014b6 <__udivmodsi4_ep>:
+    14b6:	66 1f       	adc	r22, r22
+    14b8:	77 1f       	adc	r23, r23
+    14ba:	88 1f       	adc	r24, r24
+    14bc:	99 1f       	adc	r25, r25
+    14be:	1a 94       	dec	r1
+    14c0:	69 f7       	brne	.-38     	; 0x149c <__udivmodsi4_loop>
+    14c2:	60 95       	com	r22
+    14c4:	70 95       	com	r23
+    14c6:	80 95       	com	r24
+    14c8:	90 95       	com	r25
+    14ca:	9b 01       	movw	r18, r22
+    14cc:	ac 01       	movw	r20, r24
+    14ce:	bd 01       	movw	r22, r26
+    14d0:	cf 01       	movw	r24, r30
+    14d2:	08 95       	ret
+
+Disassembly of section .text.__dummy_fini:
+
+000015b2 <_fini>:
+    15b2:	08 95       	ret
+
+Disassembly of section .text.__dummy_funcs_on_exit:
+
+000015b4 <__funcs_on_exit>:
+    15b4:	08 95       	ret
+
+Disassembly of section .text.__dummy_simulator_exit:
+
+000015b6 <__simulator_exit>:
+    15b6:	08 95       	ret
+
+Disassembly of section .text.exit:
+
+00001552 <exit>:
+    1552:	ec 01       	movw	r28, r24
+    1554:	0e 94 da 0a 	call	0x15b4	; 0x15b4 <__funcs_on_exit>
+    1558:	0e 94 d9 0a 	call	0x15b2	; 0x15b2 <_fini>
+    155c:	ce 01       	movw	r24, r28
+    155e:	0e 94 db 0a 	call	0x15b6	; 0x15b6 <__simulator_exit>
+    1562:	ce 01       	movw	r24, r28
+    1564:	0e 94 d6 0a 	call	0x15ac	; 0x15ac <_Exit>
+
+Disassembly of section .text._Exit:
+
+000015ac <_Exit>:
+    15ac:	0e 94 5b 00 	call	0xb6	; 0xb6 <_exit>
